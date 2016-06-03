@@ -1,0 +1,31 @@
+
+Inferred memory devices in process 'TAP_machine_sync'
+	in routine TAP line 140
+         in file 'C:/fndtn/active/projects/sl_ctrlx/tap.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     TAP_CS_reg      | Flip-flop |   4   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+===============================================================================
+
+TAP_CS_reg<0>
+-------------
+    set/reset/toggle: none
+
+
+TAP_CS_reg<2>
+-------------
+    set/reset/toggle: none
+
+
+TAP_CS_reg<3>
+-------------
+    set/reset/toggle: none
+
+
+TAP_CS_reg<1>
+-------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\projects\sl_ctrlX\sl_ctrlx/workdirs/WORK/TAP.hnl'

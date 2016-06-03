@@ -1,0 +1,14 @@
+# Created 2000/03/04 10:34:06
+BeginProm
+  Type   Serial
+  Format MCS-86
+  Info MaxAddress 0x0000BD60
+  Device Auto XC17512L
+  BeginChain
+    StartAddress    0x00000000
+    Direction       UP
+    Info EndAddress 0x0000BD60
+    Info Size       0x0000BD61
+    File "C:\Fndtn\Active\projects\sl_ctrlX\xproj\ver2\rev1\sl_ctrlx.bit"
+  EndChain
+EndProm

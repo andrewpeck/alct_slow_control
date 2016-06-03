@@ -1,0 +1,31 @@
+
+Inferred memory devices in process 'CS_REG'
+	in routine REG_SP_REG_WIDTH7 line
+         30 in file 'C:/fndtn/active/projects/sl_ctrlx/reg_sp.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      SREG_reg       | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+SREG_reg (width 7)
+------------------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 'U_REG'
+	in routine REG_SP_REG_WIDTH7 line
+         41 in file 'C:/fndtn/active/projects/sl_ctrlx/reg_sp.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      PREG_reg       | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+PREG_reg (width 7)
+------------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\projects\sl_ctrlX\sl_ctrlx/workdirs/WORK/REG_SP_REG_WIDTH_7.hnl'

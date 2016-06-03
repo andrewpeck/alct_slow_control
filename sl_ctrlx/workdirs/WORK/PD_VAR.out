@@ -1,0 +1,31 @@
+
+Inferred memory devices in process 'CS_REG'
+	in routine PD_VAR line 29 in file
+         'C:/fndtn/active/projects/sl_ctrlx/pd_var.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      SREG_reg       | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+SREG_reg
+--------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 'U_REG'
+	in routine PD_VAR line 40 in file
+         'C:/fndtn/active/projects/sl_ctrlx/pd_var.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      PREG_reg       | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+PREG_reg
+--------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\projects\sl_ctrlX\sl_ctrlx/workdirs/WORK/PD_VAR.hnl'

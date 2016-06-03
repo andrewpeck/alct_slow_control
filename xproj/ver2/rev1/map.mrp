@@ -1,0 +1,332 @@
+
+Xilinx Mapping Report File for Design 'sl_ctrlx'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xcs40xl-4-pq208 -o map.ncd sl_ctrlx.ngd sl_ctrlx.pcf 
+Target Device  : xs40xl
+Target Package : pq208
+Target Speed   : -4
+Mapper Version : spartanxl -- C.16
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      2
+   Number of CLBs:            156 out of   784   19%
+      CLB Flip Flops:     189
+      CLB Latches:          5
+      4 input LUTs:       232 (2 used as route-throughs)
+      3 input LUTs:        73 (33 used as route-throughs)
+   Number of bonded IOBs:     117 out of   169   69%
+      IOB Flops:            7
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of     8   12%
+   Number of TBUFs:            12 out of  1680    1%
+   Number of BUFGLSs:           2 out of     8   25%
+Total equivalent gate count for design: 2797
+Additional JTAG gate count for IOBs:    5616
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:910 - None of the external outputs in this design have a 'DRIVE'
+   strength of '24' specified.  The default DRIVE=12 value will be applied to
+   all outputs.
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+
+Section 3 - Design Attributes
+-----------------------------
+ Attribute LOC
+   "P125" for signal(s) Din_TP on symbol "Din_TP.PAD"
+   "P127" for signal(s) Clk_TP on symbol "Clk_TP.PAD"
+   "P129" for signal(s) CS_TP_N on symbol "CS_TP_N.PAD"
+   "P133" for signal(s) PD_TP_N on symbol "PD_TP_N.PAD"
+   "P93" for signal(s) Din_ADC<4> on symbol "Din_ADC<4>.PAD"
+   "P87" for signal(s) Din_ADC<3> on symbol "Din_ADC<3>.PAD"
+   "P82" for signal(s) Din_ADC<2> on symbol "Din_ADC<2>.PAD"
+   "P75" for signal(s) Din_ADC<1> on symbol "Din_ADC<1>.PAD"
+   "P70" for signal(s) Din_ADC<0> on symbol "Din_ADC<0>.PAD"
+   "P94" on symbol "Dout_ADC<4>.PAD"
+   "P88" on symbol "Dout_ADC<3>.PAD"
+   "P83" on symbol "Dout_ADC<2>.PAD"
+   "P76" on symbol "Dout_ADC<1>.PAD"
+   "P72" on symbol "Dout_ADC<0>.PAD"
+   "P96" for signal(s) Clk_ADC<4> on symbol "Clk_ADC<4>.PAD"
+   "P90" for signal(s) Clk_ADC<3> on symbol "Clk_ADC<3>.PAD"
+   "P85" for signal(s) Clk_ADC<2> on symbol "Clk_ADC<2>.PAD"
+   "P81" for signal(s) Clk_ADC<1> on symbol "Clk_ADC<1>.PAD"
+   "P74" for signal(s) Clk_ADC<0> on symbol "Clk_ADC<0>.PAD"
+   "P95" for signal(s) CS_ADC_N<4> on symbol "CS_ADC_N<4>.PAD"
+   "P89" for signal(s) CS_ADC_N<3> on symbol "CS_ADC_N<3>.PAD"
+   "P84" for signal(s) CS_ADC_N<2> on symbol "CS_ADC_N<2>.PAD"
+   "P80" for signal(s) CS_ADC_N<1> on symbol "CS_ADC_N<1>.PAD"
+   "P73" for signal(s) CS_ADC_N<0> on symbol "CS_ADC_N<0>.PAD"
+   "P119" for signal(s) Din_DAC<3> on symbol "Din_DAC<3>.PAD"
+   "P114" for signal(s) Din_DAC<2> on symbol "Din_DAC<2>.PAD"
+   "P101" for signal(s) Din_DAC<1> on symbol "Din_DAC<1>.PAD"
+   "P97" for signal(s) Din_DAC<0> on symbol "Din_DAC<0>.PAD"
+   "P124" for signal(s) Clk_DAC<3> on symbol "Clk_DAC<3>.PAD"
+   "P117" for signal(s) Clk_DAC<2> on symbol "Clk_DAC<2>.PAD"
+   "P113" for signal(s) Clk_DAC<1> on symbol "Clk_DAC<1>.PAD"
+   "P100" for signal(s) Clk_DAC<0> on symbol "Clk_DAC<0>.PAD"
+   "P123" for signal(s) CS_DAC_N<3> on symbol "CS_DAC_N<3>.PAD"
+   "P116" for signal(s) CS_DAC_N<2> on symbol "CS_DAC_N<2>.PAD"
+   "P110" for signal(s) CS_DAC_N<1> on symbol "CS_DAC_N<1>.PAD"
+   "P99" for signal(s) CS_DAC_N<0> on symbol "CS_DAC_N<0>.PAD"
+   "P120" for signal(s) RS_DAC_N<3> on symbol "RS_DAC_N<3>.PAD"
+   "P115" for signal(s) RS_DAC_N<2> on symbol "RS_DAC_N<2>.PAD"
+   "P109" for signal(s) RS_DAC_N<1> on symbol "RS_DAC_N<1>.PAD"
+   "P98" for signal(s) RS_DAC_N<0> on symbol "RS_DAC_N<0>.PAD"
+   "P8" for signal(s) Stand_By_N<41> on symbol "Stand_By_N<41>.PAD"
+   "P5" for signal(s) Stand_By_N<40> on symbol "Stand_By_N<40>.PAD"
+   "P4" for signal(s) Stand_By_N<39> on symbol "Stand_By_N<39>.PAD"
+   "P3" for signal(s) Stand_By_N<38> on symbol "Stand_By_N<38>.PAD"
+   "P206" for signal(s) Stand_By_N<37> on symbol "Stand_By_N<37>.PAD"
+   "P205" for signal(s) Stand_By_N<36> on symbol "Stand_By_N<36>.PAD"
+   "P204" for signal(s) Stand_By_N<35> on symbol "Stand_By_N<35>.PAD"
+   "P201" for signal(s) Stand_By_N<34> on symbol "Stand_By_N<34>.PAD"
+   "P200" for signal(s) Stand_By_N<33> on symbol "Stand_By_N<33>.PAD"
+   "P199" for signal(s) Stand_By_N<32> on symbol "Stand_By_N<32>.PAD"
+   "P198" for signal(s) Stand_By_N<31> on symbol "Stand_By_N<31>.PAD"
+   "P197" for signal(s) Stand_By_N<30> on symbol "Stand_By_N<30>.PAD"
+   "P196" for signal(s) Stand_By_N<29> on symbol "Stand_By_N<29>.PAD"
+   "P194" for signal(s) Stand_By_N<28> on symbol "Stand_By_N<28>.PAD"
+   "P193" for signal(s) Stand_By_N<27> on symbol "Stand_By_N<27>.PAD"
+   "P191" for signal(s) Stand_By_N<26> on symbol "Stand_By_N<26>.PAD"
+   "P190" for signal(s) Stand_By_N<25> on symbol "Stand_By_N<25>.PAD"
+   "P189" for signal(s) Stand_By_N<24> on symbol "Stand_By_N<24>.PAD"
+   "P188" for signal(s) Stand_By_N<23> on symbol "Stand_By_N<23>.PAD"
+   "P187" for signal(s) Stand_By_N<22> on symbol "Stand_By_N<22>.PAD"
+   "P186" for signal(s) Stand_By_N<21> on symbol "Stand_By_N<21>.PAD"
+   "P185" for signal(s) Stand_By_N<20> on symbol "Stand_By_N<20>.PAD"
+   "P184" for signal(s) Stand_By_N<19> on symbol "Stand_By_N<19>.PAD"
+   "P181" for signal(s) Stand_By_N<18> on symbol "Stand_By_N<18>.PAD"
+   "P180" for signal(s) Stand_By_N<17> on symbol "Stand_By_N<17>.PAD"
+   "P179" for signal(s) Stand_By_N<16> on symbol "Stand_By_N<16>.PAD"
+   "P178" for signal(s) Stand_By_N<15> on symbol "Stand_By_N<15>.PAD"
+   "P177" for signal(s) Stand_By_N<14> on symbol "Stand_By_N<14>.PAD"
+   "P176" for signal(s) Stand_By_N<13> on symbol "Stand_By_N<13>.PAD"
+   "P175" for signal(s) Stand_By_N<12> on symbol "Stand_By_N<12>.PAD"
+   "P174" for signal(s) Stand_By_N<11> on symbol "Stand_By_N<11>.PAD"
+   "P172" for signal(s) Stand_By_N<10> on symbol "Stand_By_N<10>.PAD"
+   "P171" for signal(s) Stand_By_N<9> on symbol "Stand_By_N<9>.PAD"
+   "P169" for signal(s) Stand_By_N<8> on symbol "Stand_By_N<8>.PAD"
+   "P168" for signal(s) Stand_By_N<7> on symbol "Stand_By_N<7>.PAD"
+   "P167" for signal(s) Stand_By_N<6> on symbol "Stand_By_N<6>.PAD"
+   "P166" for signal(s) Stand_By_N<5> on symbol "Stand_By_N<5>.PAD"
+   "P164" for signal(s) Stand_By_N<4> on symbol "Stand_By_N<4>.PAD"
+   "P162" for signal(s) Stand_By_N<3> on symbol "Stand_By_N<3>.PAD"
+   "P161" for signal(s) Stand_By_N<2> on symbol "Stand_By_N<2>.PAD"
+   "P159" for signal(s) Stand_By_N<1> on symbol "Stand_By_N<1>.PAD"
+   "P152" for signal(s) Stand_By_N<0> on symbol "Stand_By_N<0>.PAD"
+   "P151" for signal(s) TP_Gr_En<6> on symbol "TP_Gr_En<6>.PAD"
+   "P150" for signal(s) TP_Gr_En<5> on symbol "TP_Gr_En<5>.PAD"
+   "P148" for signal(s) TP_Gr_En<4> on symbol "TP_Gr_En<4>.PAD"
+   "P147" for signal(s) TP_Gr_En<3> on symbol "TP_Gr_En<3>.PAD"
+   "P146" for signal(s) TP_Gr_En<2> on symbol "TP_Gr_En<2>.PAD"
+   "P145" for signal(s) TP_Gr_En<1> on symbol "TP_Gr_En<1>.PAD"
+   "P142" for signal(s) TP_Gr_En<0> on symbol "TP_Gr_En<0>.PAD"
+   "P141" for signal(s) TP_Strp_En<5> on symbol "TP_Strp_En<5>.PAD"
+   "P139" for signal(s) TP_Strp_En<4> on symbol "TP_Strp_En<4>.PAD"
+   "P137" for signal(s) TP_Strp_En<3> on symbol "TP_Strp_En<3>.PAD"
+   "P136" for signal(s) TP_Strp_En<2> on symbol "TP_Strp_En<2>.PAD"
+   "P135" for signal(s) TP_Strp_En<1> on symbol "TP_Strp_En<1>.PAD"
+   "P134" for signal(s) TP_Strp_En<0> on symbol "TP_Strp_En<0>.PAD"
+   "P11" on symbol "TMS.PAD"
+   "P9" on symbol "TDI.PAD"
+   "P10" for signal(s) TDO on symbol "TDO.PAD"
+   "P58" for signal(s) OpCode<5> on symbol "OpCode<5>.PAD"
+   "P57" for signal(s) OpCode<4> on symbol "OpCode<4>.PAD"
+   "P48" for signal(s) OpCode<3> on symbol "OpCode<3>.PAD"
+   "P47" for signal(s) OpCode<2> on symbol "OpCode<2>.PAD"
+   "P46" for signal(s) OpCode<1> on symbol "OpCode<1>.PAD"
+   "P45" for signal(s) OpCode<0> on symbol "OpCode<0>.PAD"
+   "P44" for signal(s) State<3> on symbol "State<3>.PAD"
+   "P43" for signal(s) State<2> on symbol "State<2>.PAD"
+   "P42" for signal(s) State<1> on symbol "State<1>.PAD"
+   "P41" for signal(s) State<0> on symbol "State<0>.PAD"
+   "P69" for signal(s) Future<7> on symbol "Future<7>.PAD"
+   "P68" for signal(s) Future<6> on symbol "Future<6>.PAD"
+   "P67" for signal(s) Future<5> on symbol "Future<5>.PAD"
+   "P64" for signal(s) Future<4> on symbol "Future<4>.PAD"
+   "P63" for signal(s) Future<3> on symbol "Future<3>.PAD"
+   "P62" for signal(s) Future<2> on symbol "Future<2>.PAD"
+   "P2" on symbol "TCK.PAD"
+   "P61" for signal(s) Future<1> on symbol "Future<1>.PAD"
+   "P59" for signal(s) Future<0> on symbol "Future<0>.PAD"
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   1 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+X_ZERO 		N_Future<1>.ZERO
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"Clk_ADC<0>" (IOB) : SLEW=SLOW
+"Clk_ADC<1>" (IOB) : SLEW=SLOW
+"Clk_ADC<2>" (IOB) : SLEW=SLOW
+"Clk_ADC<3>" (IOB) : SLEW=SLOW
+"Clk_ADC<4>" (IOB) : SLEW=SLOW
+"Clk_DAC<0>" (IOB) : SLEW=SLOW
+"Clk_DAC<1>" (IOB) : SLEW=SLOW
+"Clk_DAC<2>" (IOB) : SLEW=SLOW
+"Clk_DAC<3>" (IOB) : SLEW=SLOW
+"Clk_TP" (IOB) : SLEW=SLOW
+"CS_ADC_N<0>" (IOB) : SLEW=SLOW
+"CS_ADC_N<1>" (IOB) : SLEW=SLOW
+"CS_ADC_N<2>" (IOB) : SLEW=SLOW
+"CS_ADC_N<3>" (IOB) : SLEW=SLOW
+"CS_ADC_N<4>" (IOB) : SLEW=SLOW
+"CS_DAC_N<0>" (IOB) : SLEW=SLOW
+"CS_DAC_N<1>" (IOB) : SLEW=SLOW
+"CS_DAC_N<2>" (IOB) : SLEW=SLOW
+"CS_DAC_N<3>" (IOB) : SLEW=SLOW
+"CS_TP_N" (IOB) : SLEW=SLOW OUTFF
+"Din_ADC<0>" (IOB) : SLEW=SLOW
+"Din_ADC<1>" (IOB) : SLEW=SLOW
+"Din_ADC<2>" (IOB) : SLEW=SLOW
+"Din_ADC<3>" (IOB) : SLEW=SLOW
+"Din_ADC<4>" (IOB) : SLEW=SLOW
+"Din_DAC<0>" (IOB) : SLEW=SLOW
+"Din_DAC<1>" (IOB) : SLEW=SLOW
+"Din_DAC<2>" (IOB) : SLEW=SLOW
+"Din_DAC<3>" (IOB) : SLEW=SLOW
+"Din_TP" (IOB) : SLEW=SLOW
+"Future<0>" (IOB) : SLEW=SLOW
+"Future<1>" (IOB) : SLEW=SLOW
+"Future<2>" (IOB) : SLEW=SLOW
+"Future<3>" (IOB) : SLEW=SLOW
+"Future<4>" (IOB) : SLEW=SLOW
+"Future<5>" (IOB) : SLEW=SLOW
+"Future<6>" (IOB) : SLEW=SLOW
+"Future<7>" (IOB) : SLEW=SLOW
+"OpCode<0>" (IOB) : SLEW=SLOW
+"OpCode<1>" (IOB) : SLEW=SLOW
+"OpCode<2>" (IOB) : SLEW=SLOW
+"OpCode<3>" (IOB) : SLEW=SLOW
+"OpCode<4>" (IOB) : SLEW=SLOW
+"OpCode<5>" (IOB) : SLEW=SLOW
+"PD_TP_N" (IOB) : SLEW=SLOW
+"RS_DAC_N<0>" (IOB) : SLEW=SLOW OUTFF
+"RS_DAC_N<1>" (IOB) : SLEW=SLOW OUTFF
+"RS_DAC_N<2>" (IOB) : SLEW=SLOW OUTFF
+"RS_DAC_N<3>" (IOB) : SLEW=SLOW OUTFF
+"Stand_By_N<0>" (IOB) : SLEW=SLOW
+"Stand_By_N<10>" (IOB) : SLEW=SLOW
+"Stand_By_N<11>" (IOB) : SLEW=SLOW
+"Stand_By_N<12>" (IOB) : SLEW=SLOW
+"Stand_By_N<13>" (IOB) : SLEW=SLOW
+"Stand_By_N<14>" (IOB) : SLEW=SLOW
+"Stand_By_N<15>" (IOB) : SLEW=SLOW
+"Stand_By_N<16>" (IOB) : SLEW=SLOW
+"Stand_By_N<17>" (IOB) : SLEW=SLOW
+"Stand_By_N<18>" (IOB) : SLEW=SLOW
+"Stand_By_N<19>" (IOB) : SLEW=SLOW
+"Stand_By_N<1>" (IOB) : SLEW=SLOW
+"Stand_By_N<20>" (IOB) : SLEW=SLOW
+"Stand_By_N<21>" (IOB) : SLEW=SLOW
+"Stand_By_N<22>" (IOB) : SLEW=SLOW
+"Stand_By_N<23>" (IOB) : SLEW=SLOW
+"Stand_By_N<24>" (IOB) : SLEW=SLOW
+"Stand_By_N<25>" (IOB) : SLEW=SLOW
+"Stand_By_N<26>" (IOB) : SLEW=SLOW
+"Stand_By_N<27>" (IOB) : SLEW=SLOW
+"Stand_By_N<28>" (IOB) : SLEW=SLOW
+"Stand_By_N<29>" (IOB) : SLEW=SLOW
+"Stand_By_N<2>" (IOB) : SLEW=SLOW
+"Stand_By_N<30>" (IOB) : SLEW=SLOW
+"Stand_By_N<31>" (IOB) : SLEW=SLOW
+"Stand_By_N<32>" (IOB) : SLEW=SLOW
+"Stand_By_N<33>" (IOB) : SLEW=SLOW
+"Stand_By_N<34>" (IOB) : SLEW=SLOW
+"Stand_By_N<35>" (IOB) : SLEW=SLOW
+"Stand_By_N<36>" (IOB) : SLEW=SLOW
+"Stand_By_N<37>" (IOB) : SLEW=SLOW
+"Stand_By_N<38>" (IOB) : SLEW=SLOW
+"Stand_By_N<39>" (IOB) : SLEW=SLOW
+"Stand_By_N<3>" (IOB) : SLEW=SLOW
+"Stand_By_N<40>" (IOB) : SLEW=SLOW
+"Stand_By_N<41>" (IOB) : SLEW=SLOW
+"Stand_By_N<4>" (IOB) : SLEW=SLOW
+"Stand_By_N<5>" (IOB) : SLEW=SLOW
+"Stand_By_N<6>" (IOB) : SLEW=SLOW
+"Stand_By_N<7>" (IOB) : SLEW=SLOW
+"Stand_By_N<8>" (IOB) : SLEW=SLOW
+"Stand_By_N<9>" (IOB) : SLEW=SLOW
+"State<0>" (IOB) : SLEW=SLOW
+"State<1>" (IOB) : SLEW=SLOW
+"State<2>" (IOB) : SLEW=SLOW
+"State<3>" (IOB) : SLEW=SLOW
+"TDI" (IOB) : INFF
+"TDO" (IOB) : SLEW=SLOW OUTFF
+"TP_Gr_En<0>" (IOB) : SLEW=SLOW
+"TP_Gr_En<1>" (IOB) : SLEW=SLOW
+"TP_Gr_En<2>" (IOB) : SLEW=SLOW
+"TP_Gr_En<3>" (IOB) : SLEW=SLOW
+"TP_Gr_En<4>" (IOB) : SLEW=SLOW
+"TP_Gr_En<5>" (IOB) : SLEW=SLOW
+"TP_Gr_En<6>" (IOB) : SLEW=SLOW
+"TP_Strp_En<0>" (IOB) : SLEW=SLOW
+"TP_Strp_En<1>" (IOB) : SLEW=SLOW
+"TP_Strp_En<2>" (IOB) : SLEW=SLOW
+"TP_Strp_En<3>" (IOB) : SLEW=SLOW
+"TP_Strp_En<4>" (IOB) : SLEW=SLOW
+"TP_Strp_En<5>" (IOB) : SLEW=SLOW
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

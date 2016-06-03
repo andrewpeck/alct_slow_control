@@ -1,0 +1,56 @@
+ngdbuild:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xcs40xl-4-pq208 -uc sl_ctrlx.ucf -dd ..
+c:\fndtn\active\projects\sl_ctrlx\sl_ctrlx.xnf sl_ctrlx.ngd 
+
+Launcher: Executing xnf2ngd -p spartanxl -u
+"c:\fndtn\active\projects\sl_ctrlx\sl_ctrlx.xnf"
+"c:\fndtn\active\projects\sl_ctrlx\xproj\ver2\sl_ctrlx.ngo"
+xnf2ngd:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/sl_ctrlx/sl_ctrlx.xnf" ...
+   reading NCF file "c:/fndtn/active/projects/sl_ctrlx/sl_ctrlx.ncf" ...
+   Writing NGO file "c:/fndtn/active/projects/sl_ctrlx/xproj/ver2/sl_ctrlx.ngo"
+...
+Reading NGO file "c:/fndtn/active/projects/sl_ctrlx/xproj/ver2/sl_ctrlx.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "sl_ctrlx.ucf" ...
+WARNING:NgdHelpers:720 - A case sensitive search for the INST, PAD, or NET
+   element refered to by a constraint entry in the UCF file that accompanies
+   this design has failed, while a case insensitive search is in progress. The
+   result of the case insenstive search will be used, but warnings will
+   accompany each and every use of a case insensitive result. Constraints are
+   case sensitive with respect to user-specified identifiers, which includes
+   names of logic elements in a design. For the sake of compatibility with
+   currently existing .xnf, .xtf, and .xff files, Software will allow a case
+   insensitive search for INST, PAD, or NET elements referenced in a .ucf file.
+WARNING:NgdHelpers:8 - Found a case-insensitive match for NET name "tck".  The
+   matching NET is "TCK".
+WARNING:NgdHelpers:17 - A case-sensitive match for NET name "tck" could not be
+   found; however, a case-insensitive match was found.  The matching NET "TCK"
+   will be annotated with the constraint.
+
+Checking timing specifications ...
+WARNING:NgdHelpers:231 - PERIOD TIMESPEC 'TS_tck' has TIMEGRP 'tck' which
+   contains a mixture of PADs and synchronous elements.  The PADs in this group
+   will be exempt from analysis by the trce application.  The ability to mix
+   PADs and synchronous elements in a PERIOD group will soon be obsoleted.
+WARNING:NgdHelpers:231 - PERIOD TIMESPEC 'TS_TCK' has TIMEGRP 'TCK' which
+   contains a mixture of PADs and synchronous elements.  The PADs in this group
+   will be exempt from analysis by the trce application.  The ability to mix
+   PADs and synchronous elements in a PERIOD group will soon be obsoleted.
+
+Checking expanded design ...
+WARNING:NgdHelpers:357 - clock net "TCK_BUFGed" has non-clock connections
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Writing NGD file "sl_ctrlx.ngd" ...
+
+Writing NGDBUILD log file "sl_ctrlx.bld"...

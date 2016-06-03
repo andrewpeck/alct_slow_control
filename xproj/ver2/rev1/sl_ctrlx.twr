@@ -1,0 +1,567 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              sl_ctrlx.ncd
+Physical constraint file: sl_ctrlx.pcf
+Device,speed:             xcs40xl,-4 (HEAD 1.12 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Timing constraint: TS_tck = PERIOD TIMEGRP "tck"  25 nS   HIGH 50.000 % ;
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_N824 = PERIOD TIMEGRP "N824"  20 nS   HIGH 10 nS  ;
+ 5 items analyzed, 0 timing errors detected.
+ Minimum period is   6.047ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_TCK = PERIOD TIMEGRP "TCK"  20 nS   HIGH 10 nS  ;
+ 13460 items analyzed, 319 timing errors detected.
+ Minimum period is  44.890ns.
+--------------------------------------------------------------------------------
+Slack:   -12.445ns path T_TAP_CS<2> to TDO relative to
+          10.000ns delay constraint (two-phase clock)
+
+Path T_TAP_CS<2> to TDO contains 6 levels of logic:
+Path starting from Comp: CLB_R15C17.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R15C17.XQ        Tcko                  1.326R  T_TAP_CS<2>
+                                                   T_TAP_CS_reg<2>
+CLB_R14C16.F4        net (fanout=21)       1.286R  T_TAP_CS<2>
+CLB_R14C16.X         Tilo                  1.066R  IR_SH
+                                                   c1626_c0/IR_SH
+CLB_R12C12.C3        net (fanout=19)       5.556R  IR_SH
+CLB_R12C12.X         Thh1o                 1.703R  syn15696
+                                                   c1361_c0/syn15696
+CLB_R15C9.F2         net (fanout=1)        1.491R  syn15696
+CLB_R15C9.X          Tilo                  1.066R  N721
+                                                   c1360_c0/N721
+TBUF_R13C17.2.T      net (fanout=1)        4.611R  N721
+TBUF_R13C17.2.O      Ton                   0.728R  C1205
+                                                   C1205
+P10.O                net (fanout=1)        3.145R  TDO_MUX
+P10.OK               Took                  0.467R  TDO
+                                                   TDO_FF_reg
+-------------------------------------------------
+Total (6.356ns logic, 16.089ns route)     22.445ns (to TCK_BUFGed)
+      (28.3% logic, 71.7% route)
+
+--------------------------------------------------------------------------------
+Slack:   -12.117ns path T_TAP_CS<1> to TDO relative to
+          22.109ns total path delay
+           0.008ns clock skew
+          10.000ns delay constraint (two-phase clock)
+
+Path T_TAP_CS<1> to TDO contains 6 levels of logic:
+Path starting from Comp: CLB_R16C17.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R16C17.YQ        Tcko                  1.326R  T_TAP_CS<1>
+                                                   T_TAP_CS_reg<1>
+CLB_R14C16.F2        net (fanout=20)       0.950R  T_TAP_CS<1>
+CLB_R14C16.X         Tilo                  1.066R  IR_SH
+                                                   c1626_c0/IR_SH
+CLB_R12C12.C3        net (fanout=19)       5.556R  IR_SH
+CLB_R12C12.X         Thh1o                 1.703R  syn15696
+                                                   c1361_c0/syn15696
+CLB_R15C9.F2         net (fanout=1)        1.491R  syn15696
+CLB_R15C9.X          Tilo                  1.066R  N721
+                                                   c1360_c0/N721
+TBUF_R13C17.2.T      net (fanout=1)        4.611R  N721
+TBUF_R13C17.2.O      Ton                   0.728R  C1205
+                                                   C1205
+P10.O                net (fanout=1)        3.145R  TDO_MUX
+P10.OK               Took                  0.467R  TDO
+                                                   TDO_FF_reg
+-------------------------------------------------
+Total (6.356ns logic, 15.753ns route)     22.109ns (to TCK_BUFGed)
+      (28.7% logic, 71.3% route)
+
+--------------------------------------------------------------------------------
+Slack:   -12.095ns path syn15143 to TDO relative to
+          21.993ns total path delay
+           0.102ns clock skew
+          10.000ns delay constraint (two-phase clock)
+
+Path syn15143 to TDO contains 6 levels of logic:
+Path starting from Comp: CLB_R15C18.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R15C18.XQ        Tcko                  1.326R  syn15143
+                                                   T_TAP_CS_reg<0>
+CLB_R14C16.F3        net (fanout=18)       0.834R  T_TAP_CS<0>
+CLB_R14C16.X         Tilo                  1.066R  IR_SH
+                                                   c1626_c0/IR_SH
+CLB_R12C12.C3        net (fanout=19)       5.556R  IR_SH
+CLB_R12C12.X         Thh1o                 1.703R  syn15696
+                                                   c1361_c0/syn15696
+CLB_R15C9.F2         net (fanout=1)        1.491R  syn15696
+CLB_R15C9.X          Tilo                  1.066R  N721
+                                                   c1360_c0/N721
+TBUF_R13C17.2.T      net (fanout=1)        4.611R  N721
+TBUF_R13C17.2.O      Ton                   0.728R  C1205
+                                                   C1205
+P10.O                net (fanout=1)        3.145R  TDO_MUX
+P10.OK               Took                  0.467R  TDO
+                                                   TDO_FF_reg
+-------------------------------------------------
+Total (6.356ns logic, 15.637ns route)     21.993ns (to TCK_BUFGed)
+      (28.9% logic, 71.1% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_P2P = MAXDELAY FROM TIMEGRP "PADS" TO TIMEGRP "PADS" 20 nS  ; 
+ 26 items analyzed, 0 timing errors detected.
+ Maximum delay is  19.919ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_0 = MAXDELAY FROM TIMEGRP "N824" TO TIMEGRP "PADS" 20 nS  ; 
+ 5 items analyzed, 0 timing errors detected.
+ Maximum delay is   9.803ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: OFFSET = IN 20 nS  BEFORE COMP "TCK" ;
+ 30 items analyzed, 0 timing errors detected.
+ Minimum allowable offset is  12.369ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: OFFSET = OUT 20 nS  AFTER COMP "TCK" ;
+ 242 items analyzed, 61 timing errors detected.
+ Minimum allowable offset is  28.047ns.
+--------------------------------------------------------------------------------
+Slack:    -8.047ns path TCK to Din_DAC<2> relative to
+           2.462ns delay TCK to syn1577 and
+          25.585ns delay syn1577 to Din_DAC<2> and
+          20.000ns offset TCK to Din_DAC<2>
+
+Clock path TCK to syn1577 contains 2 levels of logic:
+Path starting from Comp: P2.PAD
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+P2.CLKIN             Tclkin                0.003R  TCK
+                                                   TCK.PAD
+BUFGLS_WNW.I         net (fanout=1)        0.009R  TCK
+BUFGLS_WNW.O         Tclk                  0.000R  C1628
+CLB_R15C15.K         net (fanout=128)      2.450R  TCK_BUFGed
+-------------------------------------------------
+Total (0.003ns logic, 2.459ns route)       2.462ns
+      (0.1% logic, 99.9% route)
+
+Data path syn1577 to Din_DAC<2> contains 6 levels of logic:
+Path starting from Comp: CLB_R15C15.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R15C15.XQ        Tcko                  1.326R  syn1577
+                                                   IR_PREG_reg<2>
+CLB_R14C13.G2        net (fanout=19)       2.037R  N_OpCode<2>
+CLB_R14C13.Y         Tilo                  1.066R  IN_DEC_C557
+                                                   c1611_c0
+CLB_R15C15.F2        net (fanout=4)        2.768R  syn1564
+CLB_R15C15.X         Tilo                  1.066R  syn1577
+                                                   c1606_c0
+CLB_R15C10.G4        net (fanout=12)       2.371R  syn1577
+CLB_R15C10.Y         Tilo                  1.066R  syn5150
+                                                   c1602_c0
+CLB_R19C17.F3        net (fanout=4)        4.863R  S_43_cell0
+CLB_R19C17.X         Tilo                  1.066R  N_Din_DAC<2>
+                                                   c1379_c0
+P114.O               net (fanout=1)        3.365R  N_Din_DAC<2>
+P114.PAD             Tops                  4.591R  Din_DAC<2>
+                                                   C1096
+                                                   Din_DAC<2>.PAD
+-------------------------------------------------
+Total (10.181ns logic, 15.404ns route)    25.585ns
+      (39.8% logic, 60.2% route)
+
+--------------------------------------------------------------------------------
+Slack:    -7.506ns path TCK to Din_DAC<2> relative to
+           2.475ns delay TCK to syn15396 and
+          25.031ns delay syn15396 to Din_DAC<2> and
+          20.000ns offset TCK to Din_DAC<2>
+
+Clock path TCK to syn15396 contains 2 levels of logic:
+Path starting from Comp: P2.PAD
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+P2.CLKIN             Tclkin                0.003R  TCK
+                                                   TCK.PAD
+BUFGLS_WNW.I         net (fanout=1)        0.009R  TCK
+BUFGLS_WNW.O         Tclk                  0.000R  C1628
+CLB_R15C14.K         net (fanout=128)      2.463R  TCK_BUFGed
+-------------------------------------------------
+Total (0.003ns logic, 2.472ns route)       2.475ns
+      (0.1% logic, 99.9% route)
+
+Data path syn15396 to Din_DAC<2> contains 6 levels of logic:
+Path starting from Comp: CLB_R15C14.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R15C14.YQ        Tcko                  1.326R  syn15396
+                                                   IR_PREG_reg<5>
+CLB_R14C13.G1        net (fanout=18)       1.483R  N_OpCode<5>
+CLB_R14C13.Y         Tilo                  1.066R  IN_DEC_C557
+                                                   c1611_c0
+CLB_R15C15.F2        net (fanout=4)        2.768R  syn1564
+CLB_R15C15.X         Tilo                  1.066R  syn1577
+                                                   c1606_c0
+CLB_R15C10.G4        net (fanout=12)       2.371R  syn1577
+CLB_R15C10.Y         Tilo                  1.066R  syn5150
+                                                   c1602_c0
+CLB_R19C17.F3        net (fanout=4)        4.863R  S_43_cell0
+CLB_R19C17.X         Tilo                  1.066R  N_Din_DAC<2>
+                                                   c1379_c0
+P114.O               net (fanout=1)        3.365R  N_Din_DAC<2>
+P114.PAD             Tops                  4.591R  Din_DAC<2>
+                                                   C1096
+                                                   Din_DAC<2>.PAD
+-------------------------------------------------
+Total (10.181ns logic, 14.850ns route)    25.031ns
+      (40.7% logic, 59.3% route)
+
+--------------------------------------------------------------------------------
+Slack:    -7.284ns path TCK to Din_DAC<2> relative to
+           2.475ns delay TCK to syn15396 and
+          24.809ns delay syn15396 to Din_DAC<2> and
+          20.000ns offset TCK to Din_DAC<2>
+
+Clock path TCK to syn15396 contains 2 levels of logic:
+Path starting from Comp: P2.PAD
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+P2.CLKIN             Tclkin                0.003R  TCK
+                                                   TCK.PAD
+BUFGLS_WNW.I         net (fanout=1)        0.009R  TCK
+BUFGLS_WNW.O         Tclk                  0.000R  C1628
+CLB_R15C14.K         net (fanout=128)      2.463R  TCK_BUFGed
+-------------------------------------------------
+Total (0.003ns logic, 2.472ns route)       2.475ns
+      (0.1% logic, 99.9% route)
+
+Data path syn15396 to Din_DAC<2> contains 6 levels of logic:
+Path starting from Comp: CLB_R15C14.K (from TCK_BUFGed)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R15C14.XQ        Tcko                  1.326R  syn15396
+                                                   IR_PREG_reg<4>
+CLB_R14C13.G3        net (fanout=17)       1.261R  N_OpCode<4>
+CLB_R14C13.Y         Tilo                  1.066R  IN_DEC_C557
+                                                   c1611_c0
+CLB_R15C15.F2        net (fanout=4)        2.768R  syn1564
+CLB_R15C15.X         Tilo                  1.066R  syn1577
+                                                   c1606_c0
+CLB_R15C10.G4        net (fanout=12)       2.371R  syn1577
+CLB_R15C10.Y         Tilo                  1.066R  syn5150
+                                                   c1602_c0
+CLB_R19C17.F3        net (fanout=4)        4.863R  S_43_cell0
+CLB_R19C17.X         Tilo                  1.066R  N_Din_DAC<2>
+                                                   c1379_c0
+P114.O               net (fanout=1)        3.365R  N_Din_DAC<2>
+P114.PAD             Tops                  4.591R  Din_DAC<2>
+                                                   C1096
+                                                   Din_DAC<2>.PAD
+-------------------------------------------------
+Total (10.181ns logic, 14.628ns route)    24.809ns
+      (41.0% logic, 59.0% route)
+
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock TCK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+TDI            |    7.553(R)|    2.479(R)|
+Dout_ADC<2>    |   11.195(F)|    0.000(F)|
+Dout_ADC<1>    |    9.493(F)|    0.000(F)|
+Dout_ADC<0>    |    9.567(F)|    0.000(F)|
+TMS            |   12.369(R)|    0.000(R)|
+Dout_ADC<4>    |    4.758(F)|    0.000(F)|
+Dout_ADC<3>    |    6.383(F)|    0.000(F)|
+---------------+------------+------------+
+
+Clock TCK to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+Clk_ADC<0>     |   16.239(X)|
+Clk_ADC<1>     |   13.885(X)|
+Clk_ADC<2>     |   15.393(X)|
+Clk_ADC<3>     |   14.661(X)|
+Clk_ADC<4>     |   15.290(X)|
+Clk_DAC<0>     |   22.443(X)|
+Clk_DAC<1>     |   23.160(X)|
+Clk_DAC<2>     |   27.159(X)|
+Clk_DAC<3>     |   20.228(X)|
+Clk_TP         |   20.358(X)|
+CS_DAC_N<0>    |   23.192(X)|
+CS_DAC_N<1>    |   23.493(X)|
+CS_DAC_N<2>    |   26.208(X)|
+CS_DAC_N<3>    |   22.175(X)|
+Din_ADC<0>     |   14.640(F)|
+Din_ADC<1>     |   16.777(F)|
+Din_ADC<2>     |   12.961(F)|
+Din_ADC<3>     |   14.211(F)|
+Din_ADC<4>     |   16.685(F)|
+Din_DAC<0>     |   22.728(X)|
+Din_DAC<1>     |   23.593(X)|
+Din_DAC<2>     |   28.047(X)|
+Din_DAC<3>     |   22.692(X)|
+Din_TP         |   20.616(X)|
+Future<2>      |   14.735(X)|
+Future<3>      |   15.636(X)|
+Future<4>      |   17.130(X)|
+OpCode<0>      |   13.621(F)|
+OpCode<1>      |   13.862(F)|
+OpCode<2>      |   14.082(F)|
+OpCode<3>      |   16.129(F)|
+OpCode<4>      |   14.822(F)|
+OpCode<5>      |   16.244(F)|
+PD_TP_N        |   11.552(F)|
+Stand_By_N<0>  |   13.328(F)|
+Stand_By_N<10> |   10.367(F)|
+Stand_By_N<11> |   10.701(F)|
+Stand_By_N<12> |   11.120(F)|
+Stand_By_N<13> |   10.791(F)|
+Stand_By_N<14> |   10.324(F)|
+Stand_By_N<15> |    9.879(F)|
+Stand_By_N<16> |   11.489(F)|
+Stand_By_N<17> |   13.791(F)|
+Stand_By_N<18> |   11.574(F)|
+Stand_By_N<19> |    9.967(F)|
+Stand_By_N<1>  |   12.954(F)|
+Stand_By_N<20> |   10.785(F)|
+Stand_By_N<21> |   11.852(F)|
+Stand_By_N<22> |   10.205(F)|
+Stand_By_N<23> |   10.349(F)|
+Stand_By_N<24> |   10.618(F)|
+Stand_By_N<25> |   11.818(F)|
+Stand_By_N<26> |   11.181(F)|
+Stand_By_N<27> |   11.999(F)|
+Stand_By_N<28> |   13.296(F)|
+Stand_By_N<29> |   12.004(F)|
+Stand_By_N<2>  |   12.757(F)|
+Stand_By_N<30> |   13.312(F)|
+Stand_By_N<31> |   13.324(F)|
+Stand_By_N<32> |   12.643(F)|
+Stand_By_N<33> |   12.045(F)|
+Stand_By_N<34> |   12.239(F)|
+Stand_By_N<35> |   13.209(F)|
+Stand_By_N<36> |   11.963(F)|
+Stand_By_N<37> |   12.469(F)|
+Stand_By_N<38> |   12.103(F)|
+Stand_By_N<39> |   11.953(F)|
+Stand_By_N<3>  |   12.470(F)|
+Stand_By_N<40> |   12.411(F)|
+Stand_By_N<41> |   12.281(F)|
+Stand_By_N<4>  |   12.811(F)|
+Stand_By_N<5>  |   12.042(F)|
+Stand_By_N<6>  |   11.309(F)|
+Stand_By_N<7>  |   10.640(F)|
+Stand_By_N<8>  |   10.877(F)|
+Stand_By_N<9>  |   10.385(F)|
+State<0>       |   14.782(R)|
+State<1>       |   13.352(R)|
+State<2>       |   16.521(R)|
+State<3>       |   13.369(R)|
+TDO            |   16.090(F)|
+TP_Gr_En<0>    |   14.851(F)|
+TP_Gr_En<1>    |   12.816(F)|
+TP_Gr_En<2>    |   12.881(F)|
+TP_Gr_En<3>    |   17.654(F)|
+TP_Gr_En<4>    |   12.597(F)|
+TP_Gr_En<5>    |   12.549(F)|
+TP_Gr_En<6>    |   14.146(F)|
+TP_Strp_En<0>  |   10.728(F)|
+TP_Strp_En<1>  |   11.554(F)|
+TP_Strp_En<2>  |   12.202(F)|
+TP_Strp_En<3>  |   11.305(F)|
+TP_Strp_En<4>  |   12.910(F)|
+TP_Strp_En<5>  |   12.299(F)|
+---------------+------------+
+
+Clock to Setup on destination clock TCK
+---------------+---------+---------+---------+---------+
+               | Src/Dest| Src/Dest| Src/Dest| Src/Dest|
+Source Clock   |Rise/Rise|Fall/Rise|Rise/Fall|Fall/Fall|
+---------------+---------+---------+---------+---------+
+TCK            |   20.334|   21.310|   22.445|   26.146|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+TDI            |Din_ADC<0>     |   19.138|
+TDI            |Din_ADC<1>     |   16.110|
+TDI            |Din_ADC<2>     |   17.598|
+TDI            |Din_ADC<3>     |   19.204|
+TDI            |Din_ADC<4>     |   19.919|
+TDI            |Din_DAC<0>     |   19.704|
+TDI            |Din_DAC<1>     |   19.869|
+TDI            |Din_DAC<2>     |   19.012|
+TDI            |Din_DAC<3>     |   19.866|
+TDI            |Din_TP         |   19.392|
+Dout_ADC<2>    |Future<5>      |   10.773|
+Dout_ADC<1>    |Future<6>      |    7.806|
+Dout_ADC<0>    |Future<7>      |    6.596|
+---------------+---------------+---------+
+
+
+Table of Timegroups:
+-------------------
+TimeGroup tck:
+BELs:
+ CS_TP_N_reg          RS_DAC_N_reg<3>      RS_DAC_N_reg<2>      RS_DAC_N_reg<1>      RS_DAC_N_reg<0>      BP_DOUT_reg          
+ TDO_FF_reg           RS_THR_DAC_old_reg   TDO_OE_reg           INSTR_old_reg<0>     INSTR_old_reg<1>     INSTR_old_reg<2>     
+ INSTR_old_reg<3>     INSTR_old_reg<4>     INSTR_old_reg<5>     cs_en_reg<0>         cs_en_reg<1>         cs_en_reg<2>         
+ cs_en_reg<3>         Din_en_reg<0>        Din_en_reg<1>        Din_en_reg<2>        Din_en_reg<3>        ADC_SH_reg<0>        
+ ADC_SH_reg<1>        ADC_SH_reg<2>        ADC_SH_reg<3>        ADC_SH_reg<4>        T_TAP_CS_reg<0>      T_TAP_CS_reg<2>      
+ T_TAP_CS_reg<3>      T_TAP_CS_reg<1>      TPGRP_PREG_reg<0>    TPGRP_PREG_reg<1>    TPGRP_PREG_reg<2>    TPGRP_PREG_reg<3>    
+ TPGRP_PREG_reg<4>    TPGRP_PREG_reg<5>    TPGRP_PREG_reg<6>    TPGRP_SREG_reg<0>    TPGRP_SREG_reg<1>    TPGRP_SREG_reg<2>    
+ TPGRP_SREG_reg<3>    TPGRP_SREG_reg<4>    TPGRP_SREG_reg<5>    TPGRP_SREG_reg<6>    ID_REG_SREG_reg<0>   ID_REG_SREG_reg<1>   
+ ID_REG_SREG_reg<2>   ID_REG_SREG_reg<3>   ID_REG_SREG_reg<4>   ID_REG_SREG_reg<5>   ID_REG_SREG_reg<6>   ID_REG_SREG_reg<7>   
+ ID_REG_SREG_reg<8>   ID_REG_SREG_reg<9>   ID_REG_SREG_reg<10>  ID_REG_SREG_reg<11>  ID_REG_SREG_reg<12>  ID_REG_SREG_reg<13>  
+ ID_REG_SREG_reg<14>  ID_REG_SREG_reg<15>  ID_REG_SREG_reg<16>  ID_REG_SREG_reg<17>  ID_REG_SREG_reg<18>  ID_REG_SREG_reg<19>  
+ ID_REG_SREG_reg<20>  ID_REG_SREG_reg<21>  ID_REG_SREG_reg<22>  ID_REG_SREG_reg<23>  ID_REG_SREG_reg<24>  ID_REG_SREG_reg<25>  
+ ID_REG_SREG_reg<26>  ID_REG_SREG_reg<27>  ID_REG_SREG_reg<28>  ID_REG_SREG_reg<29>  ID_REG_SREG_reg<30>  ID_REG_SREG_reg<31>  
+ ID_REG_SREG_reg<32>  ID_REG_SREG_reg<33>  ID_REG_SREG_reg<34>  ID_REG_SREG_reg<35>  ID_REG_SREG_reg<36>  ID_REG_SREG_reg<37>  
+ ID_REG_SREG_reg<38>  ID_REG_SREG_reg<39>  VAR_PD_PREG_reg      VAR_PD_SREG_reg      SBR_PREG_reg<0>      SBR_PREG_reg<1>      
+ SBR_PREG_reg<2>      SBR_PREG_reg<3>      SBR_PREG_reg<4>      SBR_PREG_reg<5>      SBR_PREG_reg<6>      SBR_PREG_reg<7>      
+ SBR_PREG_reg<8>      SBR_PREG_reg<9>      SBR_PREG_reg<10>     SBR_PREG_reg<11>     SBR_PREG_reg<12>     SBR_PREG_reg<13>     
+ SBR_PREG_reg<14>     SBR_PREG_reg<15>     SBR_PREG_reg<16>     SBR_PREG_reg<17>     SBR_PREG_reg<18>     SBR_PREG_reg<19>     
+ SBR_PREG_reg<20>     SBR_PREG_reg<21>     SBR_PREG_reg<22>     SBR_PREG_reg<23>     SBR_PREG_reg<24>     SBR_PREG_reg<25>     
+ SBR_PREG_reg<26>     SBR_PREG_reg<27>     SBR_PREG_reg<28>     SBR_PREG_reg<29>     SBR_PREG_reg<30>     SBR_PREG_reg<31>     
+ SBR_PREG_reg<32>     SBR_PREG_reg<33>     SBR_PREG_reg<34>     SBR_PREG_reg<35>     SBR_PREG_reg<36>     SBR_PREG_reg<37>     
+ SBR_PREG_reg<38>     SBR_PREG_reg<39>     SBR_PREG_reg<40>     SBR_PREG_reg<41>     SBR_SREG_reg<0>      SBR_SREG_reg<1>      
+ SBR_SREG_reg<2>      SBR_SREG_reg<3>      SBR_SREG_reg<4>      SBR_SREG_reg<5>      SBR_SREG_reg<6>      SBR_SREG_reg<7>      
+ SBR_SREG_reg<8>      SBR_SREG_reg<9>      SBR_SREG_reg<10>     SBR_SREG_reg<11>     SBR_SREG_reg<12>     SBR_SREG_reg<13>     
+ SBR_SREG_reg<14>     SBR_SREG_reg<15>     SBR_SREG_reg<16>     SBR_SREG_reg<17>     SBR_SREG_reg<18>     SBR_SREG_reg<19>     
+ SBR_SREG_reg<20>     SBR_SREG_reg<21>     SBR_SREG_reg<22>     SBR_SREG_reg<23>     SBR_SREG_reg<24>     SBR_SREG_reg<25>     
+ SBR_SREG_reg<26>     SBR_SREG_reg<27>     SBR_SREG_reg<28>     SBR_SREG_reg<29>     SBR_SREG_reg<30>     SBR_SREG_reg<31>     
+ SBR_SREG_reg<32>     SBR_SREG_reg<33>     SBR_SREG_reg<34>     SBR_SREG_reg<35>     SBR_SREG_reg<36>     SBR_SREG_reg<37>     
+ SBR_SREG_reg<38>     SBR_SREG_reg<39>     SBR_SREG_reg<40>     SBR_SREG_reg<41>     IR_PREG_reg<0>       IR_PREG_reg<1>       
+ IR_PREG_reg<2>       IR_PREG_reg<3>       IR_PREG_reg<4>       IR_PREG_reg<5>       IR_SREG_reg<0>       IR_SREG_reg<1>       
+ IR_SREG_reg<2>       IR_SREG_reg<3>       IR_SREG_reg<4>       IR_SREG_reg<5>       TPSTP_PREG_reg<0>    TPSTP_PREG_reg<1>    
+ TPSTP_PREG_reg<2>    TPSTP_PREG_reg<3>    TPSTP_PREG_reg<4>    TPSTP_PREG_reg<5>    TPSTP_SREG_reg<0>    TPSTP_SREG_reg<1>    
+ TPSTP_SREG_reg<2>    TPSTP_SREG_reg<3>    TPSTP_SREG_reg<4>    TPSTP_SREG_reg<5>    Clk_TP.PAD           Clk_ADC<4>.PAD       
+ Clk_ADC<3>.PAD       Clk_ADC<2>.PAD       Clk_ADC<1>.PAD       Clk_ADC<0>.PAD       Clk_DAC<3>.PAD       Clk_DAC<2>.PAD       
+ Clk_DAC<1>.PAD       Clk_DAC<0>.PAD       Future<4>.PAD        Future<3>.PAD        Future<2>.PAD        
+
+TimeGroup TCK:
+BELs:
+ CS_TP_N_reg          RS_DAC_N_reg<3>      RS_DAC_N_reg<2>      RS_DAC_N_reg<1>      RS_DAC_N_reg<0>      BP_DOUT_reg          
+ TDO_FF_reg           RS_THR_DAC_old_reg   TDO_OE_reg           INSTR_old_reg<0>     INSTR_old_reg<1>     INSTR_old_reg<2>     
+ INSTR_old_reg<3>     INSTR_old_reg<4>     INSTR_old_reg<5>     cs_en_reg<0>         cs_en_reg<1>         cs_en_reg<2>         
+ cs_en_reg<3>         Din_en_reg<0>        Din_en_reg<1>        Din_en_reg<2>        Din_en_reg<3>        ADC_SH_reg<0>        
+ ADC_SH_reg<1>        ADC_SH_reg<2>        ADC_SH_reg<3>        ADC_SH_reg<4>        T_TAP_CS_reg<0>      T_TAP_CS_reg<2>      
+ T_TAP_CS_reg<3>      T_TAP_CS_reg<1>      TPGRP_PREG_reg<0>    TPGRP_PREG_reg<1>    TPGRP_PREG_reg<2>    TPGRP_PREG_reg<3>    
+ TPGRP_PREG_reg<4>    TPGRP_PREG_reg<5>    TPGRP_PREG_reg<6>    TPGRP_SREG_reg<0>    TPGRP_SREG_reg<1>    TPGRP_SREG_reg<2>    
+ TPGRP_SREG_reg<3>    TPGRP_SREG_reg<4>    TPGRP_SREG_reg<5>    TPGRP_SREG_reg<6>    ID_REG_SREG_reg<0>   ID_REG_SREG_reg<1>   
+ ID_REG_SREG_reg<2>   ID_REG_SREG_reg<3>   ID_REG_SREG_reg<4>   ID_REG_SREG_reg<5>   ID_REG_SREG_reg<6>   ID_REG_SREG_reg<7>   
+ ID_REG_SREG_reg<8>   ID_REG_SREG_reg<9>   ID_REG_SREG_reg<10>  ID_REG_SREG_reg<11>  ID_REG_SREG_reg<12>  ID_REG_SREG_reg<13>  
+ ID_REG_SREG_reg<14>  ID_REG_SREG_reg<15>  ID_REG_SREG_reg<16>  ID_REG_SREG_reg<17>  ID_REG_SREG_reg<18>  ID_REG_SREG_reg<19>  
+ ID_REG_SREG_reg<20>  ID_REG_SREG_reg<21>  ID_REG_SREG_reg<22>  ID_REG_SREG_reg<23>  ID_REG_SREG_reg<24>  ID_REG_SREG_reg<25>  
+ ID_REG_SREG_reg<26>  ID_REG_SREG_reg<27>  ID_REG_SREG_reg<28>  ID_REG_SREG_reg<29>  ID_REG_SREG_reg<30>  ID_REG_SREG_reg<31>  
+ ID_REG_SREG_reg<32>  ID_REG_SREG_reg<33>  ID_REG_SREG_reg<34>  ID_REG_SREG_reg<35>  ID_REG_SREG_reg<36>  ID_REG_SREG_reg<37>  
+ ID_REG_SREG_reg<38>  ID_REG_SREG_reg<39>  VAR_PD_PREG_reg      VAR_PD_SREG_reg      SBR_PREG_reg<0>      SBR_PREG_reg<1>      
+ SBR_PREG_reg<2>      SBR_PREG_reg<3>      SBR_PREG_reg<4>      SBR_PREG_reg<5>      SBR_PREG_reg<6>      SBR_PREG_reg<7>      
+ SBR_PREG_reg<8>      SBR_PREG_reg<9>      SBR_PREG_reg<10>     SBR_PREG_reg<11>     SBR_PREG_reg<12>     SBR_PREG_reg<13>     
+ SBR_PREG_reg<14>     SBR_PREG_reg<15>     SBR_PREG_reg<16>     SBR_PREG_reg<17>     SBR_PREG_reg<18>     SBR_PREG_reg<19>     
+ SBR_PREG_reg<20>     SBR_PREG_reg<21>     SBR_PREG_reg<22>     SBR_PREG_reg<23>     SBR_PREG_reg<24>     SBR_PREG_reg<25>     
+ SBR_PREG_reg<26>     SBR_PREG_reg<27>     SBR_PREG_reg<28>     SBR_PREG_reg<29>     SBR_PREG_reg<30>     SBR_PREG_reg<31>     
+ SBR_PREG_reg<32>     SBR_PREG_reg<33>     SBR_PREG_reg<34>     SBR_PREG_reg<35>     SBR_PREG_reg<36>     SBR_PREG_reg<37>     
+ SBR_PREG_reg<38>     SBR_PREG_reg<39>     SBR_PREG_reg<40>     SBR_PREG_reg<41>     SBR_SREG_reg<0>      SBR_SREG_reg<1>      
+ SBR_SREG_reg<2>      SBR_SREG_reg<3>      SBR_SREG_reg<4>      SBR_SREG_reg<5>      SBR_SREG_reg<6>      SBR_SREG_reg<7>      
+ SBR_SREG_reg<8>      SBR_SREG_reg<9>      SBR_SREG_reg<10>     SBR_SREG_reg<11>     SBR_SREG_reg<12>     SBR_SREG_reg<13>     
+ SBR_SREG_reg<14>     SBR_SREG_reg<15>     SBR_SREG_reg<16>     SBR_SREG_reg<17>     SBR_SREG_reg<18>     SBR_SREG_reg<19>     
+ SBR_SREG_reg<20>     SBR_SREG_reg<21>     SBR_SREG_reg<22>     SBR_SREG_reg<23>     SBR_SREG_reg<24>     SBR_SREG_reg<25>     
+ SBR_SREG_reg<26>     SBR_SREG_reg<27>     SBR_SREG_reg<28>     SBR_SREG_reg<29>     SBR_SREG_reg<30>     SBR_SREG_reg<31>     
+ SBR_SREG_reg<32>     SBR_SREG_reg<33>     SBR_SREG_reg<34>     SBR_SREG_reg<35>     SBR_SREG_reg<36>     SBR_SREG_reg<37>     
+ SBR_SREG_reg<38>     SBR_SREG_reg<39>     SBR_SREG_reg<40>     SBR_SREG_reg<41>     IR_PREG_reg<0>       IR_PREG_reg<1>       
+ IR_PREG_reg<2>       IR_PREG_reg<3>       IR_PREG_reg<4>       IR_PREG_reg<5>       IR_SREG_reg<0>       IR_SREG_reg<1>       
+ IR_SREG_reg<2>       IR_SREG_reg<3>       IR_SREG_reg<4>       IR_SREG_reg<5>       TPSTP_PREG_reg<0>    TPSTP_PREG_reg<1>    
+ TPSTP_PREG_reg<2>    TPSTP_PREG_reg<3>    TPSTP_PREG_reg<4>    TPSTP_PREG_reg<5>    TPSTP_SREG_reg<0>    TPSTP_SREG_reg<1>    
+ TPSTP_SREG_reg<2>    TPSTP_SREG_reg<3>    TPSTP_SREG_reg<4>    TPSTP_SREG_reg<5>    Clk_TP.PAD           Clk_ADC<4>.PAD       
+ Clk_ADC<3>.PAD       Clk_ADC<2>.PAD       Clk_ADC<1>.PAD       Clk_ADC<0>.PAD       Clk_DAC<3>.PAD       Clk_DAC<2>.PAD       
+ Clk_DAC<1>.PAD       Clk_DAC<0>.PAD       Future<4>.PAD        Future<3>.PAD        Future<2>.PAD        
+
+TimeGroup N824:
+BELs:
+ CS_ADC_N_reg<0>/$1I13  CS_ADC_N_reg<1>/$1I13  CS_ADC_N_reg<2>/$1I13  CS_ADC_N_reg<3>/$1I13  CS_ADC_N_reg<4>/$1I13  
+
+
+TimeGroup PADS:
+BELs:
+ Clk_ADC<0>.PAD      Clk_ADC<1>.PAD      Clk_ADC<2>.PAD      Clk_ADC<3>.PAD      Clk_ADC<4>.PAD      Clk_DAC<0>.PAD      
+ Clk_DAC<1>.PAD      Clk_DAC<2>.PAD      Clk_DAC<3>.PAD      Clk_TP.PAD          CS_ADC_N<0>.PAD     CS_ADC_N<1>.PAD     
+ CS_ADC_N<2>.PAD     CS_ADC_N<3>.PAD     CS_ADC_N<4>.PAD     CS_DAC_N<0>.PAD     CS_DAC_N<1>.PAD     CS_DAC_N<2>.PAD     
+ CS_DAC_N<3>.PAD     CS_TP_N.PAD         Din_ADC<0>.PAD      Din_ADC<1>.PAD      Din_ADC<2>.PAD      Din_ADC<3>.PAD      
+ Din_ADC<4>.PAD      Din_DAC<0>.PAD      Din_DAC<1>.PAD      Din_DAC<2>.PAD      Din_DAC<3>.PAD      Din_TP.PAD          
+ Dout_ADC<0>.PAD     Dout_ADC<1>.PAD     Dout_ADC<2>.PAD     Dout_ADC<3>.PAD     Dout_ADC<4>.PAD     Future<0>.PAD       
+ Future<1>.PAD       Future<2>.PAD       Future<3>.PAD       Future<4>.PAD       Future<5>.PAD       Future<6>.PAD       
+ Future<7>.PAD       OpCode<0>.PAD       OpCode<1>.PAD       OpCode<2>.PAD       OpCode<3>.PAD       OpCode<4>.PAD       
+ OpCode<5>.PAD       PD_TP_N.PAD         RS_DAC_N<0>.PAD     RS_DAC_N<1>.PAD     RS_DAC_N<2>.PAD     RS_DAC_N<3>.PAD     
+ Stand_By_N<0>.PAD   Stand_By_N<10>.PAD  Stand_By_N<11>.PAD  Stand_By_N<12>.PAD  Stand_By_N<13>.PAD  Stand_By_N<14>.PAD  
+ Stand_By_N<15>.PAD  Stand_By_N<16>.PAD  Stand_By_N<17>.PAD  Stand_By_N<18>.PAD  Stand_By_N<19>.PAD  Stand_By_N<1>.PAD   
+ Stand_By_N<20>.PAD  Stand_By_N<21>.PAD  Stand_By_N<22>.PAD  Stand_By_N<23>.PAD  Stand_By_N<24>.PAD  Stand_By_N<25>.PAD  
+ Stand_By_N<26>.PAD  Stand_By_N<27>.PAD  Stand_By_N<28>.PAD  Stand_By_N<29>.PAD  Stand_By_N<2>.PAD   Stand_By_N<30>.PAD  
+ Stand_By_N<31>.PAD  Stand_By_N<32>.PAD  Stand_By_N<33>.PAD  Stand_By_N<34>.PAD  Stand_By_N<35>.PAD  Stand_By_N<36>.PAD  
+ Stand_By_N<37>.PAD  Stand_By_N<38>.PAD  Stand_By_N<39>.PAD  Stand_By_N<3>.PAD   Stand_By_N<40>.PAD  Stand_By_N<41>.PAD  
+ Stand_By_N<4>.PAD   Stand_By_N<5>.PAD   Stand_By_N<6>.PAD   Stand_By_N<7>.PAD   Stand_By_N<8>.PAD   Stand_By_N<9>.PAD   
+ State<0>.PAD        State<1>.PAD        State<2>.PAD        State<3>.PAD        TCK.PAD             TDI.PAD             
+ TDO.PAD             TMS.PAD             TP_Gr_En<0>.PAD     TP_Gr_En<1>.PAD     TP_Gr_En<2>.PAD     TP_Gr_En<3>.PAD     
+ TP_Gr_En<4>.PAD     TP_Gr_En<5>.PAD     TP_Gr_En<6>.PAD     TP_Strp_En<0>.PAD   TP_Strp_En<1>.PAD   TP_Strp_En<2>.PAD   
+ TP_Strp_En<3>.PAD   TP_Strp_En<4>.PAD   TP_Strp_En<5>.PAD   
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 380  Score: 1898345
+
+Constraints cover 14284 paths, 0 nets, and 1252 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  44.890ns (Maximum frequency:  22.277MHz)
+   Maximum path delay from/to any node:  19.919ns
+   Minimum input arrival time before clock:  12.369ns
+   Minimum output required time after clock:  28.047ns
+
+WARNING:Timing:33 - Clock nets using non-dedicated resources were found in this
+   design. Clock skew on these resources will not be automatically addressed
+   during path analysis. To create a timing report that analyzes clock skew for
+   these paths, run trce with the '-skew' option.
+
+Analysis completed Sat Mar 04 08:15:16 2000
+--------------------------------------------------------------------------------
+

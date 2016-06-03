@@ -1,0 +1,2279 @@
+Sat Mar 04 08:15:15 2000
+
+File: sl_ctrlx.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   9.923            N_TDI
+   9.349            IN_DEC_C633
+   9.241            N_TP_Gr_En<3>
+   8.830            N_TMS
+   8.472            N_Future<5>
+   8.147            T_TAP_CS<2>
+   8.119            T_TAP_CS<3>
+   7.915            syn1583
+   7.852            N_OpCode<5>
+   7.791            IR_SH
+   7.750            N_OpCode<3>
+   7.534            TDO_OE
+   7.271            syn1657
+   6.852            N_Future<7>
+   6.746            N_Future<6>
+   6.546            IN_DEC_C27_C4
+   6.435            N_TP_Gr_En<0>
+   6.430            N_OpCode<4>
+   6.303            T_TAP_CS<0>
+   6.285            syn1703
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+ADC_SH<0>
+   ADC_SH<0>.XQ
+         1.756  N_Din_ADC<0>.F1
+         3.011  N_Future<4>.F4
+         2.683  N_CS_ADC_N<0>.F3
+         2.517  syn15102.F4
+
+ADC_SH<1>
+   ADC_SH<0>.YQ
+         3.374  N_Din_ADC<1>.F3
+         3.382  N_Future<3>.F2
+         1.777  syn15102.F2
+         3.388  N_CS_ADC_N<0>.G3
+
+ADC_SH<2>
+   ADC_SH<2>.YQ
+         2.476  N_Future<2>.F1
+         2.476  N_Future<2>.G1
+         3.977  N_CS_ADC_N<2>.F2
+         0.542  syn15102.F3
+
+ADC_SH<3>
+   ADC_SH<2>.XQ
+         0.757  syn15102.F1
+         2.706  N_CS_ADC_N<2>.G1
+         2.742  N_Future<3>.G4
+         0.812  N_Din_ADC<0>.G3
+
+ADC_SH<4>
+   syn15327.XQ
+         2.849  syn15102.G2
+         2.849  syn15102.C2
+         3.355  N_Din_DAC<2>.G1
+         1.742  N_Future<4>.G1
+
+BP_DOUT
+   TDI.I2
+         5.042  C1223.I
+
+BYPASS_EN
+   N722.Y
+         4.191  TDI.EC
+
+C15_N21
+   IN_DEC_C633.Y
+         3.794  RS_DAC_N<0>.O
+         4.222  RS_DAC_N<1>.O
+         3.584  RS_DAC_N<2>.O
+         3.501  RS_DAC_N<3>.O
+
+Din_en<0>
+   n_143.YQ
+         0.579  n_143.G4
+
+Din_en<1>
+   n_143.XQ
+         0.571  n_196.G4
+
+Din_en<2>
+   n_302.XQ
+         1.339  N_Din_DAC<2>.F2
+
+Din_en<3>
+   n_302.YQ
+         0.585  n_302.G4
+
+ID_REG_DOUT
+   ID_REG_DOUT.XQ
+         3.231  C1205.I
+
+ID_REG_SREG<10>
+   ID_REG_SREG<9>.YQ
+         0.788  ID_REG_SREG<9>.F1
+
+ID_REG_SREG<11>
+   ID_REG_SREG<11>.XQ
+         0.534  ID_REG_SREG<9>.G2
+
+ID_REG_SREG<12>
+   ID_REG_SREG<11>.YQ
+         0.579  ID_REG_SREG<11>.F4
+
+ID_REG_SREG<13>
+   ID_REG_SREG<13>.XQ
+         0.796  ID_REG_SREG<11>.G4
+
+ID_REG_SREG<14>
+   ID_REG_SREG<13>.YQ
+         0.512  ID_REG_SREG<13>.F3
+
+ID_REG_SREG<15>
+   ID_REG_SREG<15>.YQ
+         0.834  ID_REG_SREG<13>.G3
+
+ID_REG_SREG<16>
+   ID_REG_SREG<15>.XQ
+         0.534  ID_REG_SREG<15>.F2
+
+ID_REG_SREG<17>
+   ID_REG_SREG<17>.XQ
+         1.448  ID_REG_SREG<15>.G2
+
+ID_REG_SREG<18>
+   syn5150.YQ
+         0.685  ID_REG_SREG<17>.F2
+
+ID_REG_SREG<19>
+   ID_REG_SREG<17>.YQ
+         0.816  syn5150.C3
+
+ID_REG_SREG<1>
+   ID_REG_SREG<1>.XQ
+         1.100  ID_REG_DOUT.F3
+
+ID_REG_SREG<20>
+   ID_REG_SREG<20>.YQ
+         2.648  ID_REG_SREG<17>.G4
+
+ID_REG_SREG<21>
+   ID_REG_SREG<20>.XQ
+         0.509  ID_REG_SREG<20>.F1
+
+ID_REG_SREG<22>
+   ID_REG_SREG<22>.XQ
+         0.715  ID_REG_SREG<20>.G1
+
+ID_REG_SREG<23>
+   ID_REG_SREG<22>.YQ
+         0.579  ID_REG_SREG<22>.F4
+
+ID_REG_SREG<24>
+   ID_REG_SREG<24>.XQ
+         1.727  ID_REG_SREG<22>.G3
+
+ID_REG_SREG<25>
+   ID_REG_SREG<24>.YQ
+         0.934  ID_REG_SREG<24>.F1
+
+ID_REG_SREG<26>
+   ID_REG_SREG<26>.YQ
+         1.356  ID_REG_SREG<24>.G1
+
+ID_REG_SREG<27>
+   ID_REG_SREG<26>.XQ
+         0.607  ID_REG_SREG<26>.F2
+
+ID_REG_SREG<28>
+   ID_REG_SREG<28>.XQ
+         1.137  ID_REG_SREG<26>.G2
+
+ID_REG_SREG<29>
+   ID_REG_SREG<28>.YQ
+         0.585  ID_REG_SREG<28>.F4
+
+ID_REG_SREG<2>
+   ID_REG_SREG<1>.YQ
+         0.512  ID_REG_SREG<1>.F3
+
+ID_REG_SREG<30>
+   ID_REG_SREG<30>.YQ
+         0.721  ID_REG_SREG<28>.G2
+
+ID_REG_SREG<31>
+   ID_REG_SREG<30>.XQ
+         0.534  ID_REG_SREG<30>.F2
+
+ID_REG_SREG<32>
+   ID_REG_SREG<32>.YQ
+         0.542  ID_REG_SREG<30>.G2
+
+ID_REG_SREG<33>
+   ID_REG_SREG<32>.XQ
+         0.532  ID_REG_SREG<32>.F1
+
+ID_REG_SREG<34>
+   ID_REG_SREG<34>.YQ
+         1.216  ID_REG_SREG<32>.G4
+
+ID_REG_SREG<35>
+   ID_REG_SREG<34>.XQ
+         0.509  ID_REG_SREG<34>.F1
+
+ID_REG_SREG<36>
+   ID_REG_SREG<36>.YQ
+         1.171  ID_REG_SREG<34>.G1
+
+ID_REG_SREG<37>
+   ID_REG_SREG<36>.XQ
+         0.534  ID_REG_SREG<36>.F2
+
+ID_REG_SREG<38>
+   ID_REG_SREG<38>.YQ
+         0.725  ID_REG_SREG<36>.G2
+
+ID_REG_SREG<39>
+   ID_REG_SREG<38>.XQ
+         0.509  ID_REG_SREG<38>.F1
+
+ID_REG_SREG<3>
+   ID_REG_SREG<3>.XQ
+         2.190  ID_REG_SREG<1>.G1
+
+ID_REG_SREG<4>
+   ID_REG_SREG<3>.YQ
+         0.585  ID_REG_SREG<3>.F4
+
+ID_REG_SREG<5>
+   ID_REG_SREG<5>.XQ
+         2.778  ID_REG_SREG<3>.G1
+
+ID_REG_SREG<6>
+   ID_REG_SREG<5>.YQ
+         0.598  ID_REG_SREG<5>.F4
+
+ID_REG_SREG<7>
+   ID_REG_SREG<7>.YQ
+         1.089  ID_REG_SREG<5>.G4
+
+ID_REG_SREG<8>
+   ID_REG_SREG<7>.XQ
+         0.607  ID_REG_SREG<7>.F2
+
+ID_REG_SREG<9>
+   ID_REG_SREG<9>.XQ
+         1.694  ID_REG_SREG<7>.G1
+
+INSTR_old<0>
+   syn15657.YQ
+         0.585  syn15657.F4
+
+INSTR_old<1>
+   syn15657.XQ
+         0.791  syn15657.F3
+
+INSTR_old<2>
+   syn15658.YQ
+         0.512  syn15658.F3
+
+INSTR_old<3>
+   syn15658.XQ
+         0.534  syn15658.F2
+
+INSTR_old<4>
+   syn15659.XQ
+         0.534  syn15659.F2
+
+INSTR_old<5>
+   syn15659.YQ
+         0.542  syn15659.F3
+
+IN_DEC_C27_C12
+   syn15282.Y
+         2.007  N697.F1
+         3.628  N824.F3
+         4.670  ADC_SH<0>.G1
+
+IN_DEC_C27_C4
+   syn5133.Y
+         6.546  N824.F4
+         2.560  N824.G4
+         3.892  ADC_SH<2>.G3
+
+IN_DEC_C557
+   IN_DEC_C557.X
+         2.006  syn1628.C4
+         1.262  syn15331.F4
+         1.154  syn2420.F3
+
+IN_DEC_C563
+   IN_DEC_C563.Y
+         2.329  TP_STP_UPD.G4
+         2.329  TP_STP_UPD.C4
+         1.467  syn15331.F1
+         1.304  syn2420.F4
+         1.852  syn5133.F1
+
+IN_DEC_C576
+   IN_DEC_C576.X
+         1.676  syn15331.F3
+         1.242  N717.F1
+         1.716  syn2420.F2
+         0.977  syn15696.G3
+
+IN_DEC_C633
+   IN_DEC_C633.X
+         4.654  N722.F2
+         4.654  N722.G2
+         2.940  syn15331.F2
+         2.934  syn2420.F1
+         9.349  N700.G3
+
+IR_DOUT
+   IR_DOUT.XQ
+         4.973  syn5133.C2
+         1.079  C1225.I
+
+IR_SH
+   IR_SH.X
+         3.181  C1225.T
+         0.863  syn15396.C2
+         5.711  IN_DEC_C633.C1
+         7.144  syn15696.G1
+         5.556  syn15696.C3
+         2.292  syn15395.C2
+         1.666  syn1940.F2
+         1.666  syn1940.G2
+         5.451  N722.F4
+         7.791  N722.G4
+         3.362  N717.F3
+         2.522  N700.F3
+         2.486  N700.G1
+         2.515  syn15657.G3
+         2.201  n_427.G4
+         2.952  syn5133.F3
+         3.000  syn5133.G2
+         2.041  TP_STP_UPD.G2
+         3.210  syn15282.G2
+
+IR_SREG<1>
+   syn5148.XQ
+         3.743  IR_DOUT.F1
+         4.463  syn5133.C1
+
+IR_SREG<2>
+   IR_SREG<2>.XQ
+         0.571  syn5148.C4
+         0.990  syn1577.C1
+
+IR_SREG<3>
+   IR_SREG<2>.YQ
+         0.749  IR_SREG<2>.F4
+         0.822  syn1577.G3
+
+IR_SREG<4>
+   IR_SREG<4>.YQ
+         1.151  IR_SREG<2>.G2
+         2.340  syn15396.C1
+
+IR_SREG<5>
+   IR_SREG<4>.XQ
+         0.669  IR_SREG<4>.F1
+         0.757  syn15396.G1
+
+N697
+   N697.X
+         3.507  C1207.T
+
+N698
+   N824.Y
+         2.581  C1209.T
+
+N699
+   syn15395.Y
+         4.462  C1215.T
+         1.751  N700.C4
+         3.578  ADC_SH<0>.F4
+
+N700
+   N700.X
+         3.811  C1211.T
+         3.158  ADC_SH<2>.F2
+
+N701
+   syn1940.Y
+         3.097  C1213.T
+         0.551  N700.C2
+         4.212  syn15327.F1
+
+N702
+   syn15143.Y
+         4.696  syn5133.C3
+         2.253  syn1577.C4
+         2.343  syn15396.C3
+
+N708
+   N708.X
+         0.779  n_143.C2
+
+N710
+   N717.Y
+         1.076  TP_GRP_DOUT.C2
+         1.543  TPGRP_SREG<1>.C3
+         1.841  TPGRP_SREG<2>.C2
+         2.091  TPGRP_SREG<3>.C4
+         2.210  TPGRP_SREG<4>.C4
+         2.054  TPGRP_SREG<5>.C2
+         2.173  TPGRP_SREG<6>.C2
+
+N717
+   N717.X
+         3.581  C1219.T
+         0.919  IN_DEC_C576.C2
+
+N718
+   N718.X
+         1.991  C1221.T
+         0.850  TP_STP_UPD.C2
+
+N719
+   syn1858.Y
+         1.955  C1217.T
+         0.891  syn1628.G1
+         0.891  syn1628.C1
+         0.891  syn1703.C1
+         2.914  SBR_SREG<11>.F2
+         2.914  SBR_SREG<11>.G2
+         2.887  SBR_SREG<13>.F2
+         3.004  SBR_SREG<13>.G1
+         2.605  SBR_SREG<15>.F4
+         2.605  SBR_SREG<15>.G4
+         2.876  SBR_SREG<17>.F2
+         2.876  SBR_SREG<17>.G2
+         2.797  SBR_SREG<19>.F1
+         2.797  SBR_SREG<19>.G1
+         2.855  SBR_SREG<1>.F2
+         2.855  SBR_SREG<1>.G2
+         2.433  SBR_SREG<21>.F1
+         2.433  SBR_SREG<21>.G1
+         2.404  SBR_SREG<23>.F1
+         2.404  SBR_SREG<23>.G1
+         2.881  SBR_SREG<25>.F1
+         2.654  SBR_SREG<25>.G3
+         2.909  SBR_SREG<27>.F3
+         2.909  SBR_SREG<27>.G3
+         2.836  SBR_SREG<29>.F1
+         3.065  SBR_SREG<29>.G2
+         3.177  SBR_SREG<31>.F3
+         3.177  SBR_SREG<31>.G3
+         2.457  SBR_SREG<33>.F1
+         2.457  SBR_SREG<33>.G1
+         2.754  SBR_SREG<35>.F1
+         2.754  SBR_SREG<35>.G1
+         1.118  SBR_SREG<37>.F3
+         1.118  SBR_SREG<37>.G3
+         0.821  SBR_SREG<39>.F2
+         0.821  SBR_SREG<39>.G2
+         2.878  SBR_SREG<3>.F1
+         2.878  SBR_SREG<3>.G1
+         2.744  SBR_SREG<5>.F1
+         2.744  SBR_SREG<5>.G1
+         2.956  SBR_SREG<7>.F2
+         2.956  SBR_SREG<7>.G2
+         2.618  SBR_SREG<9>.F1
+         2.572  SBR_SREG<9>.G4
+         2.781  N_Din_ADC<1>.G2
+
+N720
+   IR_SH.Y
+         2.911  C1226.T
+         3.990  syn5143.C3
+         2.600  syn1657.C1
+
+N721
+   N721.X
+         4.611  C1205.T
+
+N722
+   N722.X
+         3.284  C1223.T
+
+N723
+   N721.Y
+         2.547  ID_REG_DOUT.C1
+         1.107  ID_REG_SREG<1>.C1
+         1.493  ID_REG_SREG<3>.C1
+         2.354  ID_REG_SREG<5>.C3
+         2.758  ID_REG_SREG<7>.C1
+         1.617  ID_REG_SREG<9>.C2
+         3.198  ID_REG_SREG<11>.C2
+         1.522  ID_REG_SREG<13>.C3
+         2.135  ID_REG_SREG<15>.C3
+         2.758  ID_REG_SREG<17>.C1
+         2.672  syn5150.C2
+         2.691  ID_REG_SREG<20>.C3
+         3.023  ID_REG_SREG<22>.C4
+         0.988  ID_REG_SREG<24>.C2
+         2.857  ID_REG_SREG<26>.C1
+         1.319  ID_REG_SREG<28>.C3
+         3.097  ID_REG_SREG<30>.C2
+         3.134  ID_REG_SREG<32>.C4
+         1.136  ID_REG_SREG<34>.C3
+         1.221  ID_REG_SREG<36>.C1
+         1.249  ID_REG_SREG<38>.C3
+
+N763
+   N708.Y
+         0.572  n_143.C1
+
+N765
+   syn1657.Y
+         3.678  syn15805.C1
+
+N766
+   syn1703.Y
+         1.916  SBR_SREG<1>.C2
+         2.550  SBR_SREG<3>.C2
+         1.755  SBR_SREG<5>.C4
+         1.725  SBR_SREG<7>.C2
+         2.943  SBR_SREG<9>.C3
+         1.718  SBR_SREG<11>.C2
+         1.071  SBR_SREG<13>.C1
+         2.935  SBR_SREG<15>.C3
+         1.831  SBR_SREG<17>.C4
+         1.903  SBR_SREG<19>.C3
+         1.794  SBR_SREG<21>.C2
+         1.625  SBR_SREG<23>.C1
+         1.675  SBR_SREG<25>.C3
+         3.322  SBR_SREG<27>.C3
+         2.935  SBR_SREG<29>.C3
+         1.874  SBR_SREG<31>.C1
+         3.587  SBR_SREG<33>.C2
+         1.794  SBR_SREG<35>.C2
+         1.401  SBR_SREG<37>.C2
+         1.438  SBR_SREG<39>.C4
+         2.986  N_Din_ADC<1>.C2
+         1.099  syn1628.C3
+
+N808
+   N808.X
+         1.135  n_302.C2
+
+N810
+   syn5146.Y
+         1.112  IR_DOUT.C2
+         4.998  syn5148.C3
+         4.998  IR_SREG<2>.C3
+         4.418  IR_SREG<4>.C2
+         1.116  syn15165.F3
+         4.133  T_TAP_CS<1>.G4
+         3.602  T_TAP_CS<2>.G3
+         4.805  syn15190.G3
+
+N816
+   syn15373.Y
+         2.227  n_302.C3
+
+N818
+   N718.Y
+         0.813  TP_STP_DOUT.C4
+         0.813  TPSTP_SREG<1>.C4
+         0.544  TPSTP_SREG<3>.C1
+         0.573  N718.C3
+
+N824
+   N824.X
+         5.712  C1629.I
+
+N824_BUFGed
+   C1629.O
+         2.580  N_CS_ADC_N<0>.K
+         2.580  N_CS_ADC_N<2>.K
+         2.535  syn15102.K
+
+N_CS_ADC_N<0>
+   N_CS_ADC_N<0>.YQ
+         1.634  CS_ADC_N<0>.O
+
+N_CS_ADC_N<1>
+   N_CS_ADC_N<0>.XQ
+         1.285  CS_ADC_N<1>.O
+
+N_CS_ADC_N<2>
+   N_CS_ADC_N<2>.XQ
+         0.818  CS_ADC_N<2>.O
+
+N_CS_ADC_N<3>
+   N_CS_ADC_N<2>.YQ
+         1.653  CS_ADC_N<3>.O
+
+N_CS_ADC_N<4>
+   syn15102.XQ
+         3.886  CS_ADC_N<4>.O
+
+N_Clk_ADC<3>
+   N_Future<3>.Y
+         2.427  Clk_ADC<3>.O
+
+N_Clk_ADC<4>
+   N_Future<4>.Y
+         4.152  Clk_ADC<4>.O
+
+N_Clk_DAC<0>
+   N_Clk_DAC<0>.X
+         2.850  Clk_DAC<0>.O
+
+N_Clk_DAC<1>
+   N_Clk_DAC<0>.Y
+         3.567  Clk_DAC<1>.O
+
+N_Clk_DAC<2>
+   N_Clk_DAC<2>.X
+         3.919  Clk_DAC<2>.O
+
+N_Clk_DAC<3>
+   syn1577.Y
+         3.924  Clk_DAC<3>.O
+
+N_Clk_TP
+   N_Clk_DAC<2>.Y
+         2.500  Clk_TP.O
+
+N_Din_ADC<0>
+   N_Din_ADC<0>.X
+         3.399  Din_ADC<0>.O
+
+N_Din_ADC<1>
+   N_Din_ADC<1>.X
+         3.918  Din_ADC<1>.O
+
+N_Din_ADC<2>
+   N_Future<2>.Y
+         0.993  Din_ADC<2>.O
+
+N_Din_ADC<3>
+   N_Din_ADC<0>.Y
+         3.907  Din_ADC<3>.O
+
+N_Din_ADC<4>
+   N_Din_DAC<2>.Y
+         3.934  Din_ADC<4>.O
+
+N_Din_DAC<0>
+   n_143.Y
+         3.380  Din_DAC<0>.O
+
+N_Din_DAC<1>
+   n_196.Y
+         3.502  Din_DAC<1>.O
+
+N_Din_DAC<2>
+   N_Din_DAC<2>.X
+         3.365  Din_DAC<2>.O
+
+N_Din_DAC<3>
+   n_302.Y
+         3.251  Din_DAC<3>.O
+
+N_Din_TP
+   n_427.Y
+         3.560  Din_TP.O
+
+N_Dout_ADC<3>
+   Dout_ADC<3>.I1
+         3.628  C1209.I
+
+N_Dout_ADC<4>
+   Dout_ADC<4>.I2
+         2.020  C1213.I
+
+N_Future<2>
+   N_Future<2>.X
+         3.425  Clk_ADC<2>.O
+         2.767  Future<2>.O
+
+N_Future<3>
+   N_Future<3>.X
+         1.018  Clk_ADC<1>.O
+         2.769  Future<3>.O
+
+N_Future<4>
+   N_Future<4>.X
+         3.743  Clk_ADC<0>.O
+         4.634  Future<4>.O
+
+N_Future<5>
+   Dout_ADC<2>.I2
+         8.472  C1211.I
+         5.147  Future<5>.O
+
+N_Future<6>
+   Dout_ADC<1>.I2
+         6.746  C1207.I
+         2.180  Future<6>.O
+
+N_Future<7>
+   Dout_ADC<0>.I2
+         6.852  C1215.I
+         0.970  Future<7>.O
+
+N_OpCode<0>
+   syn5133.YQ
+         3.257  syn15657.F1
+         1.520  syn15657.G4
+         1.520  syn15657.C4
+         5.217  OpCode<0>.O
+         3.199  syn2464.C4
+         2.249  syn1858.C3
+         2.036  syn5143.F4
+         4.750  N700.F2
+         1.406  syn15395.F4
+         3.726  IN_DEC_C563.G2
+         5.636  syn5150.F1
+         5.499  syn5150.G3
+         3.069  syn15696.F4
+         3.069  syn15696.G4
+         3.948  syn15373.F4
+         3.161  IN_DEC_C633.F1
+         3.069  IN_DEC_C576.F4
+         1.407  syn5133.F4
+         1.407  syn5133.G4
+         2.982  syn15282.G4
+         0.824  syn15306.G1
+
+N_OpCode<1>
+   syn5133.XQ
+         5.458  OpCode<1>.O
+         3.049  syn1843.C3
+         0.809  syn15306.F2
+         0.809  syn15306.G2
+         1.045  syn5143.F3
+         1.823  syn1858.F1
+         4.193  syn1858.G2
+         4.246  N700.F4
+         0.893  syn15395.F1
+         0.825  IN_DEC_C563.G4
+         0.846  syn15309.G4
+         1.965  syn15373.F1
+         1.993  IN_DEC_C633.F3
+         2.506  syn15657.F2
+         2.506  syn15657.G2
+         2.506  syn15657.C2
+         0.788  syn5133.F2
+         1.017  syn5133.G1
+         0.921  syn15282.G3
+         3.830  syn5150.G2
+
+N_OpCode<2>
+   syn1577.XQ
+         4.308  syn15658.F4
+         3.628  syn15658.G2
+         4.301  syn15658.C4
+         5.703  OpCode<2>.O
+         5.910  syn15306.F4
+         2.037  IN_DEC_C557.F2
+         2.037  IN_DEC_C557.G2
+         1.502  syn1860.F4
+         1.502  syn1860.G4
+         4.271  syn1940.F1
+         4.271  syn1940.G1
+         3.874  syn5143.F2
+         5.112  syn1858.F2
+         3.197  syn1858.G4
+         0.619  IN_DEC_C563.G3
+         2.140  syn1843.F3
+         2.140  syn1843.G3
+         3.389  syn15309.G3
+         3.899  syn2442.G1
+
+N_OpCode<3>
+   syn1577.YQ
+         7.750  OpCode<3>.O
+         0.835  syn15309.G2
+         0.833  syn15309.C2
+         0.963  syn1859.F4
+         0.962  syn1859.G4
+         2.712  syn1860.F3
+         2.046  syn1860.G3
+         1.454  syn1858.F4
+         0.930  syn2464.F2
+         0.883  syn1577.F3
+         4.844  syn15331.G4
+         2.797  IN_DEC_C563.G1
+         0.963  syn1843.F4
+         0.962  syn1843.G4
+         0.868  syn15396.F4
+         5.053  n_427.F3
+         2.497  IN_DEC_C633.F2
+         0.855  syn15658.F1
+         0.855  syn15658.C1
+         2.767  syn15659.G2
+
+N_OpCode<4>
+   syn15396.XQ
+         1.631  syn15659.F1
+         1.023  syn15659.G4
+         1.631  syn15659.C1
+         6.430  OpCode<4>.O
+         4.058  syn1858.C1
+         1.025  syn1859.F3
+         1.025  syn1859.G3
+         1.320  syn1860.F1
+         2.488  syn1860.G2
+         1.074  syn2464.F1
+         2.898  syn15309.F1
+         2.898  syn15309.G1
+         1.232  IN_DEC_C563.F1
+         0.986  syn1843.F2
+         0.986  syn1843.G2
+         0.808  syn15396.F2
+         1.261  IN_DEC_C557.G3
+
+N_OpCode<5>
+   syn15396.YQ
+         7.852  OpCode<5>.O
+         1.483  IN_DEC_C557.F1
+         1.483  IN_DEC_C557.G1
+         3.134  syn1859.F1
+         3.134  syn1859.G1
+         3.996  syn1860.F2
+         2.226  syn1860.G1
+         2.126  syn1858.F3
+         2.126  syn1858.G3
+         1.512  syn2464.F3
+         1.704  syn15309.F4
+         1.050  IN_DEC_C563.F2
+         3.046  syn1843.F1
+         3.046  syn1843.G1
+         2.920  IN_DEC_C576.F2
+         4.536  syn15659.F4
+         4.762  syn15659.G1
+         4.536  syn15659.C4
+
+N_PD_TP_N
+   N_PD_TP_N.XQ
+         3.038  PD_TP_N.O
+         2.217  syn15805.C4
+
+N_Stand_By_N<0>
+   N_Stand_By_N<0>.YQ
+         4.944  Stand_By_N<0>.O
+         2.370  syn1628.G4
+
+N_Stand_By_N<10>
+   N_Stand_By_N<10>.YQ
+         1.820  Stand_By_N<10>.O
+         1.202  SBR_SREG<9>.G3
+
+N_Stand_By_N<11>
+   N_Stand_By_N<10>.XQ
+         2.154  Stand_By_N<11>.O
+         1.052  SBR_SREG<11>.F1
+
+N_Stand_By_N<12>
+   N_Stand_By_N<12>.YQ
+         2.537  Stand_By_N<12>.O
+         3.959  SBR_SREG<11>.G4
+
+N_Stand_By_N<13>
+   N_Stand_By_N<12>.XQ
+         2.208  Stand_By_N<13>.O
+         1.816  SBR_SREG<13>.F3
+
+N_Stand_By_N<14>
+   N_Stand_By_N<14>.XQ
+         1.867  Stand_By_N<14>.O
+         1.716  SBR_SREG<13>.G3
+
+N_Stand_By_N<15>
+   N_Stand_By_N<14>.YQ
+         1.422  Stand_By_N<15>.O
+         4.011  SBR_SREG<15>.F3
+
+N_Stand_By_N<16>
+   N_Stand_By_N<16>.YQ
+         3.043  Stand_By_N<16>.O
+         0.717  SBR_SREG<15>.G1
+
+N_Stand_By_N<17>
+   N_Stand_By_N<16>.XQ
+         5.345  Stand_By_N<17>.O
+         0.714  SBR_SREG<17>.F1
+
+N_Stand_By_N<18>
+   N_Stand_By_N<18>.XQ
+         3.102  Stand_By_N<18>.O
+         2.142  SBR_SREG<17>.G4
+
+N_Stand_By_N<19>
+   N_Stand_By_N<18>.YQ
+         1.495  Stand_By_N<19>.O
+         0.722  SBR_SREG<19>.F4
+
+N_Stand_By_N<1>
+   N_Stand_By_N<0>.XQ
+         4.570  Stand_By_N<1>.O
+         0.862  SBR_SREG<1>.F4
+
+N_Stand_By_N<20>
+   N_Stand_By_N<20>.XQ
+         2.328  Stand_By_N<20>.O
+         0.649  SBR_SREG<19>.G4
+
+N_Stand_By_N<21>
+   N_Stand_By_N<20>.YQ
+         3.395  Stand_By_N<21>.O
+         2.233  SBR_SREG<21>.F3
+
+N_Stand_By_N<22>
+   N_Stand_By_N<22>.XQ
+         1.746  Stand_By_N<22>.O
+         0.856  SBR_SREG<21>.G2
+
+N_Stand_By_N<23>
+   N_Stand_By_N<22>.YQ
+         1.890  Stand_By_N<23>.O
+         0.789  SBR_SREG<23>.F4
+
+N_Stand_By_N<24>
+   N_Stand_By_N<24>.XQ
+         2.166  Stand_By_N<24>.O
+         0.966  SBR_SREG<23>.G2
+
+N_Stand_By_N<25>
+   N_Stand_By_N<24>.YQ
+         3.366  Stand_By_N<25>.O
+         1.253  SBR_SREG<25>.F3
+
+N_Stand_By_N<26>
+   N_Stand_By_N<26>.YQ
+         2.799  Stand_By_N<26>.O
+         0.513  SBR_SREG<25>.G1
+
+N_Stand_By_N<27>
+   N_Stand_By_N<26>.XQ
+         3.617  Stand_By_N<27>.O
+         0.722  SBR_SREG<27>.F4
+
+N_Stand_By_N<28>
+   N_Stand_By_N<28>.YQ
+         4.923  Stand_By_N<28>.O
+         0.484  SBR_SREG<27>.G1
+
+N_Stand_By_N<29>
+   N_Stand_By_N<28>.XQ
+         3.631  Stand_By_N<29>.O
+         4.013  SBR_SREG<29>.F2
+
+N_Stand_By_N<2>
+   N_Stand_By_N<2>.XQ
+         4.192  Stand_By_N<2>.O
+         1.818  SBR_SREG<1>.G3
+
+N_Stand_By_N<30>
+   N_Stand_By_N<30>.YQ
+         4.738  Stand_By_N<30>.O
+         0.955  SBR_SREG<29>.G1
+
+N_Stand_By_N<31>
+   N_Stand_By_N<30>.XQ
+         4.750  Stand_By_N<31>.O
+         0.759  SBR_SREG<31>.F2
+
+N_Stand_By_N<32>
+   N_Stand_By_N<32>.YQ
+         4.191  Stand_By_N<32>.O
+         1.171  SBR_SREG<31>.G1
+
+N_Stand_By_N<33>
+   N_Stand_By_N<32>.XQ
+         3.593  Stand_By_N<33>.O
+         1.812  SBR_SREG<33>.F2
+
+N_Stand_By_N<34>
+   N_Stand_By_N<34>.XQ
+         3.775  Stand_By_N<34>.O
+         0.769  SBR_SREG<33>.G2
+
+N_Stand_By_N<35>
+   N_Stand_By_N<34>.YQ
+         4.745  Stand_By_N<35>.O
+         1.391  SBR_SREG<35>.F2
+
+N_Stand_By_N<36>
+   N_Stand_By_N<36>.XQ
+         3.575  Stand_By_N<36>.O
+         2.162  SBR_SREG<35>.G2
+
+N_Stand_By_N<37>
+   N_Stand_By_N<36>.YQ
+         4.081  Stand_By_N<37>.O
+         1.792  SBR_SREG<37>.F4
+
+N_Stand_By_N<38>
+   N_Stand_By_N<38>.XQ
+         3.727  Stand_By_N<38>.O
+         4.350  SBR_SREG<37>.G1
+
+N_Stand_By_N<39>
+   N_Stand_By_N<38>.YQ
+         3.577  Stand_By_N<39>.O
+         2.810  SBR_SREG<39>.F4
+
+N_Stand_By_N<3>
+   N_Stand_By_N<2>.YQ
+         3.905  Stand_By_N<3>.O
+         0.666  SBR_SREG<3>.F3
+
+N_Stand_By_N<40>
+   N_Stand_By_N<40>.YQ
+         4.031  Stand_By_N<40>.O
+         1.016  SBR_SREG<39>.G1
+
+N_Stand_By_N<41>
+   N_Stand_By_N<40>.XQ
+         3.901  Stand_By_N<41>.O
+         2.003  N_Din_ADC<1>.G4
+
+N_Stand_By_N<4>
+   N_Stand_By_N<4>.YQ
+         4.274  Stand_By_N<4>.O
+         1.646  SBR_SREG<3>.G3
+
+N_Stand_By_N<5>
+   N_Stand_By_N<4>.XQ
+         3.505  Stand_By_N<5>.O
+         2.955  SBR_SREG<5>.F4
+
+N_Stand_By_N<6>
+   N_Stand_By_N<6>.XQ
+         2.939  Stand_By_N<6>.O
+         2.484  SBR_SREG<5>.G3
+
+N_Stand_By_N<7>
+   N_Stand_By_N<6>.YQ
+         2.270  Stand_By_N<7>.O
+         0.887  SBR_SREG<7>.F3
+
+N_Stand_By_N<8>
+   N_Stand_By_N<8>.YQ
+         2.493  Stand_By_N<8>.O
+         1.379  SBR_SREG<7>.G3
+
+N_Stand_By_N<9>
+   N_Stand_By_N<8>.XQ
+         2.001  Stand_By_N<9>.O
+         1.268  SBR_SREG<9>.F4
+
+N_TDI
+   TDI.I1
+         8.503  n_427.C4
+         5.500  N_Din_ADC<1>.F1
+         5.500  N_Din_ADC<1>.G1
+         9.047  N_Din_ADC<0>.F4
+         8.605  N_Din_ADC<0>.G1
+         8.955  N_Din_DAC<2>.F4
+         9.293  N_Din_DAC<2>.G2
+         4.919  TPGRP_SREG<6>.F4
+         4.919  TPGRP_SREG<6>.C4
+         6.697  syn15805.C2
+         5.974  ID_REG_SREG<38>.G1
+         7.151  IR_SREG<4>.G1
+         9.632  n_143.G3
+         9.675  n_196.G3
+         9.923  n_302.G1
+         9.913  N_Future<2>.G3
+         8.209  N718.G3
+
+N_TMS
+   TMS.I2
+         5.476  syn1752.C2
+         8.830  syn15165.F4
+         5.506  syn1743.F4
+         5.785  T_TAP_CS<1>.G1
+         5.517  T_TAP_CS<1>.C2
+         7.549  syn1589.F2
+         5.554  syn15190.G4
+
+N_TP_Gr_En<0>
+   N_TP_Gr_En<0>.YQ
+         6.435  TP_Gr_En<0>.O
+         1.502  TP_GRP_DOUT.F3
+
+N_TP_Gr_En<1>
+   N_TP_Gr_En<0>.XQ
+         4.400  TP_Gr_En<1>.O
+         4.441  TPGRP_SREG<1>.F3
+
+N_TP_Gr_En<2>
+   N_TP_Gr_En<2>.XQ
+         4.468  TP_Gr_En<2>.O
+         3.522  TPGRP_SREG<2>.F4
+
+N_TP_Gr_En<3>
+   N_TP_Gr_En<2>.YQ
+         9.241  TP_Gr_En<3>.O
+         3.096  TPGRP_SREG<3>.F4
+
+N_TP_Gr_En<4>
+   N_TP_Gr_En<4>.YQ
+         4.196  TP_Gr_En<4>.O
+         3.453  TPGRP_SREG<4>.F3
+
+N_TP_Gr_En<5>
+   N_TP_Gr_En<4>.XQ
+         4.148  TP_Gr_En<5>.O
+         3.124  TPGRP_SREG<5>.F3
+
+N_TP_Gr_En<6>
+   N_TP_Gr_En<6>.YQ
+         5.617  TP_Gr_En<6>.O
+         5.651  TPGRP_SREG<6>.F3
+
+N_TP_Strp_En<0>
+   N_TP_Strp_En<0>.YQ
+         2.426  TP_Strp_En<0>.O
+         1.139  TP_STP_DOUT.F4
+
+N_TP_Strp_En<1>
+   N_TP_Strp_En<0>.XQ
+         3.252  TP_Strp_En<1>.O
+         0.791  TPSTP_SREG<1>.F1
+
+N_TP_Strp_En<2>
+   N_TP_Strp_En<2>.XQ
+         3.899  TP_Strp_En<2>.O
+         1.269  TPSTP_SREG<1>.G1
+
+N_TP_Strp_En<3>
+   N_TP_Strp_En<2>.YQ
+         3.002  TP_Strp_En<3>.O
+         3.121  TPSTP_SREG<3>.F3
+
+N_TP_Strp_En<4>
+   N_TP_Strp_En<4>.XQ
+         4.566  TP_Strp_En<4>.O
+         1.205  TPSTP_SREG<3>.G3
+
+N_TP_Strp_En<5>
+   N_TP_Strp_En<4>.YQ
+         3.955  TP_Strp_En<5>.O
+         4.077  N718.G4
+
+RS_THR_DAC_old
+   N700.YQ
+         5.905  IN_DEC_C633.G2
+
+SBR_SREG<10>
+   SBR_SREG<9>.XQ
+         0.990  N_Stand_By_N<10>.C1
+         0.534  SBR_SREG<9>.F2
+
+SBR_SREG<11>
+   SBR_SREG<11>.YQ
+         2.830  N_Stand_By_N<10>.C2
+         2.824  SBR_SREG<9>.G1
+
+SBR_SREG<12>
+   SBR_SREG<11>.XQ
+         2.422  N_Stand_By_N<12>.C4
+         0.856  SBR_SREG<11>.F4
+
+SBR_SREG<13>
+   SBR_SREG<13>.XQ
+         2.946  N_Stand_By_N<12>.C3
+         2.687  SBR_SREG<11>.G1
+
+SBR_SREG<14>
+   SBR_SREG<13>.YQ
+         2.007  N_Stand_By_N<14>.C3
+         1.157  SBR_SREG<13>.F4
+
+SBR_SREG<15>
+   SBR_SREG<15>.XQ
+         4.455  N_Stand_By_N<14>.C4
+         0.722  SBR_SREG<13>.G4
+
+SBR_SREG<16>
+   SBR_SREG<15>.YQ
+         1.081  N_Stand_By_N<16>.C3
+         1.179  SBR_SREG<15>.F2
+
+SBR_SREG<17>
+   SBR_SREG<17>.XQ
+         0.799  N_Stand_By_N<16>.C4
+         1.076  SBR_SREG<15>.G2
+
+SBR_SREG<18>
+   SBR_SREG<17>.YQ
+         1.860  N_Stand_By_N<18>.C4
+         0.598  SBR_SREG<17>.F4
+
+SBR_SREG<19>
+   SBR_SREG<19>.XQ
+         0.532  N_Stand_By_N<18>.C1
+         2.413  SBR_SREG<17>.G3
+
+SBR_SREG<1>
+   SBR_SREG<1>.YQ
+         1.868  N_Stand_By_N<0>.C2
+         2.562  syn1628.G3
+
+SBR_SREG<20>
+   SBR_SREG<19>.YQ
+         0.816  N_Stand_By_N<20>.C3
+         0.725  SBR_SREG<19>.F2
+
+SBR_SREG<21>
+   SBR_SREG<21>.YQ
+         1.359  N_Stand_By_N<20>.C2
+         1.157  SBR_SREG<19>.G2
+
+SBR_SREG<22>
+   SBR_SREG<21>.XQ
+         1.269  N_Stand_By_N<22>.C4
+         1.204  SBR_SREG<21>.F4
+
+SBR_SREG<23>
+   SBR_SREG<23>.YQ
+         0.865  N_Stand_By_N<22>.C3
+         0.946  SBR_SREG<21>.G4
+
+SBR_SREG<24>
+   SBR_SREG<23>.XQ
+         0.581  N_Stand_By_N<24>.C3
+         0.534  SBR_SREG<23>.F2
+
+SBR_SREG<25>
+   SBR_SREG<25>.XQ
+         1.281  N_Stand_By_N<24>.C1
+         1.725  SBR_SREG<23>.G4
+
+SBR_SREG<26>
+   SBR_SREG<25>.YQ
+         1.138  N_Stand_By_N<26>.C3
+         2.001  SBR_SREG<25>.F2
+
+SBR_SREG<27>
+   SBR_SREG<27>.YQ
+         1.204  N_Stand_By_N<26>.C1
+         1.119  SBR_SREG<25>.G2
+
+SBR_SREG<28>
+   SBR_SREG<27>.XQ
+         1.092  N_Stand_By_N<28>.C1
+         0.534  SBR_SREG<27>.F2
+
+SBR_SREG<29>
+   SBR_SREG<29>.YQ
+         3.937  N_Stand_By_N<28>.C4
+         4.054  SBR_SREG<27>.G4
+
+SBR_SREG<2>
+   SBR_SREG<1>.XQ
+         1.054  N_Stand_By_N<2>.C2
+         0.740  SBR_SREG<1>.F1
+
+SBR_SREG<30>
+   SBR_SREG<29>.XQ
+         1.211  N_Stand_By_N<30>.C4
+         1.026  SBR_SREG<29>.F3
+
+SBR_SREG<31>
+   SBR_SREG<31>.YQ
+         0.513  N_Stand_By_N<30>.C1
+         0.542  SBR_SREG<29>.G3
+
+SBR_SREG<32>
+   SBR_SREG<31>.XQ
+         0.819  N_Stand_By_N<32>.C2
+         0.856  SBR_SREG<31>.F4
+
+SBR_SREG<33>
+   SBR_SREG<33>.XQ
+         1.490  N_Stand_By_N<32>.C3
+         1.394  SBR_SREG<31>.G4
+
+SBR_SREG<34>
+   SBR_SREG<33>.YQ
+         0.979  N_Stand_By_N<34>.C4
+         0.809  SBR_SREG<33>.F4
+
+SBR_SREG<35>
+   SBR_SREG<35>.YQ
+         2.490  N_Stand_By_N<34>.C3
+         2.405  SBR_SREG<33>.G4
+
+SBR_SREG<36>
+   SBR_SREG<35>.XQ
+         1.063  N_Stand_By_N<36>.C2
+         0.801  SBR_SREG<35>.F4
+
+SBR_SREG<37>
+   SBR_SREG<37>.YQ
+         0.822  N_Stand_By_N<36>.C3
+         1.021  SBR_SREG<35>.G4
+
+SBR_SREG<38>
+   SBR_SREG<37>.XQ
+         1.093  N_Stand_By_N<38>.C2
+         0.812  SBR_SREG<37>.F1
+
+SBR_SREG<39>
+   SBR_SREG<39>.XQ
+         1.288  N_Stand_By_N<38>.C4
+         1.124  SBR_SREG<37>.G4
+
+SBR_SREG<3>
+   SBR_SREG<3>.XQ
+         0.669  N_Stand_By_N<2>.C1
+         0.757  SBR_SREG<1>.G1
+
+SBR_SREG<40>
+   SBR_SREG<39>.YQ
+         2.967  N_Stand_By_N<40>.C1
+         1.442  SBR_SREG<39>.F1
+
+SBR_SREG<41>
+   N_Din_ADC<1>.YQ
+         2.625  N_Stand_By_N<40>.C2
+         1.344  SBR_SREG<39>.G4
+
+SBR_SREG<4>
+   SBR_SREG<3>.YQ
+         0.759  N_Stand_By_N<4>.C1
+         1.893  SBR_SREG<3>.F2
+
+SBR_SREG<5>
+   SBR_SREG<5>.YQ
+         1.287  N_Stand_By_N<4>.C3
+         2.167  SBR_SREG<3>.G2
+
+SBR_SREG<6>
+   SBR_SREG<5>.XQ
+         0.534  N_Stand_By_N<6>.C2
+         0.534  SBR_SREG<5>.F2
+
+SBR_SREG<7>
+   SBR_SREG<7>.XQ
+         0.694  N_Stand_By_N<6>.C4
+         0.779  SBR_SREG<5>.G4
+
+SBR_SREG<8>
+   SBR_SREG<7>.YQ
+         0.759  N_Stand_By_N<8>.C1
+         0.717  SBR_SREG<7>.F4
+
+SBR_SREG<9>
+   SBR_SREG<9>.YQ
+         2.352  N_Stand_By_N<8>.C2
+         2.277  SBR_SREG<7>.G4
+
+STANDBY_DOUT
+   syn1628.XQ
+         2.030  N_Stand_By_N<0>.C1
+         1.225  C1217.I
+
+STANDBY_UPD
+   syn1628.Y
+         3.124  N_Stand_By_N<0>.C4
+         2.857  N_Stand_By_N<2>.C4
+         2.999  N_Stand_By_N<4>.C2
+         5.006  N_Stand_By_N<6>.C3
+         3.124  N_Stand_By_N<8>.C4
+         3.496  N_Stand_By_N<10>.C4
+         3.459  N_Stand_By_N<12>.C2
+         3.377  N_Stand_By_N<14>.C2
+         0.953  N_Stand_By_N<16>.C2
+         3.377  N_Stand_By_N<18>.C2
+         3.149  N_Stand_By_N<20>.C1
+         1.412  N_Stand_By_N<22>.C2
+         1.447  N_Stand_By_N<24>.C2
+         1.447  N_Stand_By_N<26>.C2
+         3.089  N_Stand_By_N<28>.C3
+         2.820  N_Stand_By_N<30>.C2
+         3.414  N_Stand_By_N<32>.C4
+         1.500  N_Stand_By_N<34>.C1
+         1.527  N_Stand_By_N<36>.C1
+         3.198  N_Stand_By_N<38>.C3
+         1.556  N_Stand_By_N<40>.C3
+
+S_10_cell0
+   syn2442.Y
+         0.805  N718.G1
+         0.805  N718.C1
+         1.189  TP_STP_DOUT.F1
+         1.135  TPSTP_SREG<1>.F4
+         1.135  TPSTP_SREG<1>.G4
+         0.913  TPSTP_SREG<3>.F1
+         0.913  TPSTP_SREG<3>.G1
+
+S_43_cell0
+   syn5150.Y
+         3.421  N_Clk_DAC<2>.F2
+         4.863  N_Din_DAC<2>.F3
+         2.996  N808.F4
+         2.996  N808.G4
+
+TCK
+   TCK.CLKIN
+         0.009  C1628.I
+
+TCK_BUFGed
+   C1628.O
+         2.460  syn15657.K
+         2.463  syn15658.K
+         2.401  syn15659.K
+         2.746  N708.F1
+         2.746  N708.G1
+         2.595  N708.K
+         2.689  N808.F3
+         2.490  N808.K
+         2.751  syn15373.C3
+         2.477  syn15373.K
+         2.558  n_143.K
+         2.430  n_302.K
+         2.490  ADC_SH<0>.K
+         2.497  ADC_SH<2>.K
+         2.401  syn15327.K
+         2.445  T_TAP_CS<2>.K
+         2.456  T_TAP_CS<1>.K
+         2.487  N_TP_Gr_En<0>.K
+         2.484  N_TP_Gr_En<2>.K
+         2.472  N_TP_Gr_En<4>.K
+         2.600  N_TP_Gr_En<6>.K
+         2.498  TP_GRP_DOUT.K
+         2.429  TPGRP_SREG<1>.K
+         2.438  TPGRP_SREG<2>.K
+         2.428  TPGRP_SREG<3>.K
+         2.431  TPGRP_SREG<4>.K
+         2.437  TPGRP_SREG<5>.K
+         2.440  TPGRP_SREG<6>.K
+         2.419  ID_REG_DOUT.K
+         2.398  ID_REG_SREG<1>.K
+         2.397  ID_REG_SREG<3>.K
+         2.409  ID_REG_SREG<5>.K
+         2.398  ID_REG_SREG<7>.K
+         2.407  ID_REG_SREG<9>.K
+         2.407  ID_REG_SREG<11>.K
+         2.397  ID_REG_SREG<13>.K
+         2.386  ID_REG_SREG<15>.K
+         2.398  ID_REG_SREG<17>.K
+         2.387  syn5150.K
+         2.416  ID_REG_SREG<20>.K
+         2.396  ID_REG_SREG<22>.K
+         2.386  ID_REG_SREG<24>.K
+         2.386  ID_REG_SREG<26>.K
+         2.387  ID_REG_SREG<28>.K
+         2.367  ID_REG_SREG<30>.K
+         2.377  ID_REG_SREG<32>.K
+         2.397  ID_REG_SREG<34>.K
+         2.408  ID_REG_SREG<36>.K
+         2.406  ID_REG_SREG<38>.K
+         2.585  N_PD_TP_N.K
+         2.406  syn15805.K
+         2.455  N_Stand_By_N<0>.K
+         2.636  N_Stand_By_N<2>.K
+         2.608  N_Stand_By_N<4>.K
+         2.441  N_Stand_By_N<6>.K
+         2.455  N_Stand_By_N<8>.K
+         2.618  N_Stand_By_N<10>.K
+         2.654  N_Stand_By_N<12>.K
+         2.528  N_Stand_By_N<14>.K
+         2.517  N_Stand_By_N<16>.K
+         2.543  N_Stand_By_N<18>.K
+         2.528  N_Stand_By_N<20>.K
+         2.530  N_Stand_By_N<22>.K
+         2.523  N_Stand_By_N<24>.K
+         2.453  N_Stand_By_N<26>.K
+         2.444  N_Stand_By_N<28>.K
+         2.645  N_Stand_By_N<30>.K
+         2.523  N_Stand_By_N<32>.K
+         2.535  N_Stand_By_N<34>.K
+         2.459  N_Stand_By_N<36>.K
+         2.447  N_Stand_By_N<38>.K
+         2.451  N_Stand_By_N<40>.K
+         2.613  SBR_SREG<1>.K
+         2.625  SBR_SREG<3>.K
+         2.568  SBR_SREG<5>.K
+         2.449  SBR_SREG<7>.K
+         2.597  SBR_SREG<9>.K
+         2.584  SBR_SREG<11>.K
+         2.494  SBR_SREG<13>.K
+         2.503  SBR_SREG<15>.K
+         2.525  SBR_SREG<17>.K
+         2.538  SBR_SREG<19>.K
+         2.517  SBR_SREG<21>.K
+         2.511  SBR_SREG<23>.K
+         2.516  SBR_SREG<25>.K
+         2.447  SBR_SREG<27>.K
+         2.511  SBR_SREG<29>.K
+         2.517  SBR_SREG<31>.K
+         2.523  SBR_SREG<33>.K
+         2.532  SBR_SREG<35>.K
+         2.503  SBR_SREG<37>.K
+         2.494  SBR_SREG<39>.K
+         2.475  syn5133.K
+         2.412  IR_DOUT.K
+         2.487  syn5148.K
+         2.476  IR_SREG<2>.K
+         2.502  IR_SREG<4>.K
+         2.373  N_TP_Strp_En<0>.K
+         2.374  N_TP_Strp_En<2>.K
+         2.415  N_TP_Strp_En<4>.K
+         2.370  TP_STP_DOUT.K
+         2.384  TPSTP_SREG<1>.K
+         2.425  TPSTP_SREG<3>.K
+         2.657  N_Clk_DAC<2>.F1
+         2.630  N_Clk_DAC<2>.G3
+         2.365  CS_TP_N.OK
+         2.435  RS_DAC_N<0>.OK
+         2.491  RS_DAC_N<1>.OK
+         2.457  RS_DAC_N<2>.OK
+         2.432  RS_DAC_N<3>.OK
+         2.467  TDI.IK
+         2.448  TDO.OK
+         2.733  syn1577.C3
+         2.450  syn1577.K
+         2.877  N_Future<2>.F3
+         2.816  N_Future<3>.F3
+         2.816  N_Future<3>.G3
+         2.782  N_Future<4>.F3
+         2.782  N_Future<4>.G3
+         2.662  N_Clk_DAC<0>.F3
+         2.662  N_Clk_DAC<0>.G3
+         2.507  N_Din_ADC<1>.K
+         2.518  n_427.K
+         2.423  N718.K
+         2.550  syn15143.K
+         2.508  syn1628.K
+         2.463  syn15396.K
+         2.569  N700.K
+
+TDO_MUX
+   C1226.O
+   C1225.O
+   C1223.O
+   C1221.O
+   C1219.O
+   C1217.O
+   C1215.O
+   C1213.O
+   C1211.O
+   C1209.O
+   C1207.O
+   C1205.O
+         3.212  TDO.O
+
+TDO_OE
+   n_427.YQ
+         7.534  TDO.T
+
+TPGRP_SREG<1>
+   TPGRP_SREG<1>.YQ
+         0.979  TP_GRP_DOUT.F4
+         0.979  TP_GRP_DOUT.C4
+         1.377  N_TP_Gr_En<0>.C1
+
+TPGRP_SREG<2>
+   TPGRP_SREG<2>.XQ
+         4.637  N_TP_Gr_En<2>.C3
+         0.601  TPGRP_SREG<1>.F4
+         0.601  TPGRP_SREG<1>.C4
+
+TPGRP_SREG<3>
+   TPGRP_SREG<3>.XQ
+         2.583  TPGRP_SREG<2>.F2
+         2.462  TPGRP_SREG<2>.C1
+         3.153  N_TP_Gr_En<2>.C4
+
+TPGRP_SREG<4>
+   TPGRP_SREG<4>.YQ
+         3.746  N_TP_Gr_En<4>.C3
+         0.484  TPGRP_SREG<3>.F1
+         0.484  TPGRP_SREG<3>.C1
+
+TPGRP_SREG<5>
+   TPGRP_SREG<5>.XQ
+         2.181  TPGRP_SREG<4>.F1
+         1.966  TPGRP_SREG<4>.C2
+         5.323  N_TP_Gr_En<4>.C2
+
+TPGRP_SREG<6>
+   TPGRP_SREG<6>.YQ
+         2.229  N_TP_Gr_En<6>.C4
+         0.513  TPGRP_SREG<5>.F1
+         0.513  TPGRP_SREG<5>.C1
+
+TPSTP_SREG<1>
+   TPSTP_SREG<1>.XQ
+         0.901  TP_STP_DOUT.F3
+         0.885  N_TP_Strp_En<0>.C1
+
+TPSTP_SREG<2>
+   TPSTP_SREG<1>.YQ
+         0.790  N_TP_Strp_En<2>.C3
+         0.666  TPSTP_SREG<1>.F3
+
+TPSTP_SREG<3>
+   TPSTP_SREG<3>.YQ
+         0.758  N_TP_Strp_En<2>.C1
+         1.199  TPSTP_SREG<1>.G3
+
+TPSTP_SREG<4>
+   TPSTP_SREG<3>.XQ
+         0.890  N_TP_Strp_En<4>.C1
+         0.856  TPSTP_SREG<3>.F4
+
+TPSTP_SREG<5>
+   N718.YQ
+         0.571  N_TP_Strp_En<4>.C4
+         0.828  TPSTP_SREG<3>.G4
+
+TP_GRP_DOUT
+   TP_GRP_DOUT.YQ
+         2.077  N_TP_Gr_En<0>.C3
+         2.168  C1219.I
+
+TP_GRP_UPD
+   IN_DEC_C576.Y
+         2.250  N_TP_Gr_En<0>.C4
+         2.331  N_TP_Gr_En<2>.C2
+         2.368  N_TP_Gr_En<4>.C4
+         3.985  N_TP_Gr_En<6>.C2
+
+TP_STP_DOUT
+   TP_STP_DOUT.XQ
+         0.831  N_TP_Strp_En<0>.C3
+         0.292  C1221.I
+
+TP_STP_UPD
+   TP_STP_UPD.X
+         1.256  N_TP_Strp_En<0>.C4
+         1.227  N_TP_Strp_En<2>.C2
+         1.227  N_TP_Strp_En<4>.C2
+
+T_C298
+   syn1743.Y
+         4.193  T_TAP_CS<2>.F2
+         4.193  T_TAP_CS<2>.G2
+         3.952  syn15143.G4
+
+T_C324
+   T_C324.X
+         0.576  syn1743.F3
+
+T_C396
+   syn15153.Y
+         0.544  syn15190.F1
+         0.544  syn15190.G1
+         1.792  syn15202.F2
+         2.309  syn15143.G1
+
+T_TAP_CS<0>
+   syn15143.XQ
+         6.303  State<0>.O
+         3.068  syn1584.F2
+         2.464  T_C324.F1
+         3.332  T_C324.G4
+         2.892  syn15153.F4
+         2.892  syn15153.G4
+         4.273  syn1703.F1
+         4.273  syn1703.G1
+         1.755  syn1628.F2
+         0.692  syn1657.F4
+         0.834  IR_SH.F3
+         2.403  syn1752.F1
+         3.295  syn1752.G2
+         0.655  syn15143.F2
+         3.264  syn5148.F1
+         3.142  syn5148.G4
+         2.941  T_TAP_CS<1>.F1
+         2.539  syn1743.G3
+
+T_TAP_CS<1>
+   T_TAP_CS<1>.YQ
+         4.967  State<1>.O
+         1.332  syn15143.C1
+         2.452  syn1584.F1
+         2.762  syn5146.F4
+         2.762  syn5146.G4
+         2.347  T_C324.F2
+         2.420  T_C324.G1
+         0.935  syn15153.F3
+         2.523  syn15153.G1
+         1.802  syn1703.F2
+         1.802  syn1703.G2
+         1.891  syn1628.F1
+         0.725  syn1657.F2
+         0.950  IR_SH.F2
+         2.313  syn1752.F2
+         2.258  syn1752.G4
+         2.552  syn5148.F3
+         0.824  T_TAP_CS<1>.F2
+         0.907  syn1589.F1
+         2.470  syn1743.G1
+
+T_TAP_CS<2>
+   T_TAP_CS<2>.XQ
+         8.147  State<2>.O
+         0.646  syn15143.C2
+         0.715  syn5146.F1
+         0.715  syn5146.G1
+         6.262  T_C324.F3
+         5.900  T_C324.G2
+         0.744  syn15202.F3
+         0.744  syn15202.G3
+         3.639  syn1703.F3
+         3.639  syn1703.G3
+         2.577  syn1628.F4
+         0.744  syn1657.F3
+         1.286  IR_SH.F4
+         7.156  syn1752.F4
+         6.833  syn1752.G1
+         4.714  syn5148.F4
+         4.509  syn5148.G3
+         0.683  T_TAP_CS<1>.F4
+         7.316  syn1589.F3
+         6.792  syn1743.G4
+         4.484  syn15153.G3
+
+T_TAP_CS<3>
+   T_TAP_CS<2>.YQ
+         4.995  State<3>.O
+         5.985  syn1584.F4
+         8.119  T_C324.F4
+         6.154  T_C324.G3
+         2.478  syn1743.F2
+         2.478  syn1743.G2
+         1.535  syn1703.F4
+         1.535  syn1703.G4
+         2.923  syn1628.F3
+         0.956  syn1657.F1
+         0.902  IR_SH.F1
+         5.605  syn1752.F3
+         5.605  syn1752.G3
+         0.956  syn15143.F1
+         6.791  syn5148.F2
+         6.791  syn5148.G2
+         0.985  T_TAP_CS<1>.F3
+         6.658  syn15153.G2
+         3.010  syn5146.G2
+
+VAR_PD_DOUT
+   syn15805.XQ
+         3.131  N_PD_TP_N.C3
+         2.770  C1226.I
+
+VAR_PD_UPD
+   syn5143.Y
+         3.257  N_PD_TP_N.C1
+
+cs_en<0>
+   N708.XQ
+         1.135  n_143.F4
+
+cs_en<1>
+   N708.YQ
+         0.729  n_196.F2
+
+cs_en<2>
+   N808.XQ
+         0.534  N808.G2
+
+cs_en<3>
+   syn15373.XQ
+         2.874  n_302.F1
+
+n_143
+   n_143.X
+         3.844  CS_DAC_N<0>.O
+
+n_196
+   n_196.X
+         3.219  CS_DAC_N<1>.O
+
+n_249
+   N808.Y
+         3.393  CS_DAC_N<2>.O
+
+n_302
+   n_302.X
+         2.734  CS_DAC_N<3>.O
+
+n_427
+   n_427.X
+         2.754  CS_TP_N.O
+         0.581  N_Clk_DAC<2>.G1
+
+syn15102
+   syn15102.X
+         5.071  N824.F2
+         5.071  N824.C2
+
+syn15120
+   syn15306.Y
+         4.331  n_196.F4
+         5.178  n_196.G1
+         4.169  N717.F4
+         4.294  N708.F2
+         4.187  N_Clk_DAC<0>.G1
+
+syn15143
+   syn15143.X
+         2.768  syn1589.C3
+         2.288  syn5146.F3
+         2.910  syn15190.F4
+         2.626  syn15202.G4
+
+syn15153
+   syn15153.X
+         0.787  syn1743.F1
+
+syn15163
+   syn15202.Y
+         1.112  syn15143.G2
+
+syn15165
+   syn15165.X
+         0.835  syn15143.G3
+
+syn15178
+   T_C324.Y
+         1.094  syn15165.F2
+         3.768  T_TAP_CS<2>.F4
+
+syn15180
+   syn15190.Y
+         1.047  T_TAP_CS<2>.F1
+
+syn15190
+   syn15190.X
+         1.149  T_TAP_CS<2>.G1
+
+syn15202
+   syn15202.X
+         0.835  T_TAP_CS<1>.G3
+
+syn15282
+   syn15282.X
+         0.896  syn15805.G4
+
+syn15306
+   syn15306.X
+         2.718  TP_GRP_DOUT.F2
+         2.810  TPGRP_SREG<1>.F2
+         2.432  TPGRP_SREG<2>.F3
+         2.895  TPGRP_SREG<3>.F2
+         2.972  TPGRP_SREG<4>.F2
+         4.391  TPGRP_SREG<5>.F4
+         3.962  TPGRP_SREG<6>.F1
+         1.194  N717.G2
+         1.335  IN_DEC_C576.F3
+         2.090  syn15659.G3
+
+syn15309
+   syn15309.X
+         2.084  syn5150.F4
+
+syn15327
+   syn15327.Y
+         1.185  N721.G4
+
+syn15331
+   syn15331.X
+         1.531  ID_REG_DOUT.F4
+         2.215  ID_REG_SREG<11>.F2
+         2.215  ID_REG_SREG<11>.G2
+         2.249  ID_REG_SREG<13>.F1
+         2.249  ID_REG_SREG<13>.G1
+         1.001  ID_REG_SREG<15>.F3
+         1.001  ID_REG_SREG<15>.G3
+         1.422  ID_REG_SREG<17>.F3
+         1.422  ID_REG_SREG<17>.G3
+         1.919  syn5150.C1
+         1.494  ID_REG_SREG<1>.F2
+         1.494  ID_REG_SREG<1>.G2
+         2.666  ID_REG_SREG<20>.F3
+         3.715  ID_REG_SREG<20>.G3
+         3.513  ID_REG_SREG<22>.F1
+         3.513  ID_REG_SREG<22>.G1
+         0.916  ID_REG_SREG<24>.F4
+         0.916  ID_REG_SREG<24>.G4
+         0.862  ID_REG_SREG<26>.F4
+         0.862  ID_REG_SREG<26>.G4
+         1.001  ID_REG_SREG<28>.F3
+         1.001  ID_REG_SREG<28>.G3
+         2.655  ID_REG_SREG<30>.F3
+         2.655  ID_REG_SREG<30>.G3
+         3.385  ID_REG_SREG<32>.F2
+         3.542  ID_REG_SREG<32>.G3
+         2.166  ID_REG_SREG<34>.F3
+         2.166  ID_REG_SREG<34>.G3
+         1.531  ID_REG_SREG<36>.F4
+         1.531  ID_REG_SREG<36>.G4
+         2.288  ID_REG_SREG<38>.F3
+         2.288  ID_REG_SREG<38>.G3
+         0.879  ID_REG_SREG<3>.F2
+         0.879  ID_REG_SREG<3>.G2
+         1.422  ID_REG_SREG<5>.F3
+         1.422  ID_REG_SREG<5>.G3
+         1.250  ID_REG_SREG<7>.F3
+         1.250  ID_REG_SREG<7>.G3
+         2.616  ID_REG_SREG<9>.F4
+         2.616  ID_REG_SREG<9>.G4
+         0.973  N721.G1
+
+syn15373
+   syn15373.X
+         0.924  syn1577.C2
+         2.118  syn1940.F4
+         2.274  n_302.F4
+         2.815  n_302.G2
+
+syn15395
+   syn15395.X
+         1.329  IN_DEC_C557.F4
+         4.938  N_Clk_DAC<0>.F2
+         2.975  syn1859.F2
+         1.562  syn15331.G3
+         4.866  N708.G3
+         4.938  n_143.F2
+         4.938  n_143.G2
+         2.956  syn1940.G4
+
+syn15396
+   syn15396.X
+         1.610  IN_DEC_C557.F3
+         2.251  IN_DEC_C576.F1
+
+syn15398
+   syn15396.Y
+         2.085  syn1858.G1
+
+syn15590
+   syn15658.Y
+         2.763  syn2442.F1
+         2.445  N717.F2
+         2.518  N718.F2
+
+syn1564
+   IN_DEC_C557.Y
+         2.768  syn1577.F2
+         1.735  syn15331.G2
+         3.067  n_427.F2
+         2.805  IN_DEC_C633.F4
+
+syn1565
+   syn1859.Y
+         3.040  syn15331.G1
+         4.847  syn1940.G3
+
+syn15657
+   syn15657.X
+         2.492  IN_DEC_C633.G3
+
+syn15658
+   syn15658.X
+         0.606  IN_DEC_C633.G4
+
+syn15659
+   syn15659.X
+         1.202  IN_DEC_C633.G1
+
+syn15696
+   syn15696.X
+         1.491  N721.F2
+
+syn1577
+   syn1577.X
+         3.211  N_Clk_DAC<0>.F4
+         3.211  N_Clk_DAC<0>.G4
+         3.892  n_196.F1
+         3.709  n_196.G2
+         2.339  N708.F4
+         2.339  N708.G4
+         1.418  syn15373.C1
+         2.966  n_143.F1
+         2.966  n_143.G1
+         3.059  n_302.F3
+         3.059  n_302.G3
+         2.371  syn5150.G4
+
+syn15805
+   syn15805.Y
+         1.121  syn15331.C3
+
+syn1583
+   syn1860.Y
+         6.046  syn15395.C4
+         1.153  syn15282.F1
+         1.153  syn15282.G1
+         7.915  N700.F1
+         2.840  syn2420.G3
+         1.125  syn5133.G3
+
+syn1584
+   syn1584.X
+         2.974  syn15202.F4
+         2.761  syn15202.G2
+
+syn1589
+   syn1589.X
+         0.810  syn15190.F2
+         0.999  syn15202.G1
+
+syn1590
+   syn15657.Y
+         2.894  syn2442.F3
+         0.813  N718.F4
+         0.838  n_427.F4
+
+syn1628
+   syn1628.X
+         1.776  TP_STP_UPD.C1
+         3.642  N824.C1
+         2.476  IN_DEC_C576.C3
+         4.126  syn5143.C4
+
+syn1646
+   N700.Y
+         0.551  N697.F2
+         0.544  N824.F1
+         0.544  N824.G1
+
+syn1657
+   syn1657.X
+         5.356  N718.C2
+         7.271  N717.C4
+         1.180  syn1577.F4
+         3.422  ADC_SH<0>.F3
+         3.680  ADC_SH<0>.G2
+         1.708  ADC_SH<2>.F3
+         3.607  ADC_SH<2>.G4
+         4.335  syn15327.F3
+         3.559  syn15327.G1
+         2.399  n_427.F1
+         2.399  n_427.G1
+
+syn1703
+   syn1703.X
+         5.407  syn1657.C3
+         6.285  syn2442.F2
+         5.764  syn2442.G3
+         1.782  syn15282.F3
+         4.285  SBR_SREG<11>.F3
+         4.285  SBR_SREG<11>.G3
+         3.813  SBR_SREG<13>.F1
+         5.397  SBR_SREG<13>.G2
+         4.009  SBR_SREG<15>.F1
+         4.606  SBR_SREG<15>.G3
+         4.441  SBR_SREG<17>.F3
+         3.864  SBR_SREG<17>.G1
+         4.904  SBR_SREG<19>.F3
+         4.904  SBR_SREG<19>.G3
+         4.302  SBR_SREG<1>.F3
+         4.657  SBR_SREG<1>.G4
+         4.937  SBR_SREG<21>.F2
+         4.177  SBR_SREG<21>.G3
+         3.893  SBR_SREG<23>.F3
+         3.893  SBR_SREG<23>.G3
+         4.195  SBR_SREG<25>.F4
+         4.195  SBR_SREG<25>.G4
+         4.413  SBR_SREG<27>.F1
+         4.888  SBR_SREG<27>.G2
+         4.705  SBR_SREG<29>.F4
+         4.705  SBR_SREG<29>.G4
+         4.682  SBR_SREG<31>.F1
+         4.668  SBR_SREG<31>.G2
+         4.365  SBR_SREG<33>.F3
+         4.365  SBR_SREG<33>.G3
+         4.711  SBR_SREG<35>.F3
+         4.711  SBR_SREG<35>.G3
+         3.497  SBR_SREG<37>.F2
+         3.497  SBR_SREG<37>.G2
+         2.876  SBR_SREG<39>.F3
+         2.876  SBR_SREG<39>.G3
+         4.783  SBR_SREG<3>.F4
+         4.783  SBR_SREG<3>.G4
+         4.496  SBR_SREG<5>.F3
+         3.850  SBR_SREG<5>.G2
+         4.256  SBR_SREG<7>.F1
+         4.256  SBR_SREG<7>.G1
+         4.382  SBR_SREG<9>.F3
+         4.386  SBR_SREG<9>.G2
+         4.538  TP_GRP_DOUT.C1
+         4.010  TPGRP_SREG<1>.C2
+         4.783  TPGRP_SREG<2>.C3
+         4.229  TPGRP_SREG<3>.C3
+         4.234  TPGRP_SREG<4>.C3
+         4.368  TPGRP_SREG<5>.C3
+         4.183  TPGRP_SREG<6>.C1
+         4.418  syn15805.F1
+         4.804  N717.G4
+         3.853  N_Din_ADC<1>.G3
+         2.057  syn1628.G2
+
+syn1719
+   syn5148.Y
+         1.437  syn15165.F1
+
+syn1743
+   syn1743.X
+         1.080  syn15190.G2
+
+syn1752
+   syn1752.X
+         2.089  T_TAP_CS<1>.G2
+
+syn1757
+   syn1752.Y
+         2.432  T_TAP_CS<2>.G4
+
+syn1774
+   syn1589.Y
+         0.852  syn15202.F1
+
+syn1843
+   syn1843.X
+         1.144  syn5150.F2
+
+syn1848
+   syn2464.Y
+         3.939  N722.F3
+         3.939  N722.G3
+         1.363  syn15327.G4
+         0.834  syn15805.G3
+
+syn1858
+   syn1858.X
+         1.160  syn2420.G4
+         1.141  syn15805.G1
+
+syn1859
+   syn1859.X
+         1.732  syn2420.G2
+
+syn1860
+   syn1860.X
+         2.716  syn2420.G1
+
+syn1940
+   syn1940.X
+         0.658  IR_SH.C2
+         2.014  syn15805.F3
+
+syn2178
+   TP_STP_UPD.Y
+         1.347  syn2442.F4
+         0.774  N718.F1
+
+syn2420
+   syn2420.X
+         1.801  N721.F4
+         1.166  N721.G2
+
+syn2442
+   syn2442.X
+         1.110  TP_STP_DOUT.F2
+         1.110  TPSTP_SREG<1>.F2
+         1.110  TPSTP_SREG<1>.G2
+         1.021  TPSTP_SREG<3>.F2
+         1.021  TPSTP_SREG<3>.G2
+         1.021  N718.G2
+
+syn2464
+   syn2464.X
+         0.967  syn1843.C4
+         3.462  syn1940.F3
+         1.173  syn5143.F1
+         1.261  syn15696.F2
+         1.261  syn15696.G2
+         4.940  syn2442.G2
+         3.551  syn15658.G1
+
+syn2466
+   syn15696.Y
+         2.465  TP_GRP_DOUT.F1
+         0.854  TPGRP_SREG<1>.F1
+         0.950  TPGRP_SREG<2>.F1
+         0.883  TPGRP_SREG<3>.F3
+         1.000  TPGRP_SREG<4>.F4
+         0.963  TPGRP_SREG<5>.F2
+         0.963  TPGRP_SREG<6>.F2
+         1.092  N717.G1
+
+syn4246
+   syn15659.Y
+         1.719  syn5150.F3
+
+syn4247
+   syn1843.Y
+         0.594  syn2464.C2
+         2.747  syn15696.F1
+
+syn5133
+   syn5133.X
+         2.494  syn2442.G4
+
+syn5143
+   syn5143.X
+         2.136  syn15696.C2
+         4.036  IR_SH.C3
+         2.173  syn15805.F4
+         0.779  syn15805.G2
+         0.843  syn15327.G3
+
+syn5146
+   syn5146.X
+         1.072  syn15190.F3
+         1.170  T_TAP_CS<2>.F3
+
+syn5148
+   syn5148.X
+         3.795  IR_DOUT.F3
+         1.876  IR_SREG<2>.F2
+         0.807  IR_SREG<2>.G1
+         0.752  IR_SREG<4>.F3
+         0.752  IR_SREG<4>.G3
+
+syn5150
+   syn5150.X
+         0.916  N721.F3
+         0.916  N721.G3
+         1.810  N722.F1
+         1.810  N722.G1
+         3.479  ID_REG_DOUT.F1
+         3.474  ID_REG_SREG<11>.F1
+         3.474  ID_REG_SREG<11>.G1
+         3.214  ID_REG_SREG<13>.F2
+         3.214  ID_REG_SREG<13>.G2
+         1.457  ID_REG_SREG<15>.F1
+         1.457  ID_REG_SREG<15>.G1
+         4.345  ID_REG_SREG<17>.F1
+         4.345  ID_REG_SREG<17>.G1
+         1.015  ID_REG_SREG<1>.F4
+         1.015  ID_REG_SREG<1>.G4
+         3.140  ID_REG_SREG<20>.F2
+         3.140  ID_REG_SREG<20>.G2
+         1.295  ID_REG_SREG<22>.F2
+         1.295  ID_REG_SREG<22>.G2
+         1.605  ID_REG_SREG<24>.F3
+         1.605  ID_REG_SREG<24>.G3
+         1.577  ID_REG_SREG<26>.F1
+         1.577  ID_REG_SREG<26>.G1
+         3.235  ID_REG_SREG<28>.F1
+         3.235  ID_REG_SREG<28>.G1
+         1.630  ID_REG_SREG<30>.F4
+         1.629  ID_REG_SREG<30>.G4
+         1.486  ID_REG_SREG<32>.F3
+         2.954  ID_REG_SREG<32>.G2
+         1.295  ID_REG_SREG<34>.F2
+         1.295  ID_REG_SREG<34>.G2
+         3.411  ID_REG_SREG<36>.F1
+         3.411  ID_REG_SREG<36>.G1
+         1.332  ID_REG_SREG<38>.F4
+         1.332  ID_REG_SREG<38>.G4
+         1.754  ID_REG_SREG<3>.F3
+         1.754  ID_REG_SREG<3>.G3
+         3.479  ID_REG_SREG<5>.F1
+         3.479  ID_REG_SREG<5>.G1
+         3.599  ID_REG_SREG<7>.F4
+         3.599  ID_REG_SREG<7>.G4
+         1.839  ID_REG_SREG<9>.F3
+         1.839  ID_REG_SREG<9>.G3
+

@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "TAP";
+    .mra_file = "TAP.mra";
+    .arch = {"TAP_arch"};
+    .syn_files = {"TAP.syn", "TAP__TAP_ARCH.syn"};
+   }
+}

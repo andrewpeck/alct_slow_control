@@ -1,0 +1,350 @@
+PAR: Xilinx Place And Route C.16.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Sat Mar 04 08:14:25 2000
+
+par -w -ol 2 -d 0 map.ncd sl_ctrlx.ncd sl_ctrlx.pcf
+
+
+Constraints file: sl_ctrlx.pcf
+
+Loading device database for application par from file "map.ncd".
+   "sl_ctrlx" is an NCD, version 2.28, device xcs40xl, package pq208, speed -4
+Loading device for application par from file 's40xl.nph' in environment
+C:/Fndtn.
+Device speed data version:  HEAD 1.12 PRELIMINARY.
+
+
+Resolved that IOB <Clk_ADC<0>> must be placed at site P74.
+Resolved that IOB <Clk_ADC<1>> must be placed at site P81.
+Resolved that IOB <Clk_ADC<2>> must be placed at site P85.
+Resolved that IOB <Clk_ADC<3>> must be placed at site P90.
+Resolved that IOB <Clk_ADC<4>> must be placed at site P96.
+Resolved that IOB <Clk_DAC<0>> must be placed at site P100.
+Resolved that IOB <Clk_DAC<1>> must be placed at site P113.
+Resolved that IOB <Clk_DAC<2>> must be placed at site P117.
+Resolved that IOB <Clk_DAC<3>> must be placed at site P124.
+Resolved that IOB <Clk_TP> must be placed at site P127.
+Resolved that IOB <CS_ADC_N<0>> must be placed at site P73.
+Resolved that IOB <CS_ADC_N<1>> must be placed at site P80.
+Resolved that IOB <CS_ADC_N<2>> must be placed at site P84.
+Resolved that IOB <CS_ADC_N<3>> must be placed at site P89.
+Resolved that IOB <CS_ADC_N<4>> must be placed at site P95.
+Resolved that IOB <CS_DAC_N<0>> must be placed at site P99.
+Resolved that IOB <CS_DAC_N<1>> must be placed at site P110.
+Resolved that IOB <CS_DAC_N<2>> must be placed at site P116.
+Resolved that IOB <CS_DAC_N<3>> must be placed at site P123.
+Resolved that IOB <CS_TP_N> must be placed at site P129.
+Resolved that IOB <Din_ADC<0>> must be placed at site P70.
+Resolved that IOB <Din_ADC<1>> must be placed at site P75.
+Resolved that IOB <Din_ADC<2>> must be placed at site P82.
+Resolved that IOB <Din_ADC<3>> must be placed at site P87.
+Resolved that IOB <Din_ADC<4>> must be placed at site P93.
+Resolved that IOB <Din_DAC<0>> must be placed at site P97.
+Resolved that IOB <Din_DAC<1>> must be placed at site P101.
+Resolved that IOB <Din_DAC<2>> must be placed at site P114.
+Resolved that IOB <Din_DAC<3>> must be placed at site P119.
+Resolved that IOB <Din_TP> must be placed at site P125.
+Resolved that IOB <Dout_ADC<0>> must be placed at site P72.
+Resolved that IOB <Dout_ADC<1>> must be placed at site P76.
+Resolved that IOB <Dout_ADC<2>> must be placed at site P83.
+Resolved that IOB <Dout_ADC<3>> must be placed at site P88.
+Resolved that IOB <Dout_ADC<4>> must be placed at site P94.
+Resolved that IOB <Future<0>> must be placed at site P59.
+Resolved that IOB <Future<1>> must be placed at site P61.
+Resolved that IOB <Future<2>> must be placed at site P62.
+Resolved that IOB <Future<3>> must be placed at site P63.
+Resolved that IOB <Future<4>> must be placed at site P64.
+Resolved that IOB <Future<5>> must be placed at site P67.
+Resolved that IOB <Future<6>> must be placed at site P68.
+Resolved that IOB <Future<7>> must be placed at site P69.
+Resolved that IOB <OpCode<0>> must be placed at site P45.
+Resolved that IOB <OpCode<1>> must be placed at site P46.
+Resolved that IOB <OpCode<2>> must be placed at site P47.
+Resolved that IOB <OpCode<3>> must be placed at site P48.
+Resolved that IOB <OpCode<4>> must be placed at site P57.
+Resolved that IOB <OpCode<5>> must be placed at site P58.
+Resolved that IOB <PD_TP_N> must be placed at site P133.
+Resolved that IOB <RS_DAC_N<0>> must be placed at site P98.
+Resolved that IOB <RS_DAC_N<1>> must be placed at site P109.
+Resolved that IOB <RS_DAC_N<2>> must be placed at site P115.
+Resolved that IOB <RS_DAC_N<3>> must be placed at site P120.
+Resolved that IOB <Stand_By_N<0>> must be placed at site P152.
+Resolved that IOB <Stand_By_N<10>> must be placed at site P172.
+Resolved that IOB <Stand_By_N<11>> must be placed at site P174.
+Resolved that IOB <Stand_By_N<12>> must be placed at site P175.
+Resolved that IOB <Stand_By_N<13>> must be placed at site P176.
+Resolved that IOB <Stand_By_N<14>> must be placed at site P177.
+Resolved that IOB <Stand_By_N<15>> must be placed at site P178.
+Resolved that IOB <Stand_By_N<16>> must be placed at site P179.
+Resolved that IOB <Stand_By_N<17>> must be placed at site P180.
+Resolved that IOB <Stand_By_N<18>> must be placed at site P181.
+Resolved that IOB <Stand_By_N<19>> must be placed at site P184.
+Resolved that IOB <Stand_By_N<1>> must be placed at site P159.
+Resolved that IOB <Stand_By_N<20>> must be placed at site P185.
+Resolved that IOB <Stand_By_N<21>> must be placed at site P186.
+Resolved that IOB <Stand_By_N<22>> must be placed at site P187.
+Resolved that IOB <Stand_By_N<23>> must be placed at site P188.
+Resolved that IOB <Stand_By_N<24>> must be placed at site P189.
+Resolved that IOB <Stand_By_N<25>> must be placed at site P190.
+Resolved that IOB <Stand_By_N<26>> must be placed at site P191.
+Resolved that IOB <Stand_By_N<27>> must be placed at site P193.
+Resolved that IOB <Stand_By_N<28>> must be placed at site P194.
+Resolved that IOB <Stand_By_N<29>> must be placed at site P196.
+Resolved that IOB <Stand_By_N<2>> must be placed at site P161.
+Resolved that IOB <Stand_By_N<30>> must be placed at site P197.
+Resolved that IOB <Stand_By_N<31>> must be placed at site P198.
+Resolved that IOB <Stand_By_N<32>> must be placed at site P199.
+Resolved that IOB <Stand_By_N<33>> must be placed at site P200.
+Resolved that IOB <Stand_By_N<34>> must be placed at site P201.
+Resolved that IOB <Stand_By_N<35>> must be placed at site P204.
+Resolved that IOB <Stand_By_N<36>> must be placed at site P205.
+Resolved that IOB <Stand_By_N<37>> must be placed at site P206.
+Resolved that IOB <Stand_By_N<38>> must be placed at site P3.
+Resolved that IOB <Stand_By_N<39>> must be placed at site P4.
+Resolved that IOB <Stand_By_N<3>> must be placed at site P162.
+Resolved that IOB <Stand_By_N<40>> must be placed at site P5.
+Resolved that IOB <Stand_By_N<41>> must be placed at site P8.
+Resolved that IOB <Stand_By_N<4>> must be placed at site P164.
+Resolved that IOB <Stand_By_N<5>> must be placed at site P166.
+Resolved that IOB <Stand_By_N<6>> must be placed at site P167.
+Resolved that IOB <Stand_By_N<7>> must be placed at site P168.
+Resolved that IOB <Stand_By_N<8>> must be placed at site P169.
+Resolved that IOB <Stand_By_N<9>> must be placed at site P171.
+Resolved that IOB <State<0>> must be placed at site P41.
+Resolved that IOB <State<1>> must be placed at site P42.
+Resolved that IOB <State<2>> must be placed at site P43.
+Resolved that IOB <State<3>> must be placed at site P44.
+Resolved that CLKIOB <TCK> must be placed at site P2.
+Resolved that IOB <TDI> must be placed at site P9.
+Resolved that IOB <TDO> must be placed at site P10.
+Resolved that IOB <TMS> must be placed at site P11.
+Resolved that IOB <TP_Gr_En<0>> must be placed at site P142.
+Resolved that IOB <TP_Gr_En<1>> must be placed at site P145.
+Resolved that IOB <TP_Gr_En<2>> must be placed at site P146.
+Resolved that IOB <TP_Gr_En<3>> must be placed at site P147.
+Resolved that IOB <TP_Gr_En<4>> must be placed at site P148.
+Resolved that IOB <TP_Gr_En<5>> must be placed at site P150.
+Resolved that IOB <TP_Gr_En<6>> must be placed at site P151.
+Resolved that IOB <TP_Strp_En<0>> must be placed at site P134.
+Resolved that IOB <TP_Strp_En<1>> must be placed at site P135.
+Resolved that IOB <TP_Strp_En<2>> must be placed at site P136.
+Resolved that IOB <TP_Strp_En<3>> must be placed at site P137.
+Resolved that IOB <TP_Strp_En<4>> must be placed at site P139.
+Resolved that IOB <TP_Strp_En<5>> must be placed at site P141.
+
+
+Device utilization summary:
+
+   Number of External IOBs           116 out of 169    68%
+      Flops:                           7
+      Latches:                         0
+   Number of Global Buffer IOBs        1 out of 8      12%
+      Flops:                           0
+      Latches:                         0
+
+   Number of CLBs                    156 out of 784    19%
+      Total Latches:                   5 out of 1568    1%
+      Total CLB Flops:               189 out of 1568   12%
+      4 input LUTs:                  232 out of 1568   14%
+      3 input LUTs:                   73 out of 784     9%
+
+   Number of BUFGLSs                   2 out of 8      25%
+   Number of TBUFs                    12 out of 1680    1%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+Timing method (-kpaths|-dfs): kpaths (default)
+
+Starting initial Timing Analysis.  REAL time: 0 secs 
+Finished initial Timing Analysis.  REAL time: 0 secs 
+
+Starting initial Placement phase.  REAL time: 0 secs 
+Finished initial Placement phase.  REAL time: 0 secs 
+
+Starting Constructive Placer.  REAL time: 0 secs 
+Placer score = 921187
+Placer score = 583150
+Placer score = 560424
+Placer score = 530043
+Placer score = 495292
+Placer score = 486872
+Placer score = 480572
+Placer score = 456503
+Placer score = 445982
+Placer score = 443591
+Placer score = 424796
+Placer score = 414014
+Placer score = 407990
+Placer score = 400304
+Placer score = 392491
+Placer score = 388970
+Placer score = 381164
+Placer score = 379387
+Placer score = 376001
+Placer score = 375239
+Placer score = 372894
+Placer score = 371456
+Placer score = 367885
+Placer score = 366639
+Placer score = 366105
+Placer score = 364018
+Placer score = 363216
+Placer score = 363167
+Placer score = 362917
+Placer score = 362339
+Placer score = 362264
+Placer score = 362081
+Placer score = 361823
+Placer score = 361581
+Placer score = 361274
+Finished Constructive Placer.  REAL time: 5 secs 
+
+Writing design to file "sl_ctrlx.ncd".
+
+Starting Optimizing Placer.  REAL time: 5 secs 
+Optimizing  
+Swapped 2 comps.
+Xilinx Placer [1]   361214   REAL time: 6 secs 
+
+Finished Optimizing Placer.  REAL time: 6 secs 
+
+Writing design to file "sl_ctrlx.ncd".
+
+Total REAL time to Placer completion: 6 secs 
+Total CPU time to Placer completion: 6 secs 
+
+0 connection(s) routed; 1252 unrouted.
+Starting router resource preassignment
+Completed router resource preassignment. REAL time: 6 secs 
+Starting iterative routing. 
+Routing active signals.
+End of iteration 1 
+1247 successful; 5 unrouted; (3367191) REAL time: 8 secs 
+Improving Timing.
+Timing score : 3367191 
+End of iteration 2 
+1252 successful; 0 unrouted; (2865979) REAL time: 12 secs 
+Improving timing.
+Routing PWR/GND nets.
+Power and ground nets completely routed. 
+End of iteration 3 
+1252 successful; 0 unrouted; (2112814) REAL time: 17 secs 
+WARNING:Route:260 - Routing for this placement is not expected to meet the
+   current timing constraints.  Change the placement, modify the timing
+   constraints or reduce the number of logic levels in the paths that are not
+   meeting timing.
+End of iteration 4 
+1252 successful; 0 unrouted; (2006965) REAL time: 21 secs 
+End of iteration 5 
+1252 successful; 0 unrouted; (1990973) REAL time: 25 secs 
+End of iteration 6 
+1252 successful; 0 unrouted; (1933149) REAL time: 29 secs 
+End of iteration 7 
+1252 successful; 0 unrouted; (1941752) REAL time: 33 secs 
+End of iteration 8 
+1252 successful; 0 unrouted; (1956992) REAL time: 41 secs 
+End of iteration 9 
+1252 successful; 0 unrouted; (1927205) REAL time: 44 secs 
+End of iteration 10 
+1252 successful; 0 unrouted; (1927440) REAL time: 48 secs 
+Writing design to file "sl_ctrlx.ncd".
+Starting cleanup 
+WARNING:Route:260 - Routing for this placement is not expected to meet the
+   current timing constraints.  Change the placement, modify the timing
+   constraints or reduce the number of logic levels in the paths that are not
+   meeting timing.
+Improving routing.
+End of cleanup iteration 1 
+1252 successful; 0 unrouted; (1898345) REAL time: 50 secs 
+Writing design to file "sl_ctrlx.ncd".
+Total REAL time: 50 secs 
+Total CPU  time: 50 secs 
+End of route.  1252 routed (100.00%); 0 unrouted.
+No errors found. 
+Completely routed. 
+
+The design submitted for place and route did not meet the specified timing
+requirements.  Please use the static timing analysis tools (TRCE or Timing
+Analyzer) to report which constraints were not met.  To obtain a better result,
+you may try the following:
+  * Use the Re-entrant routing feature to run more router iterations on the
+design.
+  * Check the timing constraints to make sure the design is not
+over-constrained.
+  * Specify a higher placer effort level, if possible.
+  * Specify a higher router effort level.
+  * Use the Multi-Pass PAR (MPPR) feature.  This generates multiple placement
+trials from which the best (i.e., lowest design score) placement can be used
+with re-entrant routing to obtain a better result.
+
+Please consult the Development System Reference Guide for more detailed
+information about the usage options pertaining to these features.
+
+Total REAL time to Router completion: 50 secs 
+Total CPU time to Router completion: 50 secs 
+
+Generating PAR statistics.
+
+   The Delay Summary Report
+
+   The Score for this design is: 418394
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        2.568 ns
+   The Maximum Pin Delay is:                               9.923 ns
+   The Average Connection Delay on the 10 Worst Nets is:   8.560 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 2.00   < d < 4.00  < d < 6.00  < d < 8.00  < d < 10.00  d >= 10.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         482         556         160          27          16           0
+
+Timing Score: 1898345
+
+WARNING:Par:62 - Timing constraints have not been met.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_tck = PERIOD TIMEGRP "tck"  25 nS   HI |            |            |      
+  GH 50.000 %                               |            |            |      
+--------------------------------------------------------------------------------
+  TS_N824 = PERIOD TIMEGRP "N824"  20 nS    | 20.000ns   | 6.047ns    | 2    
+  HIGH 10 nS                                |            |            |      
+--------------------------------------------------------------------------------
+* TS_TCK = PERIOD TIMEGRP "TCK"  20 nS   HI | 20.000ns   | 44.890ns   | 6    
+  GH 10 nS                                  |            |            |      
+--------------------------------------------------------------------------------
+  TS_P2P = MAXDELAY FROM TIMEGRP "PADS" TO  | 20.000ns   | 19.919ns   | 3    
+  TIMEGRP "PADS" 20 nS                      |            |            |      
+--------------------------------------------------------------------------------
+  TS_0 = MAXDELAY FROM TIMEGRP "N824" TO TI | 20.000ns   | 9.803ns    | 2    
+  MEGRP "PADS" 20 nS                        |            |            |      
+--------------------------------------------------------------------------------
+  OFFSET = IN 20 nS  BEFORE COMP "TCK"      | 20.000ns   | 12.369ns   | 4    
+--------------------------------------------------------------------------------
+* OFFSET = OUT 20 nS  AFTER COMP "TCK"      | 20.000ns   | 28.047ns   | 6    
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+Writing design to file "sl_ctrlx.ncd".
+
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 50 secs 
+Total CPU time to PAR completion: 50 secs 
+
+PAR done.

@@ -1,0 +1,17 @@
+BITGEN: Xilinx Bitstream Generator C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Loading device database for application Bitgen from file "sl_ctrlx.ncd".
+   "sl_ctrlx" is an NCD, version 2.28, device xcs40xl, package pq208, speed -4
+Loading device for application Bitgen from file 's40xl.nph' in environment
+C:/Fndtn.
+Opened constraints file sl_ctrlx.pcf.
+
+Sat Mar 04 10:24:51 2000
+
+bitgen.exe -g ConfigRate:FAST -g TdoPin:PULLNONE -g DonePin:PULLUP -g ExpressMode:Enable -g CRC:disable -g StartUpClk:CCLK -g SyncToDone:no -g DoneActive:C1 -g OutputsActive:C2 -g GSRInactive:C3 -g ReadClk:CCLK -g ReadCapture:enable -g ReadAbort:disable -g 5V_Tolerant_IO:On -g PowerDown:PULLUP -g M0Pin:PULLDOWN -g BSCAN_Config:Enable -g BSCAN_Status:Enable -w sl_ctrlx.ncd sl_ctrlX 
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Creating bit map...
+Saving bit stream in "sl_ctrlx.bit".

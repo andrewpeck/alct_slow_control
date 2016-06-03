@@ -1,0 +1,262 @@
+
+Inferred memory devices in process 'BYPASS'
+	in routine Sl_Ctrl line 380 in
+         file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     BP_DOUT_reg     | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+BP_DOUT_reg
+-----------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 
+	in routine Sl_Ctrl line 443 in file
+         'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ADC_SH_reg      | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+ADC_SH_reg (width 5)
+--------------------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 
+	in routine Sl_Ctrl line 464 in file
+         'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    CS_ADC_N_reg     |   Latch   |   5   |  Y  | N  | N  | N  | -  | -  | -  |
+===============================================================================
+
+CS_ADC_N_reg (width 5)
+----------------------
+    reset/set: none
+
+
+
+Inferred memory devices in process 'CLK_CHANGE'
+	in routine Sl_Ctrl line 496
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     Din_en_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|      cs_en_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Din_en_reg (width 4)
+--------------------
+    set/reset/toggle: none
+
+
+cs_en_reg (width 4)
+-------------------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 'DAC_RS'
+	in routine Sl_Ctrl line 510 in
+         file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    INSTR_old_reg    | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+|    RS_DAC_N_reg     | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+| RS_THR_DAC_old_reg  | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+INSTR_old_reg (width 6)
+-----------------------
+    set/reset/toggle: none
+
+
+RS_DAC_N_reg (width 4)
+----------------------
+    set/reset/toggle: none
+
+
+RS_THR_DAC_old_reg
+------------------
+    set/reset/toggle: none
+
+
+
+Inferred memory devices in process 
+	in routine Sl_Ctrl line 552 in file
+         'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     CS_TP_N_reg     | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+CS_TP_N_reg
+-----------
+    set/reset/toggle: none
+
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 591
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri            |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 593
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri2           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 594
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri3           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 595
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri4           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 596
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri5           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 598
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri6           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 599
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri7           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 600
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri8           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 601
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|           TDO_MUX_tri9           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 602
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|          TDO_MUX_tri10           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 604
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|          TDO_MUX_tri11           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 605
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|          TDO_MUX_tri12           |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred memory devices in process 'TDO_FlFl'
+	in routine Sl_Ctrl line 609 in
+         file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     TDO_FF_reg      | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+|     TDO_OE_reg      | Flip-flop |   1   |  -  | -  | N  | N  | N  | N  | N  |
+===============================================================================
+
+TDO_FF_reg
+----------
+    set/reset/toggle: none
+
+
+TDO_OE_reg
+----------
+    set/reset/toggle: none
+
+
+
+Inferred THREE-STATE control devices in process 
+	in routine Sl_Ctrl line 617
+         in file 'C:/fndtn/active/projects/sl_ctrlx/sl_ctrl.vhd'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|             TDO_tri              |        Three-state Buffer        | N  |
+============================================================================
+
+Warning: Latch inferred in design 'Sl_Ctrl' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\projects\sl_ctrlX\sl_ctrlx/workdirs/WORK/Sl_Ctrl.hnl'
