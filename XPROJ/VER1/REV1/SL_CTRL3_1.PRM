@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator D.27
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+promgen -p mcs -x XC18V01 -c 0xFF -w -o C:\Xilinx\active\projects\sl_ctrl3\xproj\ver1\rev1\sl_ctrl3_1.mcs -u 0 C:\xilinx\active\projects\sl_ctrl3\xproj\ver1\rev1\sl_ctrl3.bit 
+
+PROM C:\Xilinx\active\projects\sl_ctrl3\xproj\ver1\rev1\sl_ctrl3_1.prm map: Mon Sep 10 12:58:04 2001
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86
+Size          128K
+PROM start    0000:0000
+PROM end      1000:ffff
+PROM checksum 01f497c8
+
+        Addr1        Addr2 File(s)
+    0000:0000    0000:a178 C:/xilinx/active/projects/sl_ctrl3/xproj/ver1/rev1/sl_ctrl3.bit

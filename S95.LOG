@@ -1,0 +1,362 @@
+CM: 
+CM: Checking...
+CM:  Error   L-1/C0 : #0 Error: Number of enumeration encoding values does not match the number of enumeration values, line 39.  (VHDL-2263) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Ports of mode OUT or LINKAGE can not be read.  (VSS-793) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Syntax error.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Ports of mode OUT or LINKAGE can not be read.  (VSS-793) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L541/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 541   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L428/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 428   CLK_ADC_DUM is not declared. (VSS-575)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L429/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 429   CLK_ADC_DUM is not declared. (VSS-575)  (FPGA-hci-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L543/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 543   Syntax error.  (VSS-1081) 
+CM:  Error   L543/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 543   Syntax error - aggregate with single element association must use named association.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L438/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 438   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L438/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 438   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L435/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 435   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L435/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 435   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L453/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 453   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L454/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 454   Block statement closing name mismatch. (VSS-1082)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L436/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 436   Block statement closing name mismatch. (VSS-1082)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L433/C0 : #0 Warning: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 433   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-hci-hdlc-unknown-warning) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L434/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 434   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L433/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 433   Syntax error.  (VSS-1081) 
+CM:  Error   L433/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/sl_ctrl.vhd  line 433   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  25 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L15/C0 : #0 Warning: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 15   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-hci-hdlc-unknown-warning) 
+CM:  Error   L27/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  25 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L15/C0 : #0 Warning: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 15   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-hci-hdlc-unknown-warning) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 30   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 31   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 32   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `['. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid character in input stream.  (VSS-964) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 33   Invalid delimiter character: `]'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  25 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Invalid character in based literal.  (VSS-964) 
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNIVERSAL INTEGER declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Character in string literal is not of the required type. (VSS-715)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd  line 29   Can not update this name or expression. (VSS-800)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful

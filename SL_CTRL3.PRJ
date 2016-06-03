@@ -1,0 +1,141 @@
+Created by PCM: 8/30/101
+Empty design C:\XILINX\ACTIVE\PROJECTS\SL_CTRL3\sl_ctrl3.EDF created: 8/30/101 [14.30.48].
+Document c:\xilinx\active\projects\sl_ctrl3\tap.vhd added: 8/30/101 [14.31.17].
+Document c:\xilinx\active\projects\sl_ctrl3\instr_reg.vhd added: 8/30/101 [14.31.18].
+Document c:\xilinx\active\projects\sl_ctrl3\pd_var.vhd added: 8/30/101 [14.31.18].
+Document c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd added: 8/30/101 [14.31.18].
+Document c:\xilinx\active\projects\sl_ctrl3\reg_sp.vhd added: 8/30/101 [14.31.19].
+Document c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd added: 8/30/101 [14.31.19].
+Document c:\xilinx\active\projects\sl_ctrl3\instr_dec.vhd added: 8/30/101 [14.31.20].
+'c:\xilinx\active\projects\sl_ctrl3\tap.vhd' saved on 01/08/30 14:32
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/08/30 14:32
+Implementation ver1 updated: 8/30/101 [14.34.24].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/30/101 [14.34.32].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/30/101 [14.34.34].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 15:51
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 15:51
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 15:53
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 16:08
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:39
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:40
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:40
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:40
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:45
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:48
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:49
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:52
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:53
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:55
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 17:55
+Implementation ver1 updated: 8/31/101 [17.55.42].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.56.14].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.56.22].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.56.24].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.57.9].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.57.9].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.59.48].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 8/31/101 [17.59.48].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 19:34
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/08/31 19:35
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/04 19:45
+Implementation ver1 updated: 9/4/101 [19.45.56].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.46.6].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.46.6].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.46.27].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.46.31].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.46.32].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.47.21].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.47.21].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/04 19:48
+Implementation ver1 updated: 9/4/101 [19.48.29].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.48.29].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/04 19:49
+Implementation ver1 updated: 9/4/101 [19.49.37].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/4/101 [19.49.37].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:30
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:30
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:31
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:31
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:31
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:32
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:33
+Implementation ver1 updated: 9/5/101 [13.34.44].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:38
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:39
+Implementation ver1 updated: 9/5/101 [13.39.11].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:40
+Implementation ver1 updated: 9/5/101 [13.40.46].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:41
+Implementation ver1 updated: 9/5/101 [13.41.14].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:43
+Implementation ver1 updated: 9/5/101 [13.43.35].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:44
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:45
+Implementation ver1 updated: 9/5/101 [13.45.43].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/5/101 [13.45.43].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:46
+Implementation ver1 updated: 9/5/101 [13.46.47].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:47
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:48
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 13:48
+Implementation ver1 updated: 9/5/101 [13.49.6].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/5/101 [13.49.6].
+Entity Sl_Ctrl, optimized chip , file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:10
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:10
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:11
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:11
+Implementation ver1 updated: 9/5/101 [14.11.45].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:13
+Implementation ver1 updated: 9/5/101 [14.13.45].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:14
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:14
+Implementation ver1 updated: 9/5/101 [14.14.45].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:15
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:15
+Implementation ver1 updated: 9/5/101 [14.15.36].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:17
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:17
+'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:18
+Implementation ver1 updated: 9/5/101 [14.18.42].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/05 14:18
+Implementation ver1 updated: 9/5/101 [14.19.5].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/5/101 [14.19.13].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/5/101 [14.19.14].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:08
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:15
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:16
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:16
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:17
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:17
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:18
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:18
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:19
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:20
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:21
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:24
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:25
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:26
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:26
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:27
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:27
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:28
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:28
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:28
+'c:\xilinx\active\projects\sl_ctrl3\reg_id.vhd' saved on 01/09/07 13:29
+Implementation ver1 updated: 9/7/101 [13.43.18].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [13.43.26].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [13.43.27].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/07 14:20
+Implementation ver1 updated: 9/7/101 [14.21.56].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [14.22.4].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [14.22.5].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.'c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd' saved on 01/09/07 14:42
+Implementation ver1 updated: 9/7/101 [14.42.27].
+Entity Sl_Ctrl, non optimized chip, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [14.42.35].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.Implementation ver1 updated: 9/7/101 [14.42.37].
+Entity Sl_Ctrl, optimized chip ver1-Optimized, file c:\xilinx\active\projects\sl_ctrl3\sl_ctrl.vhd.

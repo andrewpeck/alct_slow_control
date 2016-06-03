@@ -1,0 +1,522 @@
+Release 3.3.08i - Par D.27
+Fri Sep 07 14:47:47 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      sl_ctrl3.ncd
+Part type:        xcs40xl
+Speed grade:      -4
+Package:          pq208
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| CS_ADC_N<0>                                    | OUTPUT    | P73          |
+| CS_ADC_N<1>                                    | OUTPUT    | P80          |
+| CS_ADC_N<2>                                    | OUTPUT    | P84          |
+| CS_ADC_N<3>                                    | OUTPUT    | P89          |
+| CS_ADC_N<4>                                    | OUTPUT    | P95          |
+| CS_DAC_N<0>                                    | OUTPUT    | P99          |
+| CS_DAC_N<1>                                    | OUTPUT    | P110         |
+| CS_DAC_N<2>                                    | OUTPUT    | P116         |
+| CS_DAC_N<3>                                    | OUTPUT    | P123         |
+| CS_TP_N                                        | OUTPUT    | P129         |
+| Clk_ADC<0>                                     | OUTPUT    | P74          |
+| Clk_ADC<1>                                     | OUTPUT    | P81          |
+| Clk_ADC<2>                                     | OUTPUT    | P85          |
+| Clk_ADC<3>                                     | OUTPUT    | P90          |
+| Clk_ADC<4>                                     | OUTPUT    | P96          |
+| Clk_DAC<0>                                     | OUTPUT    | P100         |
+| Clk_DAC<1>                                     | OUTPUT    | P113         |
+| Clk_DAC<2>                                     | OUTPUT    | P117         |
+| Clk_DAC<3>                                     | OUTPUT    | P124         |
+| Clk_TP                                         | OUTPUT    | P127         |
+| Din_ADC<0>                                     | OUTPUT    | P70          |
+| Din_ADC<1>                                     | OUTPUT    | P75          |
+| Din_ADC<2>                                     | OUTPUT    | P82          |
+| Din_ADC<3>                                     | OUTPUT    | P87          |
+| Din_ADC<4>                                     | OUTPUT    | P93          |
+| Din_DAC<0>                                     | OUTPUT    | P97          |
+| Din_DAC<1>                                     | OUTPUT    | P101         |
+| Din_DAC<2>                                     | OUTPUT    | P114         |
+| Din_DAC<3>                                     | OUTPUT    | P119         |
+| Din_TP                                         | OUTPUT    | P125         |
+| Dout_ADC<0>                                    | INPUT     | P72          |
+| Dout_ADC<1>                                    | INPUT     | P76          |
+| Dout_ADC<2>                                    | INPUT     | P83          |
+| Dout_ADC<3>                                    | INPUT     | P88          |
+| Dout_ADC<4>                                    | INPUT     | P94          |
+| Future<0>                                      | OUTPUT    | P59          |
+| Future<1>                                      | OUTPUT    | P61          |
+| Future<2>                                      | OUTPUT    | P62          |
+| Future<3>                                      | OUTPUT    | P63          |
+| Future<4>                                      | OUTPUT    | P64          |
+| Future<5>                                      | OUTPUT    | P67          |
+| Future<6>                                      | OUTPUT    | P68          |
+| Future<7>                                      | OUTPUT    | P69          |
+| OpCode<0>                                      | OUTPUT    | P45          |
+| OpCode<1>                                      | OUTPUT    | P46          |
+| OpCode<2>                                      | OUTPUT    | P47          |
+| OpCode<3>                                      | OUTPUT    | P48          |
+| OpCode<4>                                      | OUTPUT    | P57          |
+| OpCode<5>                                      | OUTPUT    | P58          |
+| PD_TP_N                                        | OUTPUT    | P133         |
+| RS_DAC_N<0>                                    | OUTPUT    | P98          |
+| RS_DAC_N<1>                                    | OUTPUT    | P109         |
+| RS_DAC_N<2>                                    | OUTPUT    | P115         |
+| RS_DAC_N<3>                                    | OUTPUT    | P120         |
+| Stand_By_N<0>                                  | OUTPUT    | P152         |
+| Stand_By_N<10>                                 | OUTPUT    | P172         |
+| Stand_By_N<11>                                 | OUTPUT    | P174         |
+| Stand_By_N<12>                                 | OUTPUT    | P175         |
+| Stand_By_N<13>                                 | OUTPUT    | P176         |
+| Stand_By_N<14>                                 | OUTPUT    | P177         |
+| Stand_By_N<15>                                 | OUTPUT    | P178         |
+| Stand_By_N<16>                                 | OUTPUT    | P179         |
+| Stand_By_N<17>                                 | OUTPUT    | P180         |
+| Stand_By_N<18>                                 | OUTPUT    | P181         |
+| Stand_By_N<19>                                 | OUTPUT    | P184         |
+| Stand_By_N<1>                                  | OUTPUT    | P159         |
+| Stand_By_N<20>                                 | OUTPUT    | P185         |
+| Stand_By_N<21>                                 | OUTPUT    | P186         |
+| Stand_By_N<22>                                 | OUTPUT    | P187         |
+| Stand_By_N<23>                                 | OUTPUT    | P188         |
+| Stand_By_N<24>                                 | OUTPUT    | P189         |
+| Stand_By_N<25>                                 | OUTPUT    | P190         |
+| Stand_By_N<26>                                 | OUTPUT    | P191         |
+| Stand_By_N<27>                                 | OUTPUT    | P193         |
+| Stand_By_N<28>                                 | OUTPUT    | P194         |
+| Stand_By_N<29>                                 | OUTPUT    | P196         |
+| Stand_By_N<2>                                  | OUTPUT    | P161         |
+| Stand_By_N<30>                                 | OUTPUT    | P197         |
+| Stand_By_N<31>                                 | OUTPUT    | P198         |
+| Stand_By_N<32>                                 | OUTPUT    | P199         |
+| Stand_By_N<33>                                 | OUTPUT    | P200         |
+| Stand_By_N<34>                                 | OUTPUT    | P201         |
+| Stand_By_N<35>                                 | OUTPUT    | P204         |
+| Stand_By_N<36>                                 | OUTPUT    | P205         |
+| Stand_By_N<37>                                 | OUTPUT    | P206         |
+| Stand_By_N<38>                                 | OUTPUT    | P3           |
+| Stand_By_N<39>                                 | OUTPUT    | P4           |
+| Stand_By_N<3>                                  | OUTPUT    | P162         |
+| Stand_By_N<40>                                 | OUTPUT    | P5           |
+| Stand_By_N<41>                                 | OUTPUT    | P8           |
+| Stand_By_N<4>                                  | OUTPUT    | P164         |
+| Stand_By_N<5>                                  | OUTPUT    | P166         |
+| Stand_By_N<6>                                  | OUTPUT    | P167         |
+| Stand_By_N<7>                                  | OUTPUT    | P168         |
+| Stand_By_N<8>                                  | OUTPUT    | P169         |
+| Stand_By_N<9>                                  | OUTPUT    | P171         |
+| State<0>                                       | OUTPUT    | P41          |
+| State<1>                                       | OUTPUT    | P42          |
+| State<2>                                       | OUTPUT    | P43          |
+| State<3>                                       | OUTPUT    | P44          |
+| TCK                                            | INPUT     | P2           |
+| TDI                                            | INPUT     | P9           |
+| TDO                                            | OUTPUT    | P10          |
+| TMS                                            | INPUT     | P11          |
+| TP_Gr_En<0>                                    | OUTPUT    | P142         |
+| TP_Gr_En<1>                                    | OUTPUT    | P145         |
+| TP_Gr_En<2>                                    | OUTPUT    | P146         |
+| TP_Gr_En<3>                                    | OUTPUT    | P147         |
+| TP_Gr_En<4>                                    | OUTPUT    | P148         |
+| TP_Gr_En<5>                                    | OUTPUT    | P150         |
+| TP_Gr_En<6>                                    | OUTPUT    | P151         |
+| TP_Strp_En<0>                                  | OUTPUT    | P134         |
+| TP_Strp_En<1>                                  | OUTPUT    | P135         |
+| TP_Strp_En<2>                                  | OUTPUT    | P136         |
+| TP_Strp_En<3>                                  | OUTPUT    | P137         |
+| TP_Strp_En<4>                                  | OUTPUT    | P139         |
+| TP_Strp_En<5>                                  | OUTPUT    | P141         |
++------------------------------------------------+-----------+--------------+
+
+Special Pins:
++------------------------------------------------------------+--------------+
+|               Dedicated or Special Pin Name                |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROGRAM                                                   | P106         |
+| CCLK                                                       | P155         |
+| DONE                                                       | P104         |
+| GND                                                        | P91          |
+| GND                                                        | P118         |
+| GND                                                        | P182         |
+| GND                                                        | P38          |
+| GND                                                        | P170         |
+| GND                                                        | P1           |
+| GND                                                        | P158         |
+| GND                                                        | P103         |
+| GND                                                        | P79          |
+| GND                                                        | P195         |
+| GND                                                        | P66          |
+| GND                                                        | P51          |
+| GND                                                        | P143         |
+| GND                                                        | P25          |
+| GND                                                        | P131         |
+| GND                                                        | P13          |
+| M0                                                         | P52          |
+| M1                                                         | P50          |
+| M2_OPT                                                     | P54          |
+| TCK                                                        | P7           |
+| TDI                                                        | P6           |
+| TDO                                                        | P157         |
+| TMS                                                        | P16          |
+| VCC                                                        | P105         |
+| VCC                                                        | P183         |
+| VCC                                                        | P173         |
+| VCC                                                        | P86          |
+| VCC                                                        | P192         |
+| VCC                                                        | P18          |
+| VCC                                                        | P33          |
+| VCC                                                        | P121         |
+| VCC                                                        | P78          |
+| VCC                                                        | P71          |
+| VCC                                                        | P156         |
+| VCC                                                        | P53          |
+| VCC                                                        | P140         |
+| VCC                                                        | P208         |
+| VCC                                                        | P130         |
+| VCC                                                        | P26          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |             Pin Name              | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (GND)                             |           |            |
+| P2           | TCK                               | INPUT     | LOCATED    |
+| P3           | Stand_By_N<38>                    | OUTPUT    | LOCATED    |
+| P4           | Stand_By_N<39>                    | OUTPUT    | LOCATED    |
+| P5           | Stand_By_N<40>                    | OUTPUT    | LOCATED    |
+| P6           | (TDI)                             |           |            |
+| P7           | (TCK)                             |           |            |
+| P8           | Stand_By_N<41>                    | OUTPUT    | LOCATED    |
+| P9           | TDI                               | INPUT     | LOCATED    |
+| P10          | TDO                               | OUTPUT    | LOCATED    |
+| P11          | TMS                               | INPUT     | LOCATED    |
+| P12          | ---                               | UNUSED    |            |
+| P13          | (GND)                             |           |            |
+| P14          | ---                               | UNUSED    |            |
+| P15          | ---                               | UNUSED    |            |
+| P16          | (TMS)                             |           |            |
+| P17          | ---                               | UNUSED    |            |
+| P18          | (VCC)                             |           |            |
+| P19          | ---                               | UNUSED    |            |
+| P20          | ---                               | UNUSED    |            |
+| P21          | ---                               | UNUSED    |            |
+| P22          | ---                               | UNUSED    |            |
+| P23          | ---                               | UNUSED    |            |
+| P24          | ---                               | UNUSED    |            |
+| P25          | (GND)                             |           |            |
+| P26          | (VCC)                             |           |            |
+| P27          | ---                               | UNUSED    |            |
+| P28          | ---                               | UNUSED    |            |
+| P29          | ---                               | UNUSED    |            |
+| P30          | ---                               | UNUSED    |            |
+| P31          | ---                               | UNUSED    |            |
+| P32          | ---                               | UNUSED    |            |
+| P33          | (VCC)                             |           |            |
+| P34          | ---                               | UNUSED    |            |
+| P35          | ---                               | UNUSED    |            |
+| P36          | ---                               | UNUSED    |            |
+| P37          | ---                               | UNUSED    |            |
+| P38          | (GND)                             |           |            |
+| P39          | ---                               | UNUSED    |            |
+| P40          | ---                               | UNUSED    |            |
+| P41          | State<0>                          | OUTPUT    | LOCATED    |
+| P42          | State<1>                          | OUTPUT    | LOCATED    |
+| P43          | State<2>                          | OUTPUT    | LOCATED    |
+| P44          | State<3>                          | OUTPUT    | LOCATED    |
+| P45          | OpCode<0>                         | OUTPUT    | LOCATED    |
+| P46          | OpCode<1>                         | OUTPUT    | LOCATED    |
+| P47          | OpCode<2>                         | OUTPUT    | LOCATED    |
+| P48          | OpCode<3>                         | OUTPUT    | LOCATED    |
+| P49          | ---                               | UNUSED    |            |
+| P50          | (M1)                              |           |            |
+| P51          | (GND)                             |           |            |
+| P52          | (M0)                              |           |            |
+| P53          | (VCC)                             |           |            |
+| P54          | (M2_OPT)                          |           |            |
+| P55          | ---                               | UNUSED    |            |
+| P56          | ---                               | UNUSED    |            |
+| P57          | OpCode<4>                         | OUTPUT    | LOCATED    |
+| P58          | OpCode<5>                         | OUTPUT    | LOCATED    |
+| P59          | Future<0>                         | OUTPUT    | LOCATED    |
+| P60          | ---                               | UNUSED    |            |
+| P61          | Future<1>                         | OUTPUT    | LOCATED    |
+| P62          | Future<2>                         | OUTPUT    | LOCATED    |
+| P63          | Future<3>                         | OUTPUT    | LOCATED    |
+| P64          | Future<4>                         | OUTPUT    | LOCATED    |
+| P65          | ---                               | UNUSED    |            |
+| P66          | (GND)                             |           |            |
+| P67          | Future<5>                         | OUTPUT    | LOCATED    |
+| P68          | Future<6>                         | OUTPUT    | LOCATED    |
+| P69          | Future<7>                         | OUTPUT    | LOCATED    |
+| P70          | Din_ADC<0>                        | OUTPUT    | LOCATED    |
+| P71          | (VCC)                             |           |            |
+| P72          | Dout_ADC<0>                       | INPUT     | LOCATED    |
+| P73          | CS_ADC_N<0>                       | OUTPUT    | LOCATED    |
+| P74          | Clk_ADC<0>                        | OUTPUT    | LOCATED    |
+| P75          | Din_ADC<1>                        | OUTPUT    | LOCATED    |
+| P76          | Dout_ADC<1>                       | INPUT     | LOCATED    |
+| P77          | ---                               | UNUSED    |            |
+| P78          | (VCC)                             |           |            |
+| P79          | (GND)                             |           |            |
+| P80          | CS_ADC_N<1>                       | OUTPUT    | LOCATED    |
+| P81          | Clk_ADC<1>                        | OUTPUT    | LOCATED    |
+| P82          | Din_ADC<2>                        | OUTPUT    | LOCATED    |
+| P83          | Dout_ADC<2>                       | INPUT     | LOCATED    |
+| P84          | CS_ADC_N<2>                       | OUTPUT    | LOCATED    |
+| P85          | Clk_ADC<2>                        | OUTPUT    | LOCATED    |
+| P86          | (VCC)                             |           |            |
+| P87          | Din_ADC<3>                        | OUTPUT    | LOCATED    |
+| P88          | Dout_ADC<3>                       | INPUT     | LOCATED    |
+| P89          | CS_ADC_N<3>                       | OUTPUT    | LOCATED    |
+| P90          | Clk_ADC<3>                        | OUTPUT    | LOCATED    |
+| P91          | (GND)                             |           |            |
+| P92          | ---                               | UNUSED    |            |
+| P93          | Din_ADC<4>                        | OUTPUT    | LOCATED    |
+| P94          | Dout_ADC<4>                       | INPUT     | LOCATED    |
+| P95          | CS_ADC_N<4>                       | OUTPUT    | LOCATED    |
+| P96          | Clk_ADC<4>                        | OUTPUT    | LOCATED    |
+| P97          | Din_DAC<0>                        | OUTPUT    | LOCATED    |
+| P98          | RS_DAC_N<0>                       | OUTPUT    | LOCATED    |
+| P99          | CS_DAC_N<0>                       | OUTPUT    | LOCATED    |
+| P100         | Clk_DAC<0>                        | OUTPUT    | LOCATED    |
+| P101         | Din_DAC<1>                        | OUTPUT    | LOCATED    |
+| P102         | ---                               | UNUSED    |            |
+| P103         | (GND)                             |           |            |
+| P104         | (DONE)                            |           |            |
+| P105         | (VCC)                             |           |            |
+| P106         | (/PROGRAM)                        |           |            |
+| P107         | ---                               | UNUSED    |            |
+| P108         | ---                               | UNUSED    |            |
+| P109         | RS_DAC_N<1>                       | OUTPUT    | LOCATED    |
+| P110         | CS_DAC_N<1>                       | OUTPUT    | LOCATED    |
+| P111         | ---                               | UNUSED    |            |
+| P112         | ---                               | UNUSED    |            |
+| P113         | Clk_DAC<1>                        | OUTPUT    | LOCATED    |
+| P114         | Din_DAC<2>                        | OUTPUT    | LOCATED    |
+| P115         | RS_DAC_N<2>                       | OUTPUT    | LOCATED    |
+| P116         | CS_DAC_N<2>                       | OUTPUT    | LOCATED    |
+| P117         | Clk_DAC<2>                        | OUTPUT    | LOCATED    |
+| P118         | (GND)                             |           |            |
+| P119         | Din_DAC<3>                        | OUTPUT    | LOCATED    |
+| P120         | RS_DAC_N<3>                       | OUTPUT    | LOCATED    |
+| P121         | (VCC)                             |           |            |
+| P122         | ---                               | UNUSED    |            |
+| P123         | CS_DAC_N<3>                       | OUTPUT    | LOCATED    |
+| P124         | Clk_DAC<3>                        | OUTPUT    | LOCATED    |
+| P125         | Din_TP                            | OUTPUT    | LOCATED    |
+| P126         | ---                               | UNUSED    |            |
+| P127         | Clk_TP                            | OUTPUT    | LOCATED    |
+| P128         | ---                               | UNUSED    |            |
+| P129         | CS_TP_N                           | OUTPUT    | LOCATED    |
+| P130         | (VCC)                             |           |            |
+| P131         | (GND)                             |           |            |
+| P132         | ---                               | UNUSED    |            |
+| P133         | PD_TP_N                           | OUTPUT    | LOCATED    |
+| P134         | TP_Strp_En<0>                     | OUTPUT    | LOCATED    |
+| P135         | TP_Strp_En<1>                     | OUTPUT    | LOCATED    |
+| P136         | TP_Strp_En<2>                     | OUTPUT    | LOCATED    |
+| P137         | TP_Strp_En<3>                     | OUTPUT    | LOCATED    |
+| P138         | ---                               | UNUSED    |            |
+| P139         | TP_Strp_En<4>                     | OUTPUT    | LOCATED    |
+| P140         | (VCC)                             |           |            |
+| P141         | TP_Strp_En<5>                     | OUTPUT    | LOCATED    |
+| P142         | TP_Gr_En<0>                       | OUTPUT    | LOCATED    |
+| P143         | (GND)                             |           |            |
+| P144         | ---                               | UNUSED    |            |
+| P145         | TP_Gr_En<1>                       | OUTPUT    | LOCATED    |
+| P146         | TP_Gr_En<2>                       | OUTPUT    | LOCATED    |
+| P147         | TP_Gr_En<3>                       | OUTPUT    | LOCATED    |
+| P148         | TP_Gr_En<4>                       | OUTPUT    | LOCATED    |
+| P149         | ---                               | UNUSED    |            |
+| P150         | TP_Gr_En<5>                       | OUTPUT    | LOCATED    |
+| P151         | TP_Gr_En<6>                       | OUTPUT    | LOCATED    |
+| P152         | Stand_By_N<0>                     | OUTPUT    | LOCATED    |
+| P153         | ---                               | UNUSED    |            |
+| P154         | ---                               | UNUSED    |            |
+| P155         | (CCLK)                            |           |            |
+| P156         | (VCC)                             |           |            |
+| P157         | (TDO)                             |           |            |
+| P158         | (GND)                             |           |            |
+| P159         | Stand_By_N<1>                     | OUTPUT    | LOCATED    |
+| P160         | ---                               | UNUSED    |            |
+| P161         | Stand_By_N<2>                     | OUTPUT    | LOCATED    |
+| P162         | Stand_By_N<3>                     | OUTPUT    | LOCATED    |
+| P163         | ---                               | UNUSED    |            |
+| P164         | Stand_By_N<4>                     | OUTPUT    | LOCATED    |
+| P165         | ---                               | UNUSED    |            |
+| P166         | Stand_By_N<5>                     | OUTPUT    | LOCATED    |
+| P167         | Stand_By_N<6>                     | OUTPUT    | LOCATED    |
+| P168         | Stand_By_N<7>                     | OUTPUT    | LOCATED    |
+| P169         | Stand_By_N<8>                     | OUTPUT    | LOCATED    |
+| P170         | (GND)                             |           |            |
+| P171         | Stand_By_N<9>                     | OUTPUT    | LOCATED    |
+| P172         | Stand_By_N<10>                    | OUTPUT    | LOCATED    |
+| P173         | (VCC)                             |           |            |
+| P174         | Stand_By_N<11>                    | OUTPUT    | LOCATED    |
+| P175         | Stand_By_N<12>                    | OUTPUT    | LOCATED    |
+| P176         | Stand_By_N<13>                    | OUTPUT    | LOCATED    |
+| P177         | Stand_By_N<14>                    | OUTPUT    | LOCATED    |
+| P178         | Stand_By_N<15>                    | OUTPUT    | LOCATED    |
+| P179         | Stand_By_N<16>                    | OUTPUT    | LOCATED    |
+| P180         | Stand_By_N<17>                    | OUTPUT    | LOCATED    |
+| P181         | Stand_By_N<18>                    | OUTPUT    | LOCATED    |
+| P182         | (GND)                             |           |            |
+| P183         | (VCC)                             |           |            |
+| P184         | Stand_By_N<19>                    | OUTPUT    | LOCATED    |
+| P185         | Stand_By_N<20>                    | OUTPUT    | LOCATED    |
+| P186         | Stand_By_N<21>                    | OUTPUT    | LOCATED    |
+| P187         | Stand_By_N<22>                    | OUTPUT    | LOCATED    |
+| P188         | Stand_By_N<23>                    | OUTPUT    | LOCATED    |
+| P189         | Stand_By_N<24>                    | OUTPUT    | LOCATED    |
+| P190         | Stand_By_N<25>                    | OUTPUT    | LOCATED    |
+| P191         | Stand_By_N<26>                    | OUTPUT    | LOCATED    |
+| P192         | (VCC)                             |           |            |
+| P193         | Stand_By_N<27>                    | OUTPUT    | LOCATED    |
+| P194         | Stand_By_N<28>                    | OUTPUT    | LOCATED    |
+| P195         | (GND)                             |           |            |
+| P196         | Stand_By_N<29>                    | OUTPUT    | LOCATED    |
+| P197         | Stand_By_N<30>                    | OUTPUT    | LOCATED    |
+| P198         | Stand_By_N<31>                    | OUTPUT    | LOCATED    |
+| P199         | Stand_By_N<32>                    | OUTPUT    | LOCATED    |
+| P200         | Stand_By_N<33>                    | OUTPUT    | LOCATED    |
+| P201         | Stand_By_N<34>                    | OUTPUT    | LOCATED    |
+| P202         | ---                               | UNUSED    |            |
+| P203         | ---                               | UNUSED    |            |
+| P204         | Stand_By_N<35>                    | OUTPUT    | LOCATED    |
+| P205         | Stand_By_N<36>                    | OUTPUT    | LOCATED    |
+| P206         | Stand_By_N<37>                    | OUTPUT    | LOCATED    |
+| P207         | ---                               | UNUSED    |            |
+| P208         | (VCC)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "CS_ADC_N<0>" LOCATE = SITE "P73" ; 
+COMP "CS_ADC_N<1>" LOCATE = SITE "P80" ; 
+COMP "CS_ADC_N<2>" LOCATE = SITE "P84" ; 
+COMP "CS_ADC_N<3>" LOCATE = SITE "P89" ; 
+COMP "CS_ADC_N<4>" LOCATE = SITE "P95" ; 
+COMP "CS_DAC_N<0>" LOCATE = SITE "P99" ; 
+COMP "CS_DAC_N<1>" LOCATE = SITE "P110" ; 
+COMP "CS_DAC_N<2>" LOCATE = SITE "P116" ; 
+COMP "CS_DAC_N<3>" LOCATE = SITE "P123" ; 
+COMP "CS_TP_N" LOCATE = SITE "P129" ; 
+COMP "Clk_ADC<0>" LOCATE = SITE "P74" ; 
+COMP "Clk_ADC<1>" LOCATE = SITE "P81" ; 
+COMP "Clk_ADC<2>" LOCATE = SITE "P85" ; 
+COMP "Clk_ADC<3>" LOCATE = SITE "P90" ; 
+COMP "Clk_ADC<4>" LOCATE = SITE "P96" ; 
+COMP "Clk_DAC<0>" LOCATE = SITE "P100" ; 
+COMP "Clk_DAC<1>" LOCATE = SITE "P113" ; 
+COMP "Clk_DAC<2>" LOCATE = SITE "P117" ; 
+COMP "Clk_DAC<3>" LOCATE = SITE "P124" ; 
+COMP "Clk_TP" LOCATE = SITE "P127" ; 
+COMP "Din_ADC<0>" LOCATE = SITE "P70" ; 
+COMP "Din_ADC<1>" LOCATE = SITE "P75" ; 
+COMP "Din_ADC<2>" LOCATE = SITE "P82" ; 
+COMP "Din_ADC<3>" LOCATE = SITE "P87" ; 
+COMP "Din_ADC<4>" LOCATE = SITE "P93" ; 
+COMP "Din_DAC<0>" LOCATE = SITE "P97" ; 
+COMP "Din_DAC<1>" LOCATE = SITE "P101" ; 
+COMP "Din_DAC<2>" LOCATE = SITE "P114" ; 
+COMP "Din_DAC<3>" LOCATE = SITE "P119" ; 
+COMP "Din_TP" LOCATE = SITE "P125" ; 
+COMP "Dout_ADC<0>" LOCATE = SITE "P72" ; 
+COMP "Dout_ADC<1>" LOCATE = SITE "P76" ; 
+COMP "Dout_ADC<2>" LOCATE = SITE "P83" ; 
+COMP "Dout_ADC<3>" LOCATE = SITE "P88" ; 
+COMP "Dout_ADC<4>" LOCATE = SITE "P94" ; 
+COMP "Future<0>" LOCATE = SITE "P59" ; 
+COMP "Future<1>" LOCATE = SITE "P61" ; 
+COMP "Future<2>" LOCATE = SITE "P62" ; 
+COMP "Future<3>" LOCATE = SITE "P63" ; 
+COMP "Future<4>" LOCATE = SITE "P64" ; 
+COMP "Future<5>" LOCATE = SITE "P67" ; 
+COMP "Future<6>" LOCATE = SITE "P68" ; 
+COMP "Future<7>" LOCATE = SITE "P69" ; 
+COMP "OpCode<0>" LOCATE = SITE "P45" ; 
+COMP "OpCode<1>" LOCATE = SITE "P46" ; 
+COMP "OpCode<2>" LOCATE = SITE "P47" ; 
+COMP "OpCode<3>" LOCATE = SITE "P48" ; 
+COMP "OpCode<4>" LOCATE = SITE "P57" ; 
+COMP "OpCode<5>" LOCATE = SITE "P58" ; 
+COMP "PD_TP_N" LOCATE = SITE "P133" ; 
+COMP "RS_DAC_N<0>" LOCATE = SITE "P98" ; 
+COMP "RS_DAC_N<1>" LOCATE = SITE "P109" ; 
+COMP "RS_DAC_N<2>" LOCATE = SITE "P115" ; 
+COMP "RS_DAC_N<3>" LOCATE = SITE "P120" ; 
+COMP "Stand_By_N<0>" LOCATE = SITE "P152" ; 
+COMP "Stand_By_N<10>" LOCATE = SITE "P172" ; 
+COMP "Stand_By_N<11>" LOCATE = SITE "P174" ; 
+COMP "Stand_By_N<12>" LOCATE = SITE "P175" ; 
+COMP "Stand_By_N<13>" LOCATE = SITE "P176" ; 
+COMP "Stand_By_N<14>" LOCATE = SITE "P177" ; 
+COMP "Stand_By_N<15>" LOCATE = SITE "P178" ; 
+COMP "Stand_By_N<16>" LOCATE = SITE "P179" ; 
+COMP "Stand_By_N<17>" LOCATE = SITE "P180" ; 
+COMP "Stand_By_N<18>" LOCATE = SITE "P181" ; 
+COMP "Stand_By_N<19>" LOCATE = SITE "P184" ; 
+COMP "Stand_By_N<1>" LOCATE = SITE "P159" ; 
+COMP "Stand_By_N<20>" LOCATE = SITE "P185" ; 
+COMP "Stand_By_N<21>" LOCATE = SITE "P186" ; 
+COMP "Stand_By_N<22>" LOCATE = SITE "P187" ; 
+COMP "Stand_By_N<23>" LOCATE = SITE "P188" ; 
+COMP "Stand_By_N<24>" LOCATE = SITE "P189" ; 
+COMP "Stand_By_N<25>" LOCATE = SITE "P190" ; 
+COMP "Stand_By_N<26>" LOCATE = SITE "P191" ; 
+COMP "Stand_By_N<27>" LOCATE = SITE "P193" ; 
+COMP "Stand_By_N<28>" LOCATE = SITE "P194" ; 
+COMP "Stand_By_N<29>" LOCATE = SITE "P196" ; 
+COMP "Stand_By_N<2>" LOCATE = SITE "P161" ; 
+COMP "Stand_By_N<30>" LOCATE = SITE "P197" ; 
+COMP "Stand_By_N<31>" LOCATE = SITE "P198" ; 
+COMP "Stand_By_N<32>" LOCATE = SITE "P199" ; 
+COMP "Stand_By_N<33>" LOCATE = SITE "P200" ; 
+COMP "Stand_By_N<34>" LOCATE = SITE "P201" ; 
+COMP "Stand_By_N<35>" LOCATE = SITE "P204" ; 
+COMP "Stand_By_N<36>" LOCATE = SITE "P205" ; 
+COMP "Stand_By_N<37>" LOCATE = SITE "P206" ; 
+COMP "Stand_By_N<38>" LOCATE = SITE "P3" ; 
+COMP "Stand_By_N<39>" LOCATE = SITE "P4" ; 
+COMP "Stand_By_N<3>" LOCATE = SITE "P162" ; 
+COMP "Stand_By_N<40>" LOCATE = SITE "P5" ; 
+COMP "Stand_By_N<41>" LOCATE = SITE "P8" ; 
+COMP "Stand_By_N<4>" LOCATE = SITE "P164" ; 
+COMP "Stand_By_N<5>" LOCATE = SITE "P166" ; 
+COMP "Stand_By_N<6>" LOCATE = SITE "P167" ; 
+COMP "Stand_By_N<7>" LOCATE = SITE "P168" ; 
+COMP "Stand_By_N<8>" LOCATE = SITE "P169" ; 
+COMP "Stand_By_N<9>" LOCATE = SITE "P171" ; 
+COMP "State<0>" LOCATE = SITE "P41" ; 
+COMP "State<1>" LOCATE = SITE "P42" ; 
+COMP "State<2>" LOCATE = SITE "P43" ; 
+COMP "State<3>" LOCATE = SITE "P44" ; 
+COMP "TCK" LOCATE = SITE "P2" ; 
+COMP "TDI" LOCATE = SITE "P9" ; 
+COMP "TDO" LOCATE = SITE "P10" ; 
+COMP "TMS" LOCATE = SITE "P11" ; 
+COMP "TP_Gr_En<0>" LOCATE = SITE "P142" ; 
+COMP "TP_Gr_En<1>" LOCATE = SITE "P145" ; 
+COMP "TP_Gr_En<2>" LOCATE = SITE "P146" ; 
+COMP "TP_Gr_En<3>" LOCATE = SITE "P147" ; 
+COMP "TP_Gr_En<4>" LOCATE = SITE "P148" ; 
+COMP "TP_Gr_En<5>" LOCATE = SITE "P150" ; 
+COMP "TP_Gr_En<6>" LOCATE = SITE "P151" ; 
+COMP "TP_Strp_En<0>" LOCATE = SITE "P134" ; 
+COMP "TP_Strp_En<1>" LOCATE = SITE "P135" ; 
+COMP "TP_Strp_En<2>" LOCATE = SITE "P136" ; 
+COMP "TP_Strp_En<3>" LOCATE = SITE "P137" ; 
+COMP "TP_Strp_En<4>" LOCATE = SITE "P139" ; 
+COMP "TP_Strp_En<5>" LOCATE = SITE "P141" ; 
+#

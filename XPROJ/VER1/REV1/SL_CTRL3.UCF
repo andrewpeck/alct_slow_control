@@ -1,0 +1,136 @@
+#### UCF file created by Project Navigator
+NET "tck" TNM_NET = "tck";
+TIMESPEC "TS_tck" = PERIOD "tck" 25 ns HIGH 50 %;
+
+NET     "CS_ADC_N<0>"  LOC = "P73";
+NET     "CS_ADC_N<1>"  LOC = "P80";
+NET     "CS_ADC_N<2>"  LOC = "P84";
+NET     "CS_ADC_N<3>"  LOC = "P89";
+NET     "CS_ADC_N<4>"  LOC = "P95";
+
+NET     "Clk_ADC<0>"   LOC = "P74";
+NET     "Clk_ADC<1>"   LOC = "P81";
+NET     "Clk_ADC<2>"   LOC = "P85";
+NET     "Clk_ADC<3>"   LOC = "P90";
+NET     "Clk_ADC<4>"   LOC = "P96";
+
+NET     "Din_ADC<0>"   LOC = "P70";
+NET     "Din_ADC<1>"   LOC = "P75";
+NET     "Din_ADC<2>"   LOC = "P82";
+NET     "Din_ADC<3>"   LOC = "P87";
+NET     "Din_ADC<4>"   LOC = "P93";
+
+NET     "Dout_ADC<0>"  LOC = "P72";
+NET     "Dout_ADC<1>"  LOC = "P76";
+NET     "Dout_ADC<2>"  LOC = "P83";
+NET     "Dout_ADC<3>"  LOC = "P88";
+NET     "Dout_ADC<4>"  LOC = "P94";
+
+NET     "CS_DAC_N<0>"  LOC = "P99";
+NET     "CS_DAC_N<1>"  LOC = "P110";
+NET     "CS_DAC_N<2>"  LOC = "P116";
+NET     "CS_DAC_N<3>"  LOC = "P123";
+
+NET     "Din_DAC<0>"   LOC = "P97";
+NET     "Din_DAC<1>"   LOC = "P101";
+NET     "Din_DAC<2>"   LOC = "P114";
+NET     "Din_DAC<3>"   LOC = "P119";
+
+NET     "Clk_DAC<0>"   LOC = "P100";
+NET     "Clk_DAC<1>"   LOC = "P113";
+NET     "Clk_DAC<2>"   LOC = "P117";
+NET     "Clk_DAC<3>"   LOC = "P124";
+
+NET     "RS_DAC_N<0>"  LOC = "P98";
+NET     "RS_DAC_N<1>"  LOC = "P109";
+NET     "RS_DAC_N<2>"  LOC = "P115";
+NET     "RS_DAC_N<3>"  LOC = "P120";
+
+NET     "CS_TP_N"  LOC = "P129";
+NET     "Clk_TP"   LOC = "P127";
+NET     "Din_TP"   LOC = "P125";
+NET     "PD_TP_N"  LOC = "P133";
+
+NET     "Stand_By_N<0>"    LOC = "P152";
+NET     "Stand_By_N<1>"    LOC = "P159";
+NET     "Stand_By_N<2>"    LOC = "P161";
+NET     "Stand_By_N<3>"    LOC = "P162";
+NET     "Stand_By_N<4>"    LOC = "P164";
+NET     "Stand_By_N<5>"    LOC = "P166";
+NET     "Stand_By_N<6>"    LOC = "P167";
+NET     "Stand_By_N<7>"    LOC = "P168";
+NET     "Stand_By_N<8>"    LOC = "P169";
+NET     "Stand_By_N<9>"    LOC = "P171";
+NET     "Stand_By_N<10>"   LOC = "P172";
+NET     "Stand_By_N<11>"   LOC = "P174";
+NET     "Stand_By_N<12>"   LOC = "P175";
+NET     "Stand_By_N<13>"   LOC = "P176";
+NET     "Stand_By_N<14>"   LOC = "P177";
+NET     "Stand_By_N<15>"   LOC = "P178";
+NET     "Stand_By_N<16>"   LOC = "P179";
+NET     "Stand_By_N<17>"   LOC = "P180";
+NET     "Stand_By_N<18>"   LOC = "P181";
+NET     "Stand_By_N<19>"   LOC = "P184";
+NET     "Stand_By_N<20>"   LOC = "P185";
+NET     "Stand_By_N<21>"   LOC = "P186";
+NET     "Stand_By_N<22>"   LOC = "P187";
+NET     "Stand_By_N<23>"   LOC = "P188";
+NET     "Stand_By_N<24>"   LOC = "P189";
+NET     "Stand_By_N<25>"   LOC = "P190";
+NET     "Stand_By_N<26>"   LOC = "P191";
+NET     "Stand_By_N<27>"   LOC = "P193";
+NET     "Stand_By_N<28>"   LOC = "P194";
+NET     "Stand_By_N<29>"   LOC = "P196";
+NET     "Stand_By_N<30>"   LOC = "P197";
+NET     "Stand_By_N<31>"   LOC = "P198";
+NET     "Stand_By_N<32>"   LOC = "P199";
+NET     "Stand_By_N<33>"   LOC = "P200";
+NET     "Stand_By_N<34>"   LOC = "P201";
+NET     "Stand_By_N<35>"   LOC = "P204";
+NET     "Stand_By_N<36>"   LOC = "P205";
+NET     "Stand_By_N<37>"   LOC = "P206";
+NET     "Stand_By_N<38>"   LOC = "P3";
+NET     "Stand_By_N<39>"   LOC = "P4";
+NET     "Stand_By_N<40>"   LOC = "P5";
+NET     "Stand_By_N<41>"   LOC = "P8";
+
+NET     "TP_Gr_En<0>"   LOC = "P142";
+NET     "TP_Gr_En<1>"   LOC = "P145";
+NET     "TP_Gr_En<2>"   LOC = "P146";
+NET     "TP_Gr_En<3>"   LOC = "P147";
+NET     "TP_Gr_En<4>"   LOC = "P148";
+NET     "TP_Gr_En<5>"   LOC = "P150";
+NET     "TP_Gr_En<6>"   LOC = "P151";
+
+NET     "TP_Strp_En<0>"   LOC = "P134";
+NET     "TP_Strp_En<1>"   LOC = "P135";
+NET     "TP_Strp_En<2>"   LOC = "P136";
+NET     "TP_Strp_En<3>"   LOC = "P137";
+NET     "TP_Strp_En<4>"   LOC = "P139";
+NET     "TP_Strp_En<5>"   LOC = "P141";
+
+NET     "OpCode<0>"   LOC = "P45";
+NET     "OpCode<1>"   LOC = "P46";
+NET     "OpCode<2>"   LOC = "P47";
+NET     "OpCode<3>"   LOC = "P48";
+NET     "OpCode<4>"   LOC = "P57";
+NET     "OpCode<5>"   LOC = "P58";
+
+NET     "State<0>"   LOC = "P41";
+NET     "State<1>"   LOC = "P42";
+NET     "State<2>"   LOC = "P43";
+NET     "State<3>"   LOC = "P44";
+
+NET     "TCK"   LOC = "P2";
+NET     "TDI"   LOC = "P9";
+NET     "TDO"   LOC = "P10";
+NET     "TMS"   LOC = "P11";
+
+NET     "Future<0>"   LOC = "P59";
+NET     "Future<1>"   LOC = "P61";
+NET     "Future<2>"   LOC = "P62";
+NET     "Future<3>"   LOC = "P63";
+NET     "Future<4>"   LOC = "P64";
+NET     "Future<5>"   LOC = "P67";
+NET     "Future<6>"   LOC = "P68";
+NET     "Future<7>"   LOC = "P69";

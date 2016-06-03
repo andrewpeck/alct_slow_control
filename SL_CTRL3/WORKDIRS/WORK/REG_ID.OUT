@@ -1,0 +1,16 @@
+
+Inferred memory devices in process 'CS_REG'
+	in routine REG_ID line 31 in file
+         'C:/xilinx/active/projects/sl_ctrl3/reg_id.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      SREG_reg       | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+SREG_reg (width 40)
+-------------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Xilinx\active\projects\sl_ctrl3\sl_ctrl3/workdirs/WORK/REG_ID.hnl'
