@@ -1,0 +1,2 @@
+verilog work "netgen/translate/Sl_Ctrl_translate.v"
+verilog work "tb1.v"

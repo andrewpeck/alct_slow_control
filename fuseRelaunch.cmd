@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/MC_S6/Xilinx/sl_ctrlv3_ise/tb1_isim_translate.exe" -prj "D:/MC_S6/Xilinx/sl_ctrlv3_ise/tb1_translate.prj" "work.tb1" "work.glbl" 

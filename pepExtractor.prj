@@ -1,0 +1,7 @@
+work	"instr_dec.vhd"
+work	"instr_reg.vhd"
+work	"pd_var.vhd"
+work	"reg_id.vhd"
+work	"reg_sp.vhd"
+work	"sl_ctrl.vhd"
+work	"tap.vhd"

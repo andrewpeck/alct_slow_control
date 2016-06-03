@@ -1,0 +1,19 @@
+Release 13.3 - netgen O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/translate
+-ofmt verilog -sim Sl_Ctrl.ngd Sl_Ctrl_translate.v  
+
+Reading design 'Sl_Ctrl.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file
+'D:\MC_S6\Xilinx\sl_ctrlv3_ise\netgen\translate\Sl_Ctrl_translate.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 109256 kilobytes

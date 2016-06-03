@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/MC_S6/Xilinx/sl_ctrlv3_ise/Sl_Ctrl.xst" -ofn "D:/MC_S6/Xilinx/sl_ctrlv3_ise/Sl_Ctrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg900-3 Sl_Ctrl.ngc Sl_Ctrl.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim Sl_Ctrl.ngd Sl_Ctrl_translate.v 

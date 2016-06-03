@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/MC_S6/Xilinx/sl_ctrlv3_ise/tb1_isim_translate.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb1/TCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TCK</obj_property>
+      <obj_property name="ObjectShortName">TCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/TMS" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMS</obj_property>
+      <obj_property name="ObjectShortName">TMS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/TDI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TDI</obj_property>
+      <obj_property name="ObjectShortName">TDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/TDO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TDO</obj_property>
+      <obj_property name="ObjectShortName">TDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Din_TP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Din_TP</obj_property>
+      <obj_property name="ObjectShortName">Din_TP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Clk_TP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk_TP</obj_property>
+      <obj_property name="ObjectShortName">Clk_TP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/CS_TP_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_TP_N</obj_property>
+      <obj_property name="ObjectShortName">CS_TP_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/PD_TP_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PD_TP_N</obj_property>
+      <obj_property name="ObjectShortName">PD_TP_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Din_ADC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Din_ADC[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Din_ADC[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Clk_ADC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk_ADC[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Clk_ADC[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/CS_ADC_N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_ADC_N[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CS_ADC_N[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Din_DAC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Din_DAC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Din_DAC[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Clk_DAC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk_DAC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Clk_DAC[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/CS_DAC_N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CS_DAC_N[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CS_DAC_N[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/RS_DAC_N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RS_DAC_N[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_DAC_N[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Stand_By_N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Stand_By_N[41:0]</obj_property>
+      <obj_property name="ObjectShortName">Stand_By_N[41:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/TP_Gr_En" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TP_Gr_En[6:0]</obj_property>
+      <obj_property name="ObjectShortName">TP_Gr_En[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/TP_Strp_En" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TP_Strp_En[5:0]</obj_property>
+      <obj_property name="ObjectShortName">TP_Strp_En[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/OpCode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OpCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">OpCode[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/State" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">State[3:0]</obj_property>
+      <obj_property name="ObjectShortName">State[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Future" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Future[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Future[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/Dout_ADC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Dout_ADC[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout_ADC[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb1/tdo_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tdo_in</obj_property>
+      <obj_property name="ObjectShortName">tdo_in</obj_property>
+   </wvobject>
+</wave_config>

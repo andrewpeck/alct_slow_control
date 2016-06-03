@@ -1,0 +1,7 @@
+vhdl work "tap.vhd"
+vhdl work "reg_sp.vhd"
+vhdl work "reg_id.vhd"
+vhdl work "pd_var.vhd"
+vhdl work "instr_reg.vhd"
+vhdl work "instr_dec.vhd"
+vhdl work "sl_ctrl.vhd"
