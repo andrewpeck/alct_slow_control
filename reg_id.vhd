@@ -4,6 +4,7 @@
 -- Slow Control ALCT-2001 Chip
 -- Xilinx Spartan XL: XCS40XL-4PQ208C
 -- SVN, July 2001
+-- Modified 20.02.2014 J. Multanen
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -13,7 +14,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity REG_ID is
     Generic ( REG_WIDTH : integer :=40;
 --	           CHIP_ID: STD_LOGIC_VECTOR(39 downto 0):= X"0000000000");
-	           CHIP_ID: STD_LOGIC_VECTOR(39 downto 0):= X"09072001B8");
+	           CHIP_ID: STD_LOGIC_VECTOR(39 downto 0):= X"02202014B8");
     Port ( TCK : in std_logic;
            SH_EN : in std_logic;		-- Shift Enable
            CAPT_EN : in std_logic;	-- Capture Enable (CHIP_ID->Ser Reg.)

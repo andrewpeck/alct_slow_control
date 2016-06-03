@@ -1,6 +1,7 @@
 -- Slow Control ALCT-2001 Chip
 -- Xilinx Spartan XL: XCS40XL-4PQ208C
 -- SVN, July 2001
+-- Modified 2014, J. Multanen
 
 -- Top level of hierarchy (file Sl_Ctrl.vhd):
 --	Instantiated components:
@@ -154,6 +155,18 @@ signal  Clk_ADC_dum : std_logic_vector(4 downto 0);
 signal  DAC_SH   : std_logic_vector(3 downto 0);
 signal  DAC_UPD  : std_logic_vector(3 downto 0);
 
+-- signal  Clk_DAC_old  : std_logic_vector(3 downto 0);
+signal  Clk_DAC_r  : std_logic_vector(3 downto 0);
+signal  RS_THR_DAC_old : std_logic;
+
+signal  cs_end   : std_logic;
+signal  Din_tail : std_logic;
+--signal  Din_en   : std_logic;
+signal  Din_en   : std_logic_vector(3 downto 0);
+signal  cs_tail  : std_logic;
+--signal  cs_en    : std_logic;
+signal  cs_en    : std_logic_vector(3 downto 0);
+
 		-- VAR_PD Register Enable signals (... and VAR_PD_EN)
 signal  VAR_PD_SH   : STD_LOGIC;
 signal  VAR_PD_CAPT : STD_LOGIC;
@@ -165,6 +178,7 @@ signal  ID_REG_CAPT : STD_LOGIC;
 
 		-- Instruction Code signal
 signal  INSTR: std_logic_vector(IR_WIDTH-1 downto 0);	-- Goes to Intruction Decoder
+signal  INSTR_old: std_logic_vector(IR_WIDTH-1 downto 0);	-- To store INST value for comparison.
 
 		-- Instruction Decoder output Enable signals
 signal  ID_REG_EN : std_logic;                          
@@ -465,31 +479,66 @@ DAC_UPD	<= DAC_EN and (DR_UPD, DR_UPD, DR_UPD, DR_UPD);	-- Signal to take out CS
 
 DAC: block						-- DACs interface block
 		begin
-			Din_DAC	<= DAC_SH and (TDI,TDI,TDI,TDI);
+			
+			Din_DAC <= (Din_en or DAC_SH) and (TDI,TDI,TDI,TDI);
+			
+			-- Put a variable here and feed that to Clk_DAC and Clk_DAC_r ???
 			Clk_DAC	<= not DAC_SH or (TCK,TCK,TCK,TCK);
-
-			process (DAC_SH, DAC_UPD)
-			begin
-			   if DAC_SH /= "0000" then   	-- Assert CS_DAC_N on DAC_SH
-					CS_DAC_N	<= not DAC_SH;
-			   elsif DAC_UPD /= "0000" then	-- Reset CS_DAC_N on DAC_UPD
-					CS_DAC_N	<= "1111";
-			   end if;
+			Clk_DAC_r <= not DAC_SH or (TCK,TCK,TCK,TCK);
+			
+			CS_DAC_N(0) <= '0' when (DAC_SH(0)='1' or cs_en(0)='1') else '1';
+            CS_DAC_N(1) <= '0' when (DAC_SH(1)='1' or cs_en(1)='1') else '1';
+            CS_DAC_N(2) <= '0' when (DAC_SH(2)='1' or cs_en(2)='1') else '1';
+            CS_DAC_N(3) <= '0' when (DAC_SH(3)='1' or cs_en(3)='1') else '1';
+                       
+			      
+			 -- This process assigns 2 signals to hold Din_DAC
+			 -- and CS_DAC_N active after Clk_DAC goes inactive.        
+			 CLK_CHANGE : process(TCK)
+			 begin
+                 if (TCK'event and TCK='1') then             
+                     Din_en <= not(Clk_DAC_r);
+                     cs_en  <= not(Clk_DAC_r);
+			     end if;
 			end process;
 
 		end block DAC;			-- DACs interface block END
+		
+		
 
-DAC_RS: process (TCK, RS_THR_DAC)-- DACs Reset process. On PowerUp or Reset JTAG command 
+
+
+DAC_RS: process (TCK)-- DACs Reset process. On PowerUp or Reset JTAG command 
 											-- RS_DAC_N = "0..0", 
 											-- on the 2nd TCK it becomes = "1..1" 
 		begin
-		   if RS_THR_DAC='1' then  			-- Reset Threshold DACs from JTAG command
-					RS_DAC_N <= (others=> '0');
-		   elsif TCK'event and TCK='1' then	-- TCK rising edge
-		      	DAC_RES  <= '1';
-					RS_DAC_N <= (others=> DAC_RES);
-		   end if;
-		end process;			-- DACs Reset process END
+            if (TCK'event and TCK='1') then
+                INSTR_old <= INSTR;
+                RS_THR_DAC_old <= RS_THR_DAC;
+                if (RS_THR_DAC_old='0' and RS_THR_DAC='1') then 
+                    if (INSTR_old /= INSTR) then
+                        RS_DAC_N <= (others=>'0');  -- Reset is active low.
+                    else
+                        RS_DAC_N <= (others=>'1');
+                    end if;
+                else
+                    RS_DAC_N <= (others=>'1');
+                end if;
+            end if;
+        end process;	
+
+
+--DAC_RS: process (TCK, RS_THR_DAC)-- DACs Reset process. On PowerUp or Reset JTAG command 
+--											-- RS_DAC_N = "0..0", 
+--											-- on the 2nd TCK it becomes = "1..1" 
+--		begin
+--		   if RS_THR_DAC='1' then  			-- Reset Threshold DACs from JTAG command
+--					RS_DAC_N <= (others=> '0');
+--		   elsif TCK'event and TCK='1' then	-- TCK rising edge
+--		      	DAC_RES  <= '1';
+--					RS_DAC_N <= (others=> DAC_RES);
+--		   end if;
+--		end process;			-- DACs Reset process END
 
 VAR: block						-- Variable Gain Amplifier interface block
 		begin
@@ -575,3 +624,6 @@ Future <= (Dout_ADC(0),Dout_ADC(1),Dout_ADC(2),Clk_ADC_dum(0),Clk_ADC_dum(1),Clk
 --************************* Debugging Circuits Section END *****************************
 
 end behavioral;
+ 
+ 
+

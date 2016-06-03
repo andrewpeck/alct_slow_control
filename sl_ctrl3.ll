@@ -1,5 +1,5 @@
 Revision 3
-; Created by bitgen D.27 at Wed Sep 19 17:27:26 2001
+; Created by bitgen C.16 at Sat Mar 04 08:15:20 2000
 ; Bit lines have the following form:
 ; <offset> <frame number> <frame offset> <information>
 ; <information> may be zero or more <kw>=<value> pairs
@@ -60,7 +60,7 @@ Bit      283      1     19 Block=P152 Latch=I1
 Bit      293      1      9 Block=P154 Latch=I1
 Bit      619      3    287 Block=P107 Latch=OQ
 Bit      625      3    281 Block=P108 Latch=I2
-Bit      629      3    277 Block=P109 Latch=OQ
+Bit      629      3    277 Block=P109 Latch=OQ Net=C15_N21
 Bit      635      3    271 Block=P110 Latch=I2
 Bit      639      3    267 Block=UNB108 Latch=OQ
 Bit      645      3    261 Block=P111 Latch=I2
@@ -125,13 +125,13 @@ Bit      957      4    251 Block=UNB105 Latch=OQ
 Bit      962      4    246 Block=P112 Latch=I2
 Bit      967      4    241 Block=P113 Latch=OQ
 Bit      972      4    236 Block=P114 Latch=I2
-Bit      977      4    231 Block=P115 Latch=OQ
+Bit      977      4    231 Block=P115 Latch=OQ Net=C15_N21
 Bit      982      4    226 Block=P116 Latch=I2
 Bit      987      4    221 Block=P117 Latch=OQ
 Bit      992      4    216 Block=UNB98 Latch=I2
 Bit      997      4    211 Block=UNB97 Latch=OQ
 Bit     1002      4    206 Block=P119 Latch=I2
-Bit     1007      4    201 Block=P120 Latch=OQ
+Bit     1007      4    201 Block=P120 Latch=OQ Net=C15_N21
 Bit     1012      4    196 Block=P122 Latch=I2
 Bit     1017      4    191 Block=P123 Latch=OQ
 Bit     1022      4    186 Block=UNB92 Latch=I2
@@ -141,7 +141,7 @@ Bit     1037      4    171 Block=P125 Latch=OQ
 Bit     1042      4    166 Block=P126 Latch=I2
 Bit     1047      4    161 Block=P127 Latch=OQ
 Bit     1052      4    156 Block=P128 Latch=I2
-Bit     1057      4    151 Block=P129 Latch=OQ Net=N1636
+Bit     1057      4    151 Block=P129 Latch=OQ Net=n_427
 Bit     1064      4    144 Block=P132 Latch=I2
 Bit     1069      4    139 Block=P133 Latch=OQ
 Bit     1074      4    134 Block=P134 Latch=I2
@@ -232,8 +232,8 @@ Bit    14835     50    265 Block=CLB_R26C28 Latch=YQ
 Bit    14845     50    255 Block=CLB_R25C28 Latch=YQ
 Bit    14855     50    245 Block=CLB_R24C28 Latch=YQ
 Bit    14865     50    235 Block=CLB_R23C28 Latch=YQ
-Bit    14875     50    225 Block=CLB_R22C28 Latch=YQ Net=N_RS_DAC_N<1>
-Bit    14885     50    215 Block=CLB_R21C28 Latch=YQ Net=N_RS_DAC_N<3>
+Bit    14875     50    225 Block=CLB_R22C28 Latch=YQ
+Bit    14885     50    215 Block=CLB_R21C28 Latch=YQ
 Bit    14895     50    205 Block=CLB_R20C28 Latch=YQ
 Bit    14905     50    195 Block=CLB_R19C28 Latch=YQ
 Bit    14915     50    185 Block=CLB_R18C28 Latch=YQ
@@ -356,7 +356,7 @@ Bit    25707     86    265 Block=CLB_R26C27 Latch=YQ
 Bit    25717     86    255 Block=CLB_R25C27 Latch=YQ
 Bit    25727     86    245 Block=CLB_R24C27 Latch=YQ
 Bit    25737     86    235 Block=CLB_R23C27 Latch=YQ
-Bit    25747     86    225 Block=CLB_R22C27 Latch=YQ Net=N_RS_DAC_N<2>
+Bit    25747     86    225 Block=CLB_R22C27 Latch=YQ
 Bit    25757     86    215 Block=CLB_R21C27 Latch=YQ
 Bit    25767     86    205 Block=CLB_R20C27 Latch=YQ
 Bit    25777     86    195 Block=CLB_R19C27 Latch=YQ
@@ -530,7 +530,7 @@ Bit    38010    126     42 Block=CLB_R4C26 Latch=X
 Bit    38020    126     32 Block=CLB_R3C26 Latch=X
 Bit    38030    126     22 Block=CLB_R2C26 Latch=X
 Bit    38040    126     12 Block=CLB_R1C26 Latch=X
-Bit    38960    130    300 Block=P98 Latch=OQ
+Bit    38960    130    300 Block=P98 Latch=OQ Net=C15_N21
 Bit    38961    130    299 Block=P97 Latch=OQ
 Bit    38975    130    285 Block=CLB_R28C26 Latch=XQ
 Bit    38985    130    275 Block=CLB_R27C26 Latch=XQ
@@ -575,11 +575,11 @@ Bit    45932    153    274 Block=CLB_R27C25 Latch=Y
 Bit    45942    153    264 Block=CLB_R26C25 Latch=Y
 Bit    45952    153    254 Block=CLB_R25C25 Latch=Y
 Bit    45962    153    244 Block=CLB_R24C25 Latch=Y
-Bit    45972    153    234 Block=CLB_R23C25 Latch=Y Net=N_CS_DAC_N<2>
+Bit    45972    153    234 Block=CLB_R23C25 Latch=Y
 Bit    45982    153    224 Block=CLB_R22C25 Latch=Y
 Bit    45992    153    214 Block=CLB_R21C25 Latch=Y
 Bit    46002    153    204 Block=CLB_R20C25 Latch=Y
-Bit    46012    153    194 Block=CLB_R19C25 Latch=Y Net=N_CS_DAC_N<3>
+Bit    46012    153    194 Block=CLB_R19C25 Latch=Y
 Bit    46022    153    184 Block=CLB_R18C25 Latch=Y
 Bit    46032    153    174 Block=CLB_R17C25 Latch=Y
 Bit    46042    153    164 Block=CLB_R16C25 Latch=Y
@@ -631,11 +631,11 @@ Bit    48650    162    274 Block=CLB_R27C25 Latch=X
 Bit    48660    162    264 Block=CLB_R26C25 Latch=X
 Bit    48670    162    254 Block=CLB_R25C25 Latch=X
 Bit    48680    162    244 Block=CLB_R24C25 Latch=X
-Bit    48690    162    234 Block=CLB_R23C25 Latch=X Net=N_CS_DAC_N<1>
+Bit    48690    162    234 Block=CLB_R23C25 Latch=X
 Bit    48700    162    224 Block=CLB_R22C25 Latch=X
 Bit    48710    162    214 Block=CLB_R21C25 Latch=X
 Bit    48720    162    204 Block=CLB_R20C25 Latch=X
-Bit    48730    162    194 Block=CLB_R19C25 Latch=X Net=N_CS_DAC_N<0>
+Bit    48730    162    194 Block=CLB_R19C25 Latch=X
 Bit    48740    162    184 Block=CLB_R18C25 Latch=X
 Bit    48750    162    174 Block=CLB_R17C25 Latch=X
 Bit    48760    162    164 Block=CLB_R16C25 Latch=X
@@ -700,7 +700,7 @@ Bit    56814    189    264 Block=CLB_R26C24 Latch=Y
 Bit    56824    189    254 Block=CLB_R25C24 Latch=Y
 Bit    56834    189    244 Block=CLB_R24C24 Latch=Y
 Bit    56844    189    234 Block=CLB_R23C24 Latch=Y
-Bit    56854    189    224 Block=CLB_R22C24 Latch=Y Net=N_Clk_DAC<2>
+Bit    56854    189    224 Block=CLB_R22C24 Latch=Y
 Bit    56864    189    214 Block=CLB_R21C24 Latch=Y
 Bit    56874    189    204 Block=CLB_R20C24 Latch=Y
 Bit    56884    189    194 Block=CLB_R19C24 Latch=Y
@@ -735,10 +735,10 @@ Bit    58393    194    195 Block=CLB_R19C24 Latch=YQ
 Bit    58403    194    185 Block=CLB_R18C24 Latch=YQ
 Bit    58413    194    175 Block=CLB_R17C24 Latch=YQ
 Bit    58423    194    165 Block=CLB_R16C24 Latch=YQ
-Bit    58433    194    155 Block=CLB_R15C24 Latch=YQ Net=N_Stand_By_N<1>
-Bit    58445    194    143 Block=CLB_R14C24 Latch=YQ Net=SBR/SREG<1>
-Bit    58455    194    133 Block=CLB_R13C24 Latch=YQ Net=N_Stand_By_N<2>
-Bit    58465    194    123 Block=CLB_R12C24 Latch=YQ Net=N_TP_Strp_En<3>
+Bit    58433    194    155 Block=CLB_R15C24 Latch=YQ
+Bit    58445    194    143 Block=CLB_R14C24 Latch=YQ
+Bit    58455    194    133 Block=CLB_R13C24 Latch=YQ
+Bit    58465    194    123 Block=CLB_R12C24 Latch=YQ
 Bit    58475    194    113 Block=CLB_R11C24 Latch=YQ
 Bit    58485    194    103 Block=CLB_R10C24 Latch=YQ
 Bit    58495    194     93 Block=CLB_R9C24 Latch=YQ
@@ -756,7 +756,7 @@ Bit    59532    198    264 Block=CLB_R26C24 Latch=X
 Bit    59542    198    254 Block=CLB_R25C24 Latch=X
 Bit    59552    198    244 Block=CLB_R24C24 Latch=X
 Bit    59562    198    234 Block=CLB_R23C24 Latch=X
-Bit    59572    198    224 Block=CLB_R22C24 Latch=X Net=N_Clk_DAC<1>
+Bit    59572    198    224 Block=CLB_R22C24 Latch=X
 Bit    59582    198    214 Block=CLB_R21C24 Latch=X
 Bit    59592    198    204 Block=CLB_R20C24 Latch=X
 Bit    59602    198    194 Block=CLB_R19C24 Latch=X
@@ -793,10 +793,10 @@ Bit    60809    202    195 Block=CLB_R19C24 Latch=XQ
 Bit    60819    202    185 Block=CLB_R18C24 Latch=XQ
 Bit    60829    202    175 Block=CLB_R17C24 Latch=XQ
 Bit    60839    202    165 Block=CLB_R16C24 Latch=XQ
-Bit    60849    202    155 Block=CLB_R15C24 Latch=XQ Net=N_Stand_By_N<0>
-Bit    60861    202    143 Block=CLB_R14C24 Latch=XQ Net=SBR/SREG<2>
-Bit    60871    202    133 Block=CLB_R13C24 Latch=XQ Net=N_Stand_By_N<3>
-Bit    60881    202    123 Block=CLB_R12C24 Latch=XQ Net=N_TP_Strp_En<2>
+Bit    60849    202    155 Block=CLB_R15C24 Latch=XQ
+Bit    60861    202    143 Block=CLB_R14C24 Latch=XQ
+Bit    60871    202    133 Block=CLB_R13C24 Latch=XQ
+Bit    60881    202    123 Block=CLB_R12C24 Latch=XQ
 Bit    60891    202    113 Block=CLB_R11C24 Latch=XQ
 Bit    60901    202    103 Block=CLB_R10C24 Latch=XQ
 Bit    60911    202     93 Block=CLB_R9C24 Latch=XQ
@@ -824,10 +824,10 @@ Bit    67686    225    264 Block=CLB_R26C23 Latch=Y
 Bit    67696    225    254 Block=CLB_R25C23 Latch=Y
 Bit    67706    225    244 Block=CLB_R24C23 Latch=Y
 Bit    67716    225    234 Block=CLB_R23C23 Latch=Y
-Bit    67726    225    224 Block=CLB_R22C23 Latch=Y Net=N_Din_DAC<2>
+Bit    67726    225    224 Block=CLB_R22C23 Latch=Y
 Bit    67736    225    214 Block=CLB_R21C23 Latch=Y
-Bit    67746    225    204 Block=CLB_R20C23 Latch=Y Net=N_Din_DAC<3>
-Bit    67756    225    194 Block=CLB_R19C23 Latch=Y Net=N_Clk_DAC<3>
+Bit    67746    225    204 Block=CLB_R20C23 Latch=Y
+Bit    67756    225    194 Block=CLB_R19C23 Latch=Y
 Bit    67766    225    184 Block=CLB_R18C23 Latch=Y
 Bit    67776    225    174 Block=CLB_R17C23 Latch=Y
 Bit    67786    225    164 Block=CLB_R16C23 Latch=Y
@@ -860,10 +860,10 @@ Bit    69275    230    185 Block=CLB_R18C23 Latch=YQ
 Bit    69285    230    175 Block=CLB_R17C23 Latch=YQ
 Bit    69295    230    165 Block=CLB_R16C23 Latch=YQ
 Bit    69305    230    155 Block=CLB_R15C23 Latch=YQ
-Bit    69317    230    143 Block=CLB_R14C23 Latch=YQ Net=N_Stand_By_N<4>
-Bit    69327    230    133 Block=CLB_R13C23 Latch=YQ Net=N_TP_Strp_En<1>
-Bit    69337    230    123 Block=CLB_R12C23 Latch=YQ Net=TPSTP/SREG<3>
-Bit    69347    230    113 Block=CLB_R11C23 Latch=YQ Net=N_TP_Strp_En<4>
+Bit    69317    230    143 Block=CLB_R14C23 Latch=YQ
+Bit    69327    230    133 Block=CLB_R13C23 Latch=YQ
+Bit    69337    230    123 Block=CLB_R12C23 Latch=YQ
+Bit    69347    230    113 Block=CLB_R11C23 Latch=YQ
 Bit    69357    230    103 Block=CLB_R10C23 Latch=YQ
 Bit    69367    230     93 Block=CLB_R9C23 Latch=YQ
 Bit    69377    230     83 Block=CLB_R8C23 Latch=YQ
@@ -880,10 +880,10 @@ Bit    70404    234    264 Block=CLB_R26C23 Latch=X
 Bit    70414    234    254 Block=CLB_R25C23 Latch=X
 Bit    70424    234    244 Block=CLB_R24C23 Latch=X
 Bit    70434    234    234 Block=CLB_R23C23 Latch=X
-Bit    70444    234    224 Block=CLB_R22C23 Latch=X Net=N_Din_DAC<1>
+Bit    70444    234    224 Block=CLB_R22C23 Latch=X
 Bit    70454    234    214 Block=CLB_R21C23 Latch=X
-Bit    70464    234    204 Block=CLB_R20C23 Latch=X Net=N_Din_DAC<0>
-Bit    70474    234    194 Block=CLB_R19C23 Latch=X Net=N_Clk_DAC<0>
+Bit    70464    234    204 Block=CLB_R20C23 Latch=X
+Bit    70474    234    194 Block=CLB_R19C23 Latch=X
 Bit    70484    234    184 Block=CLB_R18C23 Latch=X
 Bit    70494    234    174 Block=CLB_R17C23 Latch=X
 Bit    70504    234    164 Block=CLB_R16C23 Latch=X
@@ -918,10 +918,10 @@ Bit    71691    238    185 Block=CLB_R18C23 Latch=XQ
 Bit    71701    238    175 Block=CLB_R17C23 Latch=XQ
 Bit    71711    238    165 Block=CLB_R16C23 Latch=XQ
 Bit    71721    238    155 Block=CLB_R15C23 Latch=XQ
-Bit    71733    238    143 Block=CLB_R14C23 Latch=XQ Net=N_Stand_By_N<5>
-Bit    71743    238    133 Block=CLB_R13C23 Latch=XQ Net=N_TP_Strp_En<0>
-Bit    71753    238    123 Block=CLB_R12C23 Latch=XQ Net=TPSTP/SREG<4>
-Bit    71763    238    113 Block=CLB_R11C23 Latch=XQ Net=N_TP_Strp_En<5>
+Bit    71733    238    143 Block=CLB_R14C23 Latch=XQ
+Bit    71743    238    133 Block=CLB_R13C23 Latch=XQ Net=TP_STP_DOUT
+Bit    71753    238    123 Block=CLB_R12C23 Latch=XQ
+Bit    71763    238    113 Block=CLB_R11C23 Latch=XQ
 Bit    71773    238    103 Block=CLB_R10C23 Latch=XQ
 Bit    71783    238     93 Block=CLB_R9C23 Latch=XQ
 Bit    71793    238     83 Block=CLB_R8C23 Latch=XQ
@@ -952,7 +952,7 @@ Bit    78598    261    224 Block=CLB_R22C22 Latch=Y
 Bit    78608    261    214 Block=CLB_R21C22 Latch=Y
 Bit    78618    261    204 Block=CLB_R20C22 Latch=Y
 Bit    78628    261    194 Block=CLB_R19C22 Latch=Y
-Bit    78638    261    184 Block=CLB_R18C22 Latch=Y Net=N_Din_TP
+Bit    78638    261    184 Block=CLB_R18C22 Latch=Y
 Bit    78648    261    174 Block=CLB_R17C22 Latch=Y
 Bit    78658    261    164 Block=CLB_R16C22 Latch=Y
 Bit    78668    261    154 Block=CLB_R15C22 Latch=Y
@@ -982,13 +982,13 @@ Bit    80127    266    205 Block=CLB_R20C22 Latch=YQ
 Bit    80137    266    195 Block=CLB_R19C22 Latch=YQ
 Bit    80147    266    185 Block=CLB_R18C22 Latch=YQ
 Bit    80157    266    175 Block=CLB_R17C22 Latch=YQ
-Bit    80167    266    165 Block=CLB_R16C22 Latch=YQ Net=N_Stand_By_N<8>
-Bit    80177    266    155 Block=CLB_R15C22 Latch=YQ Net=N_Stand_By_N<6>
-Bit    80189    266    143 Block=CLB_R14C22 Latch=YQ Net=SBR/SREG<3>
-Bit    80199    266    133 Block=CLB_R13C22 Latch=YQ Net=N_Stand_By_N<11>
-Bit    80209    266    123 Block=CLB_R12C22 Latch=YQ Net=TPSTP/SREG<2>
+Bit    80167    266    165 Block=CLB_R16C22 Latch=YQ
+Bit    80177    266    155 Block=CLB_R15C22 Latch=YQ Net=N_TP_Strp_En<0>
+Bit    80189    266    143 Block=CLB_R14C22 Latch=YQ Net=N_TP_Strp_En<3>
+Bit    80199    266    133 Block=CLB_R13C22 Latch=YQ Net=TPSTP_SREG<2>
+Bit    80209    266    123 Block=CLB_R12C22 Latch=YQ
 Bit    80219    266    113 Block=CLB_R11C22 Latch=YQ
-Bit    80229    266    103 Block=CLB_R10C22 Latch=YQ Net=N_Stand_By_N<15>
+Bit    80229    266    103 Block=CLB_R10C22 Latch=YQ
 Bit    80239    266     93 Block=CLB_R9C22 Latch=YQ
 Bit    80249    266     83 Block=CLB_R8C22 Latch=YQ
 Bit    80259    266     73 Block=CLB_R7C22 Latch=YQ
@@ -1008,7 +1008,7 @@ Bit    81316    270    224 Block=CLB_R22C22 Latch=X
 Bit    81326    270    214 Block=CLB_R21C22 Latch=X
 Bit    81336    270    204 Block=CLB_R20C22 Latch=X
 Bit    81346    270    194 Block=CLB_R19C22 Latch=X
-Bit    81356    270    184 Block=CLB_R18C22 Latch=X Net=C11/N21
+Bit    81356    270    184 Block=CLB_R18C22 Latch=X
 Bit    81366    270    174 Block=CLB_R17C22 Latch=X
 Bit    81376    270    164 Block=CLB_R16C22 Latch=X
 Bit    81386    270    154 Block=CLB_R15C22 Latch=X
@@ -1040,13 +1040,13 @@ Bit    82543    274    205 Block=CLB_R20C22 Latch=XQ
 Bit    82553    274    195 Block=CLB_R19C22 Latch=XQ
 Bit    82563    274    185 Block=CLB_R18C22 Latch=XQ
 Bit    82573    274    175 Block=CLB_R17C22 Latch=XQ
-Bit    82583    274    165 Block=CLB_R16C22 Latch=XQ Net=N_Stand_By_N<9>
-Bit    82593    274    155 Block=CLB_R15C22 Latch=XQ Net=N_Stand_By_N<7>
-Bit    82605    274    143 Block=CLB_R14C22 Latch=XQ Net=SBR/SREG<4>
-Bit    82615    274    133 Block=CLB_R13C22 Latch=XQ Net=N_Stand_By_N<10>
-Bit    82625    274    123 Block=CLB_R12C22 Latch=XQ Net=TPSTP/SREG<1>
-Bit    82635    274    113 Block=CLB_R11C22 Latch=XQ Net=TPSTP/SREG<5>
-Bit    82645    274    103 Block=CLB_R10C22 Latch=XQ Net=N_Stand_By_N<14>
+Bit    82583    274    165 Block=CLB_R16C22 Latch=XQ
+Bit    82593    274    155 Block=CLB_R15C22 Latch=XQ Net=N_TP_Strp_En<1>
+Bit    82605    274    143 Block=CLB_R14C22 Latch=XQ Net=N_TP_Strp_En<2>
+Bit    82615    274    133 Block=CLB_R13C22 Latch=XQ Net=TPSTP_SREG<1>
+Bit    82625    274    123 Block=CLB_R12C22 Latch=XQ
+Bit    82635    274    113 Block=CLB_R11C22 Latch=XQ
+Bit    82645    274    103 Block=CLB_R10C22 Latch=XQ
 Bit    82655    274     93 Block=CLB_R9C22 Latch=XQ
 Bit    82665    274     83 Block=CLB_R8C22 Latch=XQ
 Bit    82675    274     73 Block=CLB_R7C22 Latch=XQ
@@ -1106,14 +1106,14 @@ Bit    90999    302    205 Block=CLB_R20C21 Latch=YQ
 Bit    91009    302    195 Block=CLB_R19C21 Latch=YQ
 Bit    91019    302    185 Block=CLB_R18C21 Latch=YQ
 Bit    91029    302    175 Block=CLB_R17C21 Latch=YQ
-Bit    91039    302    165 Block=CLB_R16C21 Latch=YQ Net=N_Stand_By_N<40>
-Bit    91049    302    155 Block=CLB_R15C21 Latch=YQ Net=SBR/SREG<7>
-Bit    91061    302    143 Block=CLB_R14C21 Latch=YQ Net=SBR/SREG<10>
-Bit    91071    302    133 Block=CLB_R13C21 Latch=YQ Net=SBR/SREG<11>
-Bit    91081    302    123 Block=CLB_R12C21 Latch=YQ Net=N_Stand_By_N<36>
-Bit    91091    302    113 Block=CLB_R11C21 Latch=YQ Net=N_Stand_By_N<13>
-Bit    91101    302    103 Block=CLB_R10C21 Latch=YQ Net=N_Stand_By_N<30>
-Bit    91111    302     93 Block=CLB_R9C21 Latch=YQ Net=N_Stand_By_N<33>
+Bit    91039    302    165 Block=CLB_R16C21 Latch=YQ
+Bit    91049    302    155 Block=CLB_R15C21 Latch=YQ
+Bit    91061    302    143 Block=CLB_R14C21 Latch=YQ Net=N_TP_Strp_En<5>
+Bit    91071    302    133 Block=CLB_R13C21 Latch=YQ Net=TPSTP_SREG<3>
+Bit    91081    302    123 Block=CLB_R12C21 Latch=YQ
+Bit    91091    302    113 Block=CLB_R11C21 Latch=YQ
+Bit    91101    302    103 Block=CLB_R10C21 Latch=YQ
+Bit    91111    302     93 Block=CLB_R9C21 Latch=YQ Net=N_Stand_By_N<8>
 Bit    91121    302     83 Block=CLB_R8C21 Latch=YQ
 Bit    91131    302     73 Block=CLB_R7C21 Latch=YQ
 Bit    91141    302     63 Block=CLB_R6C21 Latch=YQ
@@ -1164,14 +1164,14 @@ Bit    93415    310    205 Block=CLB_R20C21 Latch=XQ
 Bit    93425    310    195 Block=CLB_R19C21 Latch=XQ
 Bit    93435    310    185 Block=CLB_R18C21 Latch=XQ
 Bit    93445    310    175 Block=CLB_R17C21 Latch=XQ
-Bit    93455    310    165 Block=CLB_R16C21 Latch=XQ Net=N_Stand_By_N<41>
-Bit    93465    310    155 Block=CLB_R15C21 Latch=XQ Net=SBR/SREG<8>
-Bit    93477    310    143 Block=CLB_R14C21 Latch=XQ Net=SBR/SREG<9>
-Bit    93487    310    133 Block=CLB_R13C21 Latch=XQ Net=SBR/SREG<12>
-Bit    93497    310    123 Block=CLB_R12C21 Latch=XQ Net=N_Stand_By_N<37>
-Bit    93507    310    113 Block=CLB_R11C21 Latch=XQ Net=N_Stand_By_N<12>
-Bit    93517    310    103 Block=CLB_R10C21 Latch=XQ Net=N_Stand_By_N<31>
-Bit    93527    310     93 Block=CLB_R9C21 Latch=XQ Net=N_Stand_By_N<32>
+Bit    93455    310    165 Block=CLB_R16C21 Latch=XQ
+Bit    93465    310    155 Block=CLB_R15C21 Latch=XQ
+Bit    93477    310    143 Block=CLB_R14C21 Latch=XQ Net=N_TP_Strp_En<4>
+Bit    93487    310    133 Block=CLB_R13C21 Latch=XQ Net=TPSTP_SREG<4>
+Bit    93497    310    123 Block=CLB_R12C21 Latch=XQ
+Bit    93507    310    113 Block=CLB_R11C21 Latch=XQ
+Bit    93517    310    103 Block=CLB_R10C21 Latch=XQ
+Bit    93527    310     93 Block=CLB_R9C21 Latch=XQ Net=N_Stand_By_N<9>
 Bit    93537    310     83 Block=CLB_R8C21 Latch=XQ
 Bit    93547    310     73 Block=CLB_R7C21 Latch=XQ
 Bit    93557    310     63 Block=CLB_R6C21 Latch=XQ
@@ -1200,12 +1200,12 @@ Bit   100342    333    224 Block=CLB_R22C20 Latch=Y
 Bit   100352    333    214 Block=CLB_R21C20 Latch=Y
 Bit   100362    333    204 Block=CLB_R20C20 Latch=Y
 Bit   100372    333    194 Block=CLB_R19C20 Latch=Y
-Bit   100382    333    184 Block=CLB_R18C20 Latch=Y
-Bit   100392    333    174 Block=CLB_R17C20 Latch=Y
+Bit   100382    333    184 Block=CLB_R18C20 Latch=Y Net=N_Clk_DAC<1>
+Bit   100392    333    174 Block=CLB_R17C20 Latch=Y Net=N_Din_DAC<3>
 Bit   100402    333    164 Block=CLB_R16C20 Latch=Y
 Bit   100412    333    154 Block=CLB_R15C20 Latch=Y
-Bit   100424    333    142 Block=CLB_R14C20 Latch=Y Net=STANDBY_UPD
-Bit   100434    333    132 Block=CLB_R13C20 Latch=Y
+Bit   100424    333    142 Block=CLB_R14C20 Latch=Y Net=S_10_cell0
+Bit   100434    333    132 Block=CLB_R13C20 Latch=Y Net=N818
 Bit   100444    333    122 Block=CLB_R12C20 Latch=Y
 Bit   100454    333    112 Block=CLB_R11C20 Latch=Y
 Bit   100464    333    102 Block=CLB_R10C20 Latch=Y
@@ -1229,16 +1229,16 @@ Bit   101861    338    215 Block=CLB_R21C20 Latch=YQ
 Bit   101871    338    205 Block=CLB_R20C20 Latch=YQ
 Bit   101881    338    195 Block=CLB_R19C20 Latch=YQ
 Bit   101891    338    185 Block=CLB_R18C20 Latch=YQ
-Bit   101901    338    175 Block=CLB_R17C20 Latch=YQ Net=SBR/SREG<41>
-Bit   101911    338    165 Block=CLB_R16C20 Latch=YQ Net=SBR/SREG<39>
-Bit   101921    338    155 Block=CLB_R15C20 Latch=YQ Net=SBR/SREG<5>
+Bit   101901    338    175 Block=CLB_R17C20 Latch=YQ Net=Din_en<3>
+Bit   101911    338    165 Block=CLB_R16C20 Latch=YQ
+Bit   101921    338    155 Block=CLB_R15C20 Latch=YQ
 Bit   101933    338    143 Block=CLB_R14C20 Latch=YQ
-Bit   101943    338    133 Block=CLB_R13C20 Latch=YQ
-Bit   101953    338    123 Block=CLB_R12C20 Latch=YQ Net=SBR/SREG<35>
-Bit   101963    338    113 Block=CLB_R11C20 Latch=YQ Net=SBR/SREG<13>
-Bit   101973    338    103 Block=CLB_R10C20 Latch=YQ Net=SBR/SREG<32>
-Bit   101983    338     93 Block=CLB_R9C20 Latch=YQ Net=SBR/SREG<33>
-Bit   101993    338     83 Block=CLB_R8C20 Latch=YQ Net=N_Stand_By_N<34>
+Bit   101943    338    133 Block=CLB_R13C20 Latch=YQ Net=TPSTP_SREG<5>
+Bit   101953    338    123 Block=CLB_R12C20 Latch=YQ
+Bit   101963    338    113 Block=CLB_R11C20 Latch=YQ Net=N_Stand_By_N<7>
+Bit   101973    338    103 Block=CLB_R10C20 Latch=YQ Net=SBR_SREG<8>
+Bit   101983    338     93 Block=CLB_R9C20 Latch=YQ Net=N_Stand_By_N<0>
+Bit   101993    338     83 Block=CLB_R8C20 Latch=YQ
 Bit   102003    338     73 Block=CLB_R7C20 Latch=YQ
 Bit   102013    338     63 Block=CLB_R6C20 Latch=YQ
 Bit   102023    338     53 Block=CLB_R5C20 Latch=YQ
@@ -1256,12 +1256,12 @@ Bit   103060    342    224 Block=CLB_R22C20 Latch=X
 Bit   103070    342    214 Block=CLB_R21C20 Latch=X
 Bit   103080    342    204 Block=CLB_R20C20 Latch=X
 Bit   103090    342    194 Block=CLB_R19C20 Latch=X
-Bit   103100    342    184 Block=CLB_R18C20 Latch=X
-Bit   103110    342    174 Block=CLB_R17C20 Latch=X Net=N_Din_ADC<2>
+Bit   103100    342    184 Block=CLB_R18C20 Latch=X Net=N_Clk_DAC<0>
+Bit   103110    342    174 Block=CLB_R17C20 Latch=X Net=n_302
 Bit   103120    342    164 Block=CLB_R16C20 Latch=X
 Bit   103130    342    154 Block=CLB_R15C20 Latch=X
-Bit   103142    342    142 Block=CLB_R14C20 Latch=X Net=N1542
-Bit   103152    342    132 Block=CLB_R13C20 Latch=X Net=N1588
+Bit   103142    342    142 Block=CLB_R14C20 Latch=X Net=syn2442
+Bit   103152    342    132 Block=CLB_R13C20 Latch=X Net=N718
 Bit   103162    342    122 Block=CLB_R12C20 Latch=X
 Bit   103172    342    112 Block=CLB_R11C20 Latch=X
 Bit   103182    342    102 Block=CLB_R10C20 Latch=X
@@ -1287,16 +1287,16 @@ Bit   104277    346    215 Block=CLB_R21C20 Latch=XQ
 Bit   104287    346    205 Block=CLB_R20C20 Latch=XQ
 Bit   104297    346    195 Block=CLB_R19C20 Latch=XQ
 Bit   104307    346    185 Block=CLB_R18C20 Latch=XQ
-Bit   104317    346    175 Block=CLB_R17C20 Latch=XQ
-Bit   104327    346    165 Block=CLB_R16C20 Latch=XQ Net=SBR/SREG<40>
-Bit   104337    346    155 Block=CLB_R15C20 Latch=XQ Net=SBR/SREG<6>
+Bit   104317    346    175 Block=CLB_R17C20 Latch=XQ Net=Din_en<2>
+Bit   104327    346    165 Block=CLB_R16C20 Latch=XQ
+Bit   104337    346    155 Block=CLB_R15C20 Latch=XQ Net=IR_DOUT
 Bit   104349    346    143 Block=CLB_R14C20 Latch=XQ
-Bit   104359    346    133 Block=CLB_R13C20 Latch=XQ Net=TP_STP_DOUT
-Bit   104369    346    123 Block=CLB_R12C20 Latch=XQ Net=SBR/SREG<36>
-Bit   104379    346    113 Block=CLB_R11C20 Latch=XQ Net=SBR/SREG<14>
-Bit   104389    346    103 Block=CLB_R10C20 Latch=XQ Net=SBR/SREG<31>
-Bit   104399    346     93 Block=CLB_R9C20 Latch=XQ Net=SBR/SREG<34>
-Bit   104409    346     83 Block=CLB_R8C20 Latch=XQ Net=N_Stand_By_N<35>
+Bit   104359    346    133 Block=CLB_R13C20 Latch=XQ
+Bit   104369    346    123 Block=CLB_R12C20 Latch=XQ
+Bit   104379    346    113 Block=CLB_R11C20 Latch=XQ Net=N_Stand_By_N<6>
+Bit   104389    346    103 Block=CLB_R10C20 Latch=XQ Net=SBR_SREG<7>
+Bit   104399    346     93 Block=CLB_R9C20 Latch=XQ Net=N_Stand_By_N<1>
+Bit   104409    346     83 Block=CLB_R8C20 Latch=XQ
 Bit   104419    346     73 Block=CLB_R7C20 Latch=XQ
 Bit   104429    346     63 Block=CLB_R6C20 Latch=XQ
 Bit   104439    346     53 Block=CLB_R5C20 Latch=XQ
@@ -1306,16 +1306,16 @@ Bit   104469    346     23 Block=CLB_R2C20 Latch=XQ
 Bit   104479    346     13 Block=CLB_R1C20 Latch=XQ
 Bit   104488    346      4 Block=UNB39 Latch=OQ
 Bit   104489    346      3 Block=UNB40 Latch=OQ
-Bit   104494    347    300 Block=P88 Latch=I1
-Bit   104495    347    299 Block=P88 Latch=I2 Net=N_Dout_ADC<3>
+Bit   104494    347    300 Block=P88 Latch=I1 Net=N_Dout_ADC<3>
+Bit   104495    347    299 Block=P88 Latch=I2
 Bit   104790    347      4 Block=UNB40 Latch=I2
 Bit   104791    347      3 Block=UNB40 Latch=I1
 Bit   104796    348    300 Block=P87 Latch=I2
 Bit   104797    348    299 Block=P87 Latch=I1
 Bit   105092    348      4 Block=UNB39 Latch=I1
 Bit   105093    348      3 Block=UNB39 Latch=I2
-Bit   111154    369    284 Block=CLB_R28C19 Latch=Y Net=N_Clk_ADC<4>
-Bit   111164    369    274 Block=CLB_R27C19 Latch=Y Net=N_Din_ADC<4>
+Bit   111154    369    284 Block=CLB_R28C19 Latch=Y
+Bit   111164    369    274 Block=CLB_R27C19 Latch=Y
 Bit   111174    369    264 Block=CLB_R26C19 Latch=Y
 Bit   111184    369    254 Block=CLB_R25C19 Latch=Y
 Bit   111194    369    244 Block=CLB_R24C19 Latch=Y
@@ -1323,13 +1323,13 @@ Bit   111204    369    234 Block=CLB_R23C19 Latch=Y
 Bit   111214    369    224 Block=CLB_R22C19 Latch=Y
 Bit   111224    369    214 Block=CLB_R21C19 Latch=Y
 Bit   111234    369    204 Block=CLB_R20C19 Latch=Y
-Bit   111244    369    194 Block=CLB_R19C19 Latch=Y Net=C11/N16
-Bit   111254    369    184 Block=CLB_R18C19 Latch=Y Net=N_Clk_TP
-Bit   111264    369    174 Block=CLB_R17C19 Latch=Y
-Bit   111274    369    164 Block=CLB_R16C19 Latch=Y Net=N1526
-Bit   111284    369    154 Block=CLB_R15C19 Latch=Y
-Bit   111296    369    142 Block=CLB_R14C19 Latch=Y Net=TP_STP_UPD
-Bit   111306    369    132 Block=CLB_R13C19 Latch=Y
+Bit   111244    369    194 Block=CLB_R19C19 Latch=Y Net=N_Din_DAC<1>
+Bit   111254    369    184 Block=CLB_R18C19 Latch=Y Net=N_Din_DAC<0>
+Bit   111264    369    174 Block=CLB_R17C19 Latch=Y Net=N810
+Bit   111274    369    164 Block=CLB_R16C19 Latch=Y
+Bit   111284    369    154 Block=CLB_R15C19 Latch=Y Net=N_Clk_TP
+Bit   111296    369    142 Block=CLB_R14C19 Latch=Y Net=N_Din_TP
+Bit   111306    369    132 Block=CLB_R13C19 Latch=Y Net=N698
 Bit   111316    369    122 Block=CLB_R12C19 Latch=Y
 Bit   111326    369    112 Block=CLB_R11C19 Latch=Y
 Bit   111336    369    102 Block=CLB_R10C19 Latch=Y
@@ -1349,44 +1349,44 @@ Bit   112693    374    255 Block=CLB_R25C19 Latch=YQ
 Bit   112703    374    245 Block=CLB_R24C19 Latch=YQ
 Bit   112713    374    235 Block=CLB_R23C19 Latch=YQ
 Bit   112723    374    225 Block=CLB_R22C19 Latch=YQ
-Bit   112733    374    215 Block=CLB_R21C19 Latch=YQ Net=N_RS_DAC_N<0>
+Bit   112733    374    215 Block=CLB_R21C19 Latch=YQ
 Bit   112743    374    205 Block=CLB_R20C19 Latch=YQ
 Bit   112753    374    195 Block=CLB_R19C19 Latch=YQ
-Bit   112763    374    185 Block=CLB_R18C19 Latch=YQ
-Bit   112773    374    175 Block=CLB_R17C19 Latch=YQ Net=ADC_SH<2>
+Bit   112763    374    185 Block=CLB_R18C19 Latch=YQ Net=Din_en<0>
+Bit   112773    374    175 Block=CLB_R17C19 Latch=YQ
 Bit   112783    374    165 Block=CLB_R16C19 Latch=YQ
-Bit   112793    374    155 Block=CLB_R15C19 Latch=YQ Net=IR_DOUT
-Bit   112805    374    143 Block=CLB_R14C19 Latch=YQ
-Bit   112815    374    133 Block=CLB_R13C19 Latch=YQ Net=SBR/SREG<37>
-Bit   112825    374    123 Block=CLB_R12C19 Latch=YQ Net=SBR/SREG<20>
-Bit   112835    374    113 Block=CLB_R11C19 Latch=YQ Net=SBR/SREG<30>
-Bit   112845    374    103 Block=CLB_R10C19 Latch=YQ Net=SBR/SREG<15>
-Bit   112855    374     93 Block=CLB_R9C19 Latch=YQ Net=SBR/SREG<18>
-Bit   112865    374     83 Block=CLB_R8C19 Latch=YQ
-Bit   112875    374     73 Block=CLB_R7C19 Latch=YQ
+Bit   112793    374    155 Block=CLB_R15C19 Latch=YQ
+Bit   112805    374    143 Block=CLB_R14C19 Latch=YQ Net=TDO_OE
+Bit   112815    374    133 Block=CLB_R13C19 Latch=YQ
+Bit   112825    374    123 Block=CLB_R12C19 Latch=YQ
+Bit   112835    374    113 Block=CLB_R11C19 Latch=YQ Net=SBR_SREG<5>
+Bit   112845    374    103 Block=CLB_R10C19 Latch=YQ Net=SBR_SREG<11>
+Bit   112855    374     93 Block=CLB_R9C19 Latch=YQ Net=SBR_SREG<9>
+Bit   112865    374     83 Block=CLB_R8C19 Latch=YQ Net=N_Stand_By_N<4>
+Bit   112875    374     73 Block=CLB_R7C19 Latch=YQ Net=N_Stand_By_N<10>
 Bit   112885    374     63 Block=CLB_R6C19 Latch=YQ
 Bit   112895    374     53 Block=CLB_R5C19 Latch=YQ
 Bit   112905    374     43 Block=CLB_R4C19 Latch=YQ
 Bit   112915    374     33 Block=CLB_R3C19 Latch=YQ
 Bit   112925    374     23 Block=CLB_R2C19 Latch=YQ
 Bit   112935    374     13 Block=CLB_R1C19 Latch=YQ
-Bit   113872    378    284 Block=CLB_R28C19 Latch=X Net=N_Clk_ADC<1>
-Bit   113882    378    274 Block=CLB_R27C19 Latch=X Net=N_Din_ADC<0>
+Bit   113872    378    284 Block=CLB_R28C19 Latch=X
+Bit   113882    378    274 Block=CLB_R27C19 Latch=X
 Bit   113892    378    264 Block=CLB_R26C19 Latch=X
 Bit   113902    378    254 Block=CLB_R25C19 Latch=X
 Bit   113912    378    244 Block=CLB_R24C19 Latch=X
 Bit   113922    378    234 Block=CLB_R23C19 Latch=X
 Bit   113932    378    224 Block=CLB_R22C19 Latch=X
 Bit   113942    378    214 Block=CLB_R21C19 Latch=X
-Bit   113952    378    204 Block=CLB_R20C19 Latch=X
-Bit   113962    378    194 Block=CLB_R19C19 Latch=X Net=syn11430
-Bit   113972    378    184 Block=CLB_R18C19 Latch=X Net=N_Clk_ADC<0>
-Bit   113982    378    174 Block=CLB_R17C19 Latch=X
-Bit   113992    378    164 Block=CLB_R16C19 Latch=X Net=syn2122
-Bit   114002    378    154 Block=CLB_R15C19 Latch=X
-Bit   114014    378    142 Block=CLB_R14C19 Latch=X Net=N1541
-Bit   114024    378    132 Block=CLB_R13C19 Latch=X
-Bit   114034    378    122 Block=CLB_R12C19 Latch=X
+Bit   113952    378    204 Block=CLB_R20C19 Latch=X Net=syn1584
+Bit   113962    378    194 Block=CLB_R19C19 Latch=X Net=n_196
+Bit   113972    378    184 Block=CLB_R18C19 Latch=X Net=n_143
+Bit   113982    378    174 Block=CLB_R17C19 Latch=X Net=syn5146
+Bit   113992    378    164 Block=CLB_R16C19 Latch=X Net=syn15165
+Bit   114002    378    154 Block=CLB_R15C19 Latch=X Net=N_Clk_DAC<2>
+Bit   114014    378    142 Block=CLB_R14C19 Latch=X Net=n_427
+Bit   114024    378    132 Block=CLB_R13C19 Latch=X Net=N824
+Bit   114034    378    122 Block=CLB_R12C19 Latch=X Net=N697
 Bit   114044    378    112 Block=CLB_R11C19 Latch=X
 Bit   114054    378    102 Block=CLB_R10C19 Latch=X
 Bit   114064    378     92 Block=CLB_R9C19 Latch=X
@@ -1407,21 +1407,21 @@ Bit   115109    382    255 Block=CLB_R25C19 Latch=XQ
 Bit   115119    382    245 Block=CLB_R24C19 Latch=XQ
 Bit   115129    382    235 Block=CLB_R23C19 Latch=XQ
 Bit   115139    382    225 Block=CLB_R22C19 Latch=XQ
-Bit   115149    382    215 Block=CLB_R21C19 Latch=XQ Net=DAC_RES
+Bit   115149    382    215 Block=CLB_R21C19 Latch=XQ
 Bit   115159    382    205 Block=CLB_R20C19 Latch=XQ
 Bit   115169    382    195 Block=CLB_R19C19 Latch=XQ
-Bit   115179    382    185 Block=CLB_R18C19 Latch=XQ
-Bit   115189    382    175 Block=CLB_R17C19 Latch=XQ Net=ADC_SH<1>
+Bit   115179    382    185 Block=CLB_R18C19 Latch=XQ Net=Din_en<1>
+Bit   115189    382    175 Block=CLB_R17C19 Latch=XQ
 Bit   115199    382    165 Block=CLB_R16C19 Latch=XQ
 Bit   115209    382    155 Block=CLB_R15C19 Latch=XQ
 Bit   115221    382    143 Block=CLB_R14C19 Latch=XQ
-Bit   115231    382    133 Block=CLB_R13C19 Latch=XQ Net=SBR/SREG<38>
-Bit   115241    382    123 Block=CLB_R12C19 Latch=XQ Net=SBR/SREG<19>
-Bit   115251    382    113 Block=CLB_R11C19 Latch=XQ Net=SBR/SREG<29>
-Bit   115261    382    103 Block=CLB_R10C19 Latch=XQ Net=SBR/SREG<16>
-Bit   115271    382     93 Block=CLB_R9C19 Latch=XQ Net=SBR/SREG<17>
-Bit   115281    382     83 Block=CLB_R8C19 Latch=XQ
-Bit   115291    382     73 Block=CLB_R7C19 Latch=XQ
+Bit   115231    382    133 Block=CLB_R13C19 Latch=XQ
+Bit   115241    382    123 Block=CLB_R12C19 Latch=XQ
+Bit   115251    382    113 Block=CLB_R11C19 Latch=XQ Net=SBR_SREG<6>
+Bit   115261    382    103 Block=CLB_R10C19 Latch=XQ Net=SBR_SREG<12>
+Bit   115271    382     93 Block=CLB_R9C19 Latch=XQ Net=SBR_SREG<10>
+Bit   115281    382     83 Block=CLB_R8C19 Latch=XQ Net=N_Stand_By_N<5>
+Bit   115291    382     73 Block=CLB_R7C19 Latch=XQ Net=N_Stand_By_N<11>
 Bit   115301    382     63 Block=CLB_R6C19 Latch=XQ
 Bit   115311    382     53 Block=CLB_R5C19 Latch=XQ
 Bit   115321    382     43 Block=CLB_R4C19 Latch=XQ
@@ -1438,22 +1438,22 @@ Bit   115668    384    300 Block=UNB132 Latch=I2
 Bit   115669    384    299 Block=UNB132 Latch=I1
 Bit   115964    384      4 Block=UNB37 Latch=I1
 Bit   115965    384      3 Block=UNB37 Latch=I2
-Bit   122026    405    284 Block=CLB_R28C18 Latch=Y Net=N_Din_ADC<3>
-Bit   122036    405    274 Block=CLB_R27C18 Latch=Y Net=N_CS_ADC_N<4>
-Bit   122046    405    264 Block=CLB_R26C18 Latch=Y Net=N_CS_ADC_N<3>
+Bit   122026    405    284 Block=CLB_R28C18 Latch=Y
+Bit   122036    405    274 Block=CLB_R27C18 Latch=Y
+Bit   122046    405    264 Block=CLB_R26C18 Latch=Y
 Bit   122056    405    254 Block=CLB_R25C18 Latch=Y
 Bit   122066    405    244 Block=CLB_R24C18 Latch=Y
 Bit   122076    405    234 Block=CLB_R23C18 Latch=Y
 Bit   122086    405    224 Block=CLB_R22C18 Latch=Y
 Bit   122096    405    214 Block=CLB_R21C18 Latch=Y
-Bit   122106    405    204 Block=CLB_R20C18 Latch=Y
-Bit   122116    405    194 Block=CLB_R19C18 Latch=Y
-Bit   122126    405    184 Block=CLB_R18C18 Latch=Y
-Bit   122136    405    174 Block=CLB_R17C18 Latch=Y
-Bit   122146    405    164 Block=CLB_R16C18 Latch=Y Net=N1524
-Bit   122156    405    154 Block=CLB_R15C18 Latch=Y
-Bit   122168    405    142 Block=CLB_R14C18 Latch=Y
-Bit   122178    405    132 Block=CLB_R13C18 Latch=Y Net=N1637
+Bit   122106    405    204 Block=CLB_R20C18 Latch=Y Net=syn15178
+Bit   122116    405    194 Block=CLB_R19C18 Latch=Y Net=syn1757
+Bit   122126    405    184 Block=CLB_R18C18 Latch=Y Net=N763
+Bit   122136    405    174 Block=CLB_R17C18 Latch=Y Net=syn15163
+Bit   122146    405    164 Block=CLB_R16C18 Latch=Y Net=N765
+Bit   122156    405    154 Block=CLB_R15C18 Latch=Y Net=N702
+Bit   122168    405    142 Block=CLB_R14C18 Latch=Y Net=syn2178
+Bit   122178    405    132 Block=CLB_R13C18 Latch=Y Net=syn1646
 Bit   122188    405    122 Block=CLB_R12C18 Latch=Y
 Bit   122198    405    112 Block=CLB_R11C18 Latch=Y
 Bit   122208    405    102 Block=CLB_R10C18 Latch=Y
@@ -1476,40 +1476,40 @@ Bit   123595    410    225 Block=CLB_R22C18 Latch=YQ
 Bit   123605    410    215 Block=CLB_R21C18 Latch=YQ
 Bit   123615    410    205 Block=CLB_R20C18 Latch=YQ
 Bit   123625    410    195 Block=CLB_R19C18 Latch=YQ
-Bit   123635    410    185 Block=CLB_R18C18 Latch=YQ
-Bit   123645    410    175 Block=CLB_R17C18 Latch=YQ Net=TPGRP/SREG<6>
+Bit   123635    410    185 Block=CLB_R18C18 Latch=YQ Net=cs_en<1>
+Bit   123645    410    175 Block=CLB_R17C18 Latch=YQ
 Bit   123655    410    165 Block=CLB_R16C18 Latch=YQ
-Bit   123665    410    155 Block=CLB_R15C18 Latch=YQ Net=TP_GRP_DOUT
-Bit   123677    410    143 Block=CLB_R14C18 Latch=YQ Net=N_TP_Gr_En<1>
-Bit   123687    410    133 Block=CLB_R13C18 Latch=YQ
-Bit   123697    410    123 Block=CLB_R12C18 Latch=YQ Net=SBR/SREG<21>
-Bit   123707    410    113 Block=CLB_R11C18 Latch=YQ Net=SBR/SREG<28>
-Bit   123717    410    103 Block=CLB_R10C18 Latch=YQ Net=N_Stand_By_N<20>
-Bit   123727    410     93 Block=CLB_R9C18 Latch=YQ Net=N_Stand_By_N<18>
-Bit   123737    410     83 Block=CLB_R8C18 Latch=YQ
-Bit   123747    410     73 Block=CLB_R7C18 Latch=YQ
-Bit   123757    410     63 Block=CLB_R6C18 Latch=YQ
+Bit   123665    410    155 Block=CLB_R15C18 Latch=YQ
+Bit   123677    410    143 Block=CLB_R14C18 Latch=YQ
+Bit   123687    410    133 Block=CLB_R13C18 Latch=YQ Net=RS_THR_DAC_old
+Bit   123697    410    123 Block=CLB_R12C18 Latch=YQ
+Bit   123707    410    113 Block=CLB_R11C18 Latch=YQ Net=N_TP_Gr_En<6>
+Bit   123717    410    103 Block=CLB_R10C18 Latch=YQ Net=SBR_SREG<1>
+Bit   123727    410     93 Block=CLB_R9C18 Latch=YQ Net=SBR_SREG<4>
+Bit   123737    410     83 Block=CLB_R8C18 Latch=YQ Net=N_Stand_By_N<3>
+Bit   123747    410     73 Block=CLB_R7C18 Latch=YQ Net=N_Stand_By_N<30>
+Bit   123757    410     63 Block=CLB_R6C18 Latch=YQ Net=N_Stand_By_N<12>
 Bit   123767    410     53 Block=CLB_R5C18 Latch=YQ
 Bit   123777    410     43 Block=CLB_R4C18 Latch=YQ
 Bit   123787    410     33 Block=CLB_R3C18 Latch=YQ
 Bit   123797    410     23 Block=CLB_R2C18 Latch=YQ
 Bit   123807    410     13 Block=CLB_R1C18 Latch=YQ
-Bit   124744    414    284 Block=CLB_R28C18 Latch=X Net=N_Din_ADC<1>
-Bit   124754    414    274 Block=CLB_R27C18 Latch=X Net=N_CS_ADC_N<0>
-Bit   124764    414    264 Block=CLB_R26C18 Latch=X Net=syn11439
+Bit   124744    414    284 Block=CLB_R28C18 Latch=X
+Bit   124754    414    274 Block=CLB_R27C18 Latch=X
+Bit   124764    414    264 Block=CLB_R26C18 Latch=X
 Bit   124774    414    254 Block=CLB_R25C18 Latch=X
 Bit   124784    414    244 Block=CLB_R24C18 Latch=X
 Bit   124794    414    234 Block=CLB_R23C18 Latch=X
 Bit   124804    414    224 Block=CLB_R22C18 Latch=X
 Bit   124814    414    214 Block=CLB_R21C18 Latch=X
-Bit   124824    414    204 Block=CLB_R20C18 Latch=X
-Bit   124834    414    194 Block=CLB_R19C18 Latch=X
-Bit   124844    414    184 Block=CLB_R18C18 Latch=X
-Bit   124854    414    174 Block=CLB_R17C18 Latch=X
-Bit   124864    414    164 Block=CLB_R16C18 Latch=X Net=RS_THR_DAC
-Bit   124874    414    154 Block=CLB_R15C18 Latch=X
-Bit   124886    414    142 Block=CLB_R14C18 Latch=X
-Bit   124896    414    132 Block=CLB_R13C18 Latch=X Net=syn5737
+Bit   124824    414    204 Block=CLB_R20C18 Latch=X Net=T_C324
+Bit   124834    414    194 Block=CLB_R19C18 Latch=X Net=syn1752
+Bit   124844    414    184 Block=CLB_R18C18 Latch=X Net=N708
+Bit   124854    414    174 Block=CLB_R17C18 Latch=X Net=syn15202
+Bit   124864    414    164 Block=CLB_R16C18 Latch=X Net=syn1657
+Bit   124874    414    154 Block=CLB_R15C18 Latch=X Net=syn15143
+Bit   124886    414    142 Block=CLB_R14C18 Latch=X Net=TP_STP_UPD
+Bit   124896    414    132 Block=CLB_R13C18 Latch=X Net=N700
 Bit   124906    414    122 Block=CLB_R12C18 Latch=X
 Bit   124916    414    112 Block=CLB_R11C18 Latch=X
 Bit   124926    414    102 Block=CLB_R10C18 Latch=X
@@ -1534,19 +1534,19 @@ Bit   126011    418    225 Block=CLB_R22C18 Latch=XQ
 Bit   126021    418    215 Block=CLB_R21C18 Latch=XQ
 Bit   126031    418    205 Block=CLB_R20C18 Latch=XQ
 Bit   126041    418    195 Block=CLB_R19C18 Latch=XQ
-Bit   126051    418    185 Block=CLB_R18C18 Latch=XQ
-Bit   126061    418    175 Block=CLB_R17C18 Latch=XQ Net=TPGRP/SREG<5>
+Bit   126051    418    185 Block=CLB_R18C18 Latch=XQ Net=cs_en<0>
+Bit   126061    418    175 Block=CLB_R17C18 Latch=XQ
 Bit   126071    418    165 Block=CLB_R16C18 Latch=XQ
-Bit   126081    418    155 Block=CLB_R15C18 Latch=XQ
-Bit   126093    418    143 Block=CLB_R14C18 Latch=XQ Net=N_TP_Gr_En<0>
+Bit   126081    418    155 Block=CLB_R15C18 Latch=XQ Net=T_TAP_CS<0>
+Bit   126093    418    143 Block=CLB_R14C18 Latch=XQ
 Bit   126103    418    133 Block=CLB_R13C18 Latch=XQ
-Bit   126113    418    123 Block=CLB_R12C18 Latch=XQ Net=SBR/SREG<22>
-Bit   126123    418    113 Block=CLB_R11C18 Latch=XQ Net=SBR/SREG<27>
-Bit   126133    418    103 Block=CLB_R10C18 Latch=XQ Net=N_Stand_By_N<21>
-Bit   126143    418     93 Block=CLB_R9C18 Latch=XQ Net=N_Stand_By_N<19>
-Bit   126153    418     83 Block=CLB_R8C18 Latch=XQ
-Bit   126163    418     73 Block=CLB_R7C18 Latch=XQ
-Bit   126173    418     63 Block=CLB_R6C18 Latch=XQ
+Bit   126113    418    123 Block=CLB_R12C18 Latch=XQ Net=N_PD_TP_N
+Bit   126123    418    113 Block=CLB_R11C18 Latch=XQ
+Bit   126133    418    103 Block=CLB_R10C18 Latch=XQ Net=SBR_SREG<2>
+Bit   126143    418     93 Block=CLB_R9C18 Latch=XQ Net=SBR_SREG<3>
+Bit   126153    418     83 Block=CLB_R8C18 Latch=XQ Net=N_Stand_By_N<2>
+Bit   126163    418     73 Block=CLB_R7C18 Latch=XQ Net=N_Stand_By_N<31>
+Bit   126173    418     63 Block=CLB_R6C18 Latch=XQ Net=N_Stand_By_N<13>
 Bit   126183    418     53 Block=CLB_R5C18 Latch=XQ
 Bit   126193    418     43 Block=CLB_R4C18 Latch=XQ
 Bit   126203    418     33 Block=CLB_R3C18 Latch=XQ
@@ -1562,22 +1562,22 @@ Bit   126540    420    300 Block=UNB134 Latch=I2
 Bit   126541    420    299 Block=UNB134 Latch=I1
 Bit   126836    420      4 Block=P175 Latch=I1
 Bit   126837    420      3 Block=P175 Latch=I2
-Bit   132898    441    284 Block=CLB_R28C17 Latch=Y Net=N_Clk_ADC<3>
+Bit   132898    441    284 Block=CLB_R28C17 Latch=Y
 Bit   132908    441    274 Block=CLB_R27C17 Latch=Y
 Bit   132918    441    264 Block=CLB_R26C17 Latch=Y
 Bit   132928    441    254 Block=CLB_R25C17 Latch=Y
 Bit   132938    441    244 Block=CLB_R24C17 Latch=Y
-Bit   132948    441    234 Block=CLB_R23C17 Latch=Y Net=GLOBAL_LOGIC1
+Bit   132948    441    234 Block=CLB_R23C17 Latch=Y
 Bit   132958    441    224 Block=CLB_R22C17 Latch=Y
 Bit   132968    441    214 Block=CLB_R21C17 Latch=Y
-Bit   132978    441    204 Block=CLB_R20C17 Latch=Y
-Bit   132988    441    194 Block=CLB_R19C17 Latch=Y
-Bit   132998    441    184 Block=CLB_R18C17 Latch=Y
-Bit   133008    441    174 Block=CLB_R17C17 Latch=Y
-Bit   133018    441    164 Block=CLB_R16C17 Latch=Y Net=N1533
+Bit   132978    441    204 Block=CLB_R20C17 Latch=Y Net=T_C298
+Bit   132988    441    194 Block=CLB_R19C17 Latch=Y Net=N_Din_ADC<4>
+Bit   132998    441    184 Block=CLB_R18C17 Latch=Y Net=syn1774
+Bit   133008    441    174 Block=CLB_R17C17 Latch=Y Net=syn15180
+Bit   133018    441    164 Block=CLB_R16C17 Latch=Y
 Bit   133028    441    154 Block=CLB_R15C17 Latch=Y
-Bit   133040    441    142 Block=CLB_R14C17 Latch=Y
-Bit   133050    441    132 Block=CLB_R13C17 Latch=Y
+Bit   133040    441    142 Block=CLB_R14C17 Latch=Y Net=N701
+Bit   133050    441    132 Block=CLB_R13C17 Latch=Y Net=syn1590
 Bit   133060    441    122 Block=CLB_R12C17 Latch=Y
 Bit   133070    441    112 Block=CLB_R11C17 Latch=Y
 Bit   133080    441    102 Block=CLB_R10C17 Latch=Y
@@ -1590,7 +1590,7 @@ Bit   133140    441     42 Block=CLB_R4C17 Latch=Y
 Bit   133150    441     32 Block=CLB_R3C17 Latch=Y
 Bit   133160    441     22 Block=CLB_R2C17 Latch=Y
 Bit   133170    441     12 Block=CLB_R1C17 Latch=Y
-Bit   134407    446    285 Block=CLB_R28C17 Latch=YQ
+Bit   134407    446    285 Block=CLB_R28C17 Latch=YQ Net=N_CS_ADC_N<3>
 Bit   134417    446    275 Block=CLB_R27C17 Latch=YQ
 Bit   134427    446    265 Block=CLB_R26C17 Latch=YQ
 Bit   134437    446    255 Block=CLB_R25C17 Latch=YQ
@@ -1599,26 +1599,26 @@ Bit   134457    446    235 Block=CLB_R23C17 Latch=YQ
 Bit   134467    446    225 Block=CLB_R22C17 Latch=YQ
 Bit   134477    446    215 Block=CLB_R21C17 Latch=YQ
 Bit   134487    446    205 Block=CLB_R20C17 Latch=YQ
-Bit   134497    446    195 Block=CLB_R19C17 Latch=YQ Net=ADC_SH<4>
-Bit   134507    446    185 Block=CLB_R18C17 Latch=YQ Net=N_TP_Gr_En<5>
-Bit   134517    446    175 Block=CLB_R17C17 Latch=YQ Net=TPGRP/SREG<3>
-Bit   134527    446    165 Block=CLB_R16C17 Latch=YQ Net=STANDBY_DOUT
-Bit   134537    446    155 Block=CLB_R15C17 Latch=YQ Net=TPGRP/SREG<1>
-Bit   134549    446    143 Block=CLB_R14C17 Latch=YQ Net=N_Stand_By_N<38>
-Bit   134559    446    133 Block=CLB_R13C17 Latch=YQ Net=SBR/SREG<23>
-Bit   134569    446    123 Block=CLB_R12C17 Latch=YQ Net=SBR/SREG<26>
-Bit   134579    446    113 Block=CLB_R11C17 Latch=YQ Net=N_Stand_By_N<27>
-Bit   134589    446    103 Block=CLB_R10C17 Latch=YQ Net=N_Stand_By_N<17>
-Bit   134599    446     93 Block=CLB_R9C17 Latch=YQ
-Bit   134609    446     83 Block=CLB_R8C17 Latch=YQ
-Bit   134619    446     73 Block=CLB_R7C17 Latch=YQ
-Bit   134629    446     63 Block=CLB_R6C17 Latch=YQ
-Bit   134639    446     53 Block=CLB_R5C17 Latch=YQ
+Bit   134497    446    195 Block=CLB_R19C17 Latch=YQ
+Bit   134507    446    185 Block=CLB_R18C17 Latch=YQ
+Bit   134517    446    175 Block=CLB_R17C17 Latch=YQ
+Bit   134527    446    165 Block=CLB_R16C17 Latch=YQ Net=T_TAP_CS<1>
+Bit   134537    446    155 Block=CLB_R15C17 Latch=YQ Net=T_TAP_CS<3>
+Bit   134549    446    143 Block=CLB_R14C17 Latch=YQ
+Bit   134559    446    133 Block=CLB_R13C17 Latch=YQ Net=INSTR_old<0>
+Bit   134569    446    123 Block=CLB_R12C17 Latch=YQ Net=N_TP_Gr_En<4>
+Bit   134579    446    113 Block=CLB_R11C17 Latch=YQ Net=N_TP_Gr_En<3>
+Bit   134589    446    103 Block=CLB_R10C17 Latch=YQ Net=SBR_SREG<14>
+Bit   134599    446     93 Block=CLB_R9C17 Latch=YQ Net=SBR_SREG<16>
+Bit   134609    446     83 Block=CLB_R8C17 Latch=YQ Net=SBR_SREG<29>
+Bit   134619    446     73 Block=CLB_R7C17 Latch=YQ Net=SBR_SREG<31>
+Bit   134629    446     63 Block=CLB_R6C17 Latch=YQ Net=N_Stand_By_N<32>
+Bit   134639    446     53 Block=CLB_R5C17 Latch=YQ Net=N_Stand_By_N<15>
 Bit   134649    446     43 Block=CLB_R4C17 Latch=YQ
 Bit   134659    446     33 Block=CLB_R3C17 Latch=YQ
 Bit   134669    446     23 Block=CLB_R2C17 Latch=YQ
 Bit   134679    446     13 Block=CLB_R1C17 Latch=YQ
-Bit   135616    450    284 Block=CLB_R28C17 Latch=X Net=N_Clk_ADC<2>
+Bit   135616    450    284 Block=CLB_R28C17 Latch=X
 Bit   135626    450    274 Block=CLB_R27C17 Latch=X
 Bit   135636    450    264 Block=CLB_R26C17 Latch=X
 Bit   135646    450    254 Block=CLB_R25C17 Latch=X
@@ -1626,14 +1626,14 @@ Bit   135656    450    244 Block=CLB_R24C17 Latch=X
 Bit   135666    450    234 Block=CLB_R23C17 Latch=X
 Bit   135676    450    224 Block=CLB_R22C17 Latch=X
 Bit   135686    450    214 Block=CLB_R21C17 Latch=X
-Bit   135696    450    204 Block=CLB_R20C17 Latch=X
-Bit   135706    450    194 Block=CLB_R19C17 Latch=X
-Bit   135716    450    184 Block=CLB_R18C17 Latch=X
-Bit   135726    450    174 Block=CLB_R17C17 Latch=X
-Bit   135736    450    164 Block=CLB_R16C17 Latch=X Net=S_14/cell0
+Bit   135696    450    204 Block=CLB_R20C17 Latch=X Net=syn1743
+Bit   135706    450    194 Block=CLB_R19C17 Latch=X Net=N_Din_DAC<2>
+Bit   135716    450    184 Block=CLB_R18C17 Latch=X Net=syn1589
+Bit   135726    450    174 Block=CLB_R17C17 Latch=X Net=syn15190
+Bit   135736    450    164 Block=CLB_R16C17 Latch=X
 Bit   135746    450    154 Block=CLB_R15C17 Latch=X
-Bit   135758    450    142 Block=CLB_R14C17 Latch=X
-Bit   135768    450    132 Block=CLB_R13C17 Latch=X
+Bit   135758    450    142 Block=CLB_R14C17 Latch=X Net=syn1940
+Bit   135768    450    132 Block=CLB_R13C17 Latch=X Net=syn15657
 Bit   135778    450    122 Block=CLB_R12C17 Latch=X
 Bit   135788    450    112 Block=CLB_R11C17 Latch=X
 Bit   135798    450    102 Block=CLB_R10C17 Latch=X
@@ -1648,7 +1648,7 @@ Bit   135878    450     22 Block=CLB_R2C17 Latch=X
 Bit   135888    450     12 Block=CLB_R1C17 Latch=X
 Bit   136808    454    300 Block=P85 Latch=OQ
 Bit   136809    454    299 Block=P84 Latch=OQ
-Bit   136823    454    285 Block=CLB_R28C17 Latch=XQ
+Bit   136823    454    285 Block=CLB_R28C17 Latch=XQ Net=N_CS_ADC_N<2>
 Bit   136833    454    275 Block=CLB_R27C17 Latch=XQ
 Bit   136843    454    265 Block=CLB_R26C17 Latch=XQ
 Bit   136853    454    255 Block=CLB_R25C17 Latch=XQ
@@ -1657,21 +1657,21 @@ Bit   136873    454    235 Block=CLB_R23C17 Latch=XQ
 Bit   136883    454    225 Block=CLB_R22C17 Latch=XQ
 Bit   136893    454    215 Block=CLB_R21C17 Latch=XQ
 Bit   136903    454    205 Block=CLB_R20C17 Latch=XQ
-Bit   136913    454    195 Block=CLB_R19C17 Latch=XQ Net=ADC_SH<3>
-Bit   136923    454    185 Block=CLB_R18C17 Latch=XQ Net=N_TP_Gr_En<4>
-Bit   136933    454    175 Block=CLB_R17C17 Latch=XQ Net=TPGRP/SREG<4>
+Bit   136913    454    195 Block=CLB_R19C17 Latch=XQ
+Bit   136923    454    185 Block=CLB_R18C17 Latch=XQ
+Bit   136933    454    175 Block=CLB_R17C17 Latch=XQ
 Bit   136943    454    165 Block=CLB_R16C17 Latch=XQ
-Bit   136953    454    155 Block=CLB_R15C17 Latch=XQ Net=TPGRP/SREG<2>
-Bit   136965    454    143 Block=CLB_R14C17 Latch=XQ Net=N_Stand_By_N<39>
-Bit   136975    454    133 Block=CLB_R13C17 Latch=XQ Net=SBR/SREG<24>
-Bit   136985    454    123 Block=CLB_R12C17 Latch=XQ Net=SBR/SREG<25>
-Bit   136995    454    113 Block=CLB_R11C17 Latch=XQ Net=N_Stand_By_N<26>
-Bit   137005    454    103 Block=CLB_R10C17 Latch=XQ Net=N_Stand_By_N<16>
-Bit   137015    454     93 Block=CLB_R9C17 Latch=XQ
-Bit   137025    454     83 Block=CLB_R8C17 Latch=XQ
-Bit   137035    454     73 Block=CLB_R7C17 Latch=XQ
-Bit   137045    454     63 Block=CLB_R6C17 Latch=XQ
-Bit   137055    454     53 Block=CLB_R5C17 Latch=XQ
+Bit   136953    454    155 Block=CLB_R15C17 Latch=XQ Net=T_TAP_CS<2>
+Bit   136965    454    143 Block=CLB_R14C17 Latch=XQ
+Bit   136975    454    133 Block=CLB_R13C17 Latch=XQ Net=INSTR_old<1>
+Bit   136985    454    123 Block=CLB_R12C17 Latch=XQ Net=N_TP_Gr_En<5>
+Bit   136995    454    113 Block=CLB_R11C17 Latch=XQ Net=N_TP_Gr_En<2>
+Bit   137005    454    103 Block=CLB_R10C17 Latch=XQ Net=SBR_SREG<13>
+Bit   137015    454     93 Block=CLB_R9C17 Latch=XQ Net=SBR_SREG<15>
+Bit   137025    454     83 Block=CLB_R8C17 Latch=XQ Net=SBR_SREG<30>
+Bit   137035    454     73 Block=CLB_R7C17 Latch=XQ Net=SBR_SREG<32>
+Bit   137045    454     63 Block=CLB_R6C17 Latch=XQ Net=N_Stand_By_N<33>
+Bit   137055    454     53 Block=CLB_R5C17 Latch=XQ Net=N_Stand_By_N<14>
 Bit   137065    454     43 Block=CLB_R4C17 Latch=XQ
 Bit   137075    454     33 Block=CLB_R3C17 Latch=XQ
 Bit   137085    454     23 Block=CLB_R2C17 Latch=XQ
@@ -1686,7 +1686,7 @@ Bit   137412    456    300 Block=P84 Latch=I2
 Bit   137413    456    299 Block=P84 Latch=I1
 Bit   137708    456      4 Block=P177 Latch=I1
 Bit   137709    456      3 Block=P177 Latch=I2
-Bit   143770    477    284 Block=CLB_R28C16 Latch=Y Net=N_CS_ADC_N<2>
+Bit   143770    477    284 Block=CLB_R28C16 Latch=Y
 Bit   143780    477    274 Block=CLB_R27C16 Latch=Y
 Bit   143790    477    264 Block=CLB_R26C16 Latch=Y
 Bit   143800    477    254 Block=CLB_R25C16 Latch=Y
@@ -1695,16 +1695,16 @@ Bit   143820    477    234 Block=CLB_R23C16 Latch=Y
 Bit   143830    477    224 Block=CLB_R22C16 Latch=Y
 Bit   143840    477    214 Block=CLB_R21C16 Latch=Y
 Bit   143850    477    204 Block=CLB_R20C16 Latch=Y
-Bit   143860    477    194 Block=CLB_R19C16 Latch=Y Net=C11/N11
-Bit   143870    477    184 Block=CLB_R18C16 Latch=Y
-Bit   143880    477    174 Block=CLB_R17C16 Latch=Y
-Bit   143890    477    164 Block=CLB_R16C16 Latch=Y Net=N1522
-Bit   143900    477    154 Block=CLB_R15C16 Latch=Y Net=N1636
-Bit   143912    477    142 Block=CLB_R14C16 Latch=Y
-Bit   143922    477    132 Block=CLB_R13C16 Latch=Y
+Bit   143860    477    194 Block=CLB_R19C16 Latch=Y
+Bit   143870    477    184 Block=CLB_R18C16 Latch=Y Net=T_C396
+Bit   143880    477    174 Block=CLB_R17C16 Latch=Y Net=n_249
+Bit   143890    477    164 Block=CLB_R16C16 Latch=Y Net=N816
+Bit   143900    477    154 Block=CLB_R15C16 Latch=Y Net=syn15590
+Bit   143912    477    142 Block=CLB_R14C16 Latch=Y Net=N720
+Bit   143922    477    132 Block=CLB_R13C16 Latch=Y Net=N699
 Bit   143932    477    122 Block=CLB_R12C16 Latch=Y
-Bit   143942    477    112 Block=CLB_R11C16 Latch=Y
-Bit   143952    477    102 Block=CLB_R10C16 Latch=Y
+Bit   143942    477    112 Block=CLB_R11C16 Latch=Y Net=N766
+Bit   143952    477    102 Block=CLB_R10C16 Latch=Y Net=STANDBY_UPD
 Bit   143962    477     92 Block=CLB_R9C16 Latch=Y
 Bit   143972    477     82 Block=CLB_R8C16 Latch=Y
 Bit   143982    477     72 Block=CLB_R7C16 Latch=Y
@@ -1724,25 +1724,25 @@ Bit   145339    482    225 Block=CLB_R22C16 Latch=YQ
 Bit   145349    482    215 Block=CLB_R21C16 Latch=YQ
 Bit   145359    482    205 Block=CLB_R20C16 Latch=YQ
 Bit   145369    482    195 Block=CLB_R19C16 Latch=YQ
-Bit   145379    482    185 Block=CLB_R18C16 Latch=YQ Net=N_TP_Gr_En<6>
-Bit   145389    482    175 Block=CLB_R17C16 Latch=YQ Net=N_TP_Gr_En<2>
+Bit   145379    482    185 Block=CLB_R18C16 Latch=YQ
+Bit   145389    482    175 Block=CLB_R17C16 Latch=YQ
 Bit   145399    482    165 Block=CLB_R16C16 Latch=YQ
-Bit   145409    482    155 Block=CLB_R15C16 Latch=YQ
+Bit   145409    482    155 Block=CLB_R15C16 Latch=YQ Net=INSTR_old<2>
 Bit   145421    482    143 Block=CLB_R14C16 Latch=YQ
-Bit   145431    482    133 Block=CLB_R13C16 Latch=YQ Net=N_Stand_By_N<24>
-Bit   145441    482    123 Block=CLB_R12C16 Latch=YQ Net=N_Stand_By_N<22>
-Bit   145451    482    113 Block=CLB_R11C16 Latch=YQ Net=N_Stand_By_N<28>
+Bit   145431    482    133 Block=CLB_R13C16 Latch=YQ
+Bit   145441    482    123 Block=CLB_R12C16 Latch=YQ Net=N_TP_Gr_En<0>
+Bit   145451    482    113 Block=CLB_R11C16 Latch=YQ
 Bit   145461    482    103 Block=CLB_R10C16 Latch=YQ
-Bit   145471    482     93 Block=CLB_R9C16 Latch=YQ
-Bit   145481    482     83 Block=CLB_R8C16 Latch=YQ
-Bit   145491    482     73 Block=CLB_R7C16 Latch=YQ
-Bit   145501    482     63 Block=CLB_R6C16 Latch=YQ
-Bit   145511    482     53 Block=CLB_R5C16 Latch=YQ
+Bit   145471    482     93 Block=CLB_R9C16 Latch=YQ Net=N_Stand_By_N<16>
+Bit   145481    482     83 Block=CLB_R8C16 Latch=YQ Net=SBR_SREG<18>
+Bit   145491    482     73 Block=CLB_R7C16 Latch=YQ Net=SBR_SREG<35>
+Bit   145501    482     63 Block=CLB_R6C16 Latch=YQ Net=SBR_SREG<20>
+Bit   145511    482     53 Block=CLB_R5C16 Latch=YQ Net=N_Stand_By_N<19>
 Bit   145521    482     43 Block=CLB_R4C16 Latch=YQ
 Bit   145531    482     33 Block=CLB_R3C16 Latch=YQ
 Bit   145541    482     23 Block=CLB_R2C16 Latch=YQ
 Bit   145551    482     13 Block=CLB_R1C16 Latch=YQ
-Bit   146488    486    284 Block=CLB_R28C16 Latch=X Net=N_CS_ADC_N<1>
+Bit   146488    486    284 Block=CLB_R28C16 Latch=X
 Bit   146498    486    274 Block=CLB_R27C16 Latch=X
 Bit   146508    486    264 Block=CLB_R26C16 Latch=X
 Bit   146518    486    254 Block=CLB_R25C16 Latch=X
@@ -1751,16 +1751,16 @@ Bit   146538    486    234 Block=CLB_R23C16 Latch=X
 Bit   146548    486    224 Block=CLB_R22C16 Latch=X
 Bit   146558    486    214 Block=CLB_R21C16 Latch=X
 Bit   146568    486    204 Block=CLB_R20C16 Latch=X
-Bit   146578    486    194 Block=CLB_R19C16 Latch=X Net=syn5723
-Bit   146588    486    184 Block=CLB_R18C16 Latch=X
-Bit   146598    486    174 Block=CLB_R17C16 Latch=X
-Bit   146608    486    164 Block=CLB_R16C16 Latch=X Net=syn12034
-Bit   146618    486    154 Block=CLB_R15C16 Latch=X Net=syn11976
-Bit   146630    486    142 Block=CLB_R14C16 Latch=X Net=N1525
-Bit   146640    486    132 Block=CLB_R13C16 Latch=X
+Bit   146578    486    194 Block=CLB_R19C16 Latch=X
+Bit   146588    486    184 Block=CLB_R18C16 Latch=X Net=syn15153
+Bit   146598    486    174 Block=CLB_R17C16 Latch=X Net=N808
+Bit   146608    486    164 Block=CLB_R16C16 Latch=X Net=syn15373
+Bit   146618    486    154 Block=CLB_R15C16 Latch=X Net=syn15658
+Bit   146630    486    142 Block=CLB_R14C16 Latch=X Net=IR_SH
+Bit   146640    486    132 Block=CLB_R13C16 Latch=X Net=syn15395
 Bit   146650    486    122 Block=CLB_R12C16 Latch=X
-Bit   146660    486    112 Block=CLB_R11C16 Latch=X
-Bit   146670    486    102 Block=CLB_R10C16 Latch=X
+Bit   146660    486    112 Block=CLB_R11C16 Latch=X Net=syn1703
+Bit   146670    486    102 Block=CLB_R10C16 Latch=X Net=syn1628
 Bit   146680    486     92 Block=CLB_R9C16 Latch=X
 Bit   146690    486     82 Block=CLB_R8C16 Latch=X
 Bit   146700    486     72 Block=CLB_R7C16 Latch=X
@@ -1783,19 +1783,19 @@ Bit   147765    490    215 Block=CLB_R21C16 Latch=XQ
 Bit   147775    490    205 Block=CLB_R20C16 Latch=XQ
 Bit   147785    490    195 Block=CLB_R19C16 Latch=XQ
 Bit   147795    490    185 Block=CLB_R18C16 Latch=XQ
-Bit   147805    490    175 Block=CLB_R17C16 Latch=XQ Net=N_TP_Gr_En<3>
-Bit   147815    490    165 Block=CLB_R16C16 Latch=XQ
-Bit   147825    490    155 Block=CLB_R15C16 Latch=XQ
+Bit   147805    490    175 Block=CLB_R17C16 Latch=XQ Net=cs_en<2>
+Bit   147815    490    165 Block=CLB_R16C16 Latch=XQ Net=cs_en<3>
+Bit   147825    490    155 Block=CLB_R15C16 Latch=XQ Net=INSTR_old<3>
 Bit   147837    490    143 Block=CLB_R14C16 Latch=XQ
-Bit   147847    490    133 Block=CLB_R13C16 Latch=XQ Net=N_Stand_By_N<25>
-Bit   147857    490    123 Block=CLB_R12C16 Latch=XQ Net=N_Stand_By_N<23>
-Bit   147867    490    113 Block=CLB_R11C16 Latch=XQ Net=N_Stand_By_N<29>
-Bit   147877    490    103 Block=CLB_R10C16 Latch=XQ
-Bit   147887    490     93 Block=CLB_R9C16 Latch=XQ
-Bit   147897    490     83 Block=CLB_R8C16 Latch=XQ
-Bit   147907    490     73 Block=CLB_R7C16 Latch=XQ
-Bit   147917    490     63 Block=CLB_R6C16 Latch=XQ
-Bit   147927    490     53 Block=CLB_R5C16 Latch=XQ
+Bit   147847    490    133 Block=CLB_R13C16 Latch=XQ
+Bit   147857    490    123 Block=CLB_R12C16 Latch=XQ Net=N_TP_Gr_En<1>
+Bit   147867    490    113 Block=CLB_R11C16 Latch=XQ
+Bit   147877    490    103 Block=CLB_R10C16 Latch=XQ Net=STANDBY_DOUT
+Bit   147887    490     93 Block=CLB_R9C16 Latch=XQ Net=N_Stand_By_N<17>
+Bit   147897    490     83 Block=CLB_R8C16 Latch=XQ Net=SBR_SREG<17>
+Bit   147907    490     73 Block=CLB_R7C16 Latch=XQ Net=SBR_SREG<36>
+Bit   147917    490     63 Block=CLB_R6C16 Latch=XQ Net=SBR_SREG<19>
+Bit   147927    490     53 Block=CLB_R5C16 Latch=XQ Net=N_Stand_By_N<18>
 Bit   147937    490     43 Block=CLB_R4C16 Latch=XQ
 Bit   147947    490     33 Block=CLB_R3C16 Latch=XQ
 Bit   147957    490     23 Block=CLB_R2C16 Latch=XQ
@@ -1803,14 +1803,14 @@ Bit   147967    490     13 Block=CLB_R1C16 Latch=XQ
 Bit   147976    490      4 Block=P179 Latch=OQ
 Bit   147977    490      3 Block=P178 Latch=OQ
 Bit   147982    491    300 Block=P83 Latch=I1
-Bit   147983    491    299 Block=P83 Latch=I2 Net=N_Dout_ADC<2>
+Bit   147983    491    299 Block=P83 Latch=I2 Net=N_Future<5>
 Bit   148278    491      4 Block=P178 Latch=I2
 Bit   148279    491      3 Block=P178 Latch=I1
 Bit   148284    492    300 Block=P82 Latch=I2
 Bit   148285    492    299 Block=P82 Latch=I1
 Bit   148580    492      4 Block=P179 Latch=I1
 Bit   148581    492      3 Block=P179 Latch=I2
-Bit   154642    513    284 Block=CLB_R28C15 Latch=Y
+Bit   154642    513    284 Block=CLB_R28C15 Latch=Y Net=N_Clk_ADC<3>
 Bit   154652    513    274 Block=CLB_R27C15 Latch=Y
 Bit   154662    513    264 Block=CLB_R26C15 Latch=Y
 Bit   154672    513    254 Block=CLB_R25C15 Latch=Y
@@ -1819,15 +1819,15 @@ Bit   154692    513    234 Block=CLB_R23C15 Latch=Y
 Bit   154702    513    224 Block=CLB_R22C15 Latch=Y
 Bit   154712    513    214 Block=CLB_R21C15 Latch=Y
 Bit   154722    513    204 Block=CLB_R20C15 Latch=Y
-Bit   154732    513    194 Block=CLB_R19C15 Latch=Y Net=C11/N6
-Bit   154742    513    184 Block=CLB_R18C15 Latch=Y Net=N1544
-Bit   154752    513    174 Block=CLB_R17C15 Latch=Y Net=syn2076
-Bit   154762    513    164 Block=CLB_R16C15 Latch=Y Net=IN_DEC/C27/C4
-Bit   154772    513    154 Block=CLB_R15C15 Latch=Y Net=N1523
-Bit   154784    513    142 Block=CLB_R14C15 Latch=Y Net=syn11944
-Bit   154794    513    132 Block=CLB_R13C15 Latch=Y Net=N1784
-Bit   154804    513    122 Block=CLB_R12C15 Latch=Y Net=T/C298
-Bit   154814    513    112 Block=CLB_R11C15 Latch=Y Net=syn2193
+Bit   154732    513    194 Block=CLB_R19C15 Latch=Y
+Bit   154742    513    184 Block=CLB_R18C15 Latch=Y Net=syn1719
+Bit   154752    513    174 Block=CLB_R17C15 Latch=Y
+Bit   154762    513    164 Block=CLB_R16C15 Latch=Y Net=C15_N21
+Bit   154772    513    154 Block=CLB_R15C15 Latch=Y Net=N_Clk_DAC<3>
+Bit   154784    513    142 Block=CLB_R14C15 Latch=Y
+Bit   154794    513    132 Block=CLB_R13C15 Latch=Y Net=syn15120
+Bit   154804    513    122 Block=CLB_R12C15 Latch=Y Net=IN_DEC_C27_C12
+Bit   154814    513    112 Block=CLB_R11C15 Latch=Y Net=N719
 Bit   154824    513    102 Block=CLB_R10C15 Latch=Y
 Bit   154834    513     92 Block=CLB_R9C15 Latch=Y
 Bit   154844    513     82 Block=CLB_R8C15 Latch=Y
@@ -1847,26 +1847,26 @@ Bit   156201    518    235 Block=CLB_R23C15 Latch=YQ
 Bit   156211    518    225 Block=CLB_R22C15 Latch=YQ
 Bit   156221    518    215 Block=CLB_R21C15 Latch=YQ
 Bit   156231    518    205 Block=CLB_R20C15 Latch=YQ
-Bit   156241    518    195 Block=CLB_R19C15 Latch=YQ
+Bit   156241    518    195 Block=CLB_R19C15 Latch=YQ Net=ADC_SH<2>
 Bit   156251    518    185 Block=CLB_R18C15 Latch=YQ
-Bit   156261    518    175 Block=CLB_R17C15 Latch=YQ Net=ADC_SH<0>
+Bit   156261    518    175 Block=CLB_R17C15 Latch=YQ Net=IR_SREG<3>
 Bit   156271    518    165 Block=CLB_R16C15 Latch=YQ
-Bit   156281    518    155 Block=CLB_R15C15 Latch=YQ
+Bit   156281    518    155 Block=CLB_R15C15 Latch=YQ Net=N_OpCode<3>
 Bit   156293    518    143 Block=CLB_R14C15 Latch=YQ
 Bit   156303    518    133 Block=CLB_R13C15 Latch=YQ
 Bit   156313    518    123 Block=CLB_R12C15 Latch=YQ
 Bit   156323    518    113 Block=CLB_R11C15 Latch=YQ
-Bit   156333    518    103 Block=CLB_R10C15 Latch=YQ
-Bit   156343    518     93 Block=CLB_R9C15 Latch=YQ
-Bit   156353    518     83 Block=CLB_R8C15 Latch=YQ
-Bit   156363    518     73 Block=CLB_R7C15 Latch=YQ
-Bit   156373    518     63 Block=CLB_R6C15 Latch=YQ
-Bit   156383    518     53 Block=CLB_R5C15 Latch=YQ
+Bit   156333    518    103 Block=CLB_R10C15 Latch=YQ Net=SBR_SREG<40>
+Bit   156343    518     93 Block=CLB_R9C15 Latch=YQ Net=SBR_SREG<37>
+Bit   156353    518     83 Block=CLB_R8C15 Latch=YQ Net=SBR_SREG<23>
+Bit   156363    518     73 Block=CLB_R7C15 Latch=YQ Net=SBR_SREG<21>
+Bit   156373    518     63 Block=CLB_R6C15 Latch=YQ Net=SBR_SREG<34>
+Bit   156383    518     53 Block=CLB_R5C15 Latch=YQ Net=N_Stand_By_N<21>
 Bit   156393    518     43 Block=CLB_R4C15 Latch=YQ
 Bit   156403    518     33 Block=CLB_R3C15 Latch=YQ
 Bit   156413    518     23 Block=CLB_R2C15 Latch=YQ
 Bit   156423    518     13 Block=CLB_R1C15 Latch=YQ
-Bit   157360    522    284 Block=CLB_R28C15 Latch=X
+Bit   157360    522    284 Block=CLB_R28C15 Latch=X Net=N_Future<3>
 Bit   157370    522    274 Block=CLB_R27C15 Latch=X
 Bit   157380    522    264 Block=CLB_R26C15 Latch=X
 Bit   157390    522    254 Block=CLB_R25C15 Latch=X
@@ -1874,16 +1874,16 @@ Bit   157400    522    244 Block=CLB_R24C15 Latch=X
 Bit   157410    522    234 Block=CLB_R23C15 Latch=X
 Bit   157420    522    224 Block=CLB_R22C15 Latch=X
 Bit   157430    522    214 Block=CLB_R21C15 Latch=X
-Bit   157440    522    204 Block=CLB_R20C15 Latch=X
-Bit   157450    522    194 Block=CLB_R19C15 Latch=X Net=syn11747
-Bit   157460    522    184 Block=CLB_R18C15 Latch=X
-Bit   157470    522    174 Block=CLB_R17C15 Latch=X Net=syn2037
-Bit   157480    522    164 Block=CLB_R16C15 Latch=X Net=syn11934
-Bit   157490    522    154 Block=CLB_R15C15 Latch=X Net=syn2033
-Bit   157502    522    142 Block=CLB_R14C15 Latch=X Net=IR_SH
-Bit   157512    522    132 Block=CLB_R13C15 Latch=X Net=syn2096
-Bit   157522    522    122 Block=CLB_R12C15 Latch=X Net=syn11528
-Bit   157532    522    112 Block=CLB_R11C15 Latch=X Net=N1785
+Bit   157440    522    204 Block=CLB_R20C15 Latch=X Net=syn15102
+Bit   157450    522    194 Block=CLB_R19C15 Latch=X
+Bit   157460    522    184 Block=CLB_R18C15 Latch=X Net=syn5148
+Bit   157470    522    174 Block=CLB_R17C15 Latch=X
+Bit   157480    522    164 Block=CLB_R16C15 Latch=X Net=IN_DEC_C633
+Bit   157490    522    154 Block=CLB_R15C15 Latch=X Net=syn1577
+Bit   157502    522    142 Block=CLB_R14C15 Latch=X Net=syn15309
+Bit   157512    522    132 Block=CLB_R13C15 Latch=X Net=syn15306
+Bit   157522    522    122 Block=CLB_R12C15 Latch=X Net=syn15282
+Bit   157532    522    112 Block=CLB_R11C15 Latch=X Net=syn1858
 Bit   157542    522    102 Block=CLB_R10C15 Latch=X
 Bit   157552    522     92 Block=CLB_R9C15 Latch=X
 Bit   157562    522     82 Block=CLB_R8C15 Latch=X
@@ -1904,22 +1904,22 @@ Bit   158607    526    245 Block=CLB_R24C15 Latch=XQ
 Bit   158617    526    235 Block=CLB_R23C15 Latch=XQ
 Bit   158627    526    225 Block=CLB_R22C15 Latch=XQ
 Bit   158637    526    215 Block=CLB_R21C15 Latch=XQ
-Bit   158647    526    205 Block=CLB_R20C15 Latch=XQ
-Bit   158657    526    195 Block=CLB_R19C15 Latch=XQ
-Bit   158667    526    185 Block=CLB_R18C15 Latch=XQ
-Bit   158677    526    175 Block=CLB_R17C15 Latch=XQ
+Bit   158647    526    205 Block=CLB_R20C15 Latch=XQ Net=N_CS_ADC_N<4>
+Bit   158657    526    195 Block=CLB_R19C15 Latch=XQ Net=ADC_SH<3>
+Bit   158667    526    185 Block=CLB_R18C15 Latch=XQ Net=IR_SREG<1>
+Bit   158677    526    175 Block=CLB_R17C15 Latch=XQ Net=IR_SREG<2>
 Bit   158687    526    165 Block=CLB_R16C15 Latch=XQ
-Bit   158697    526    155 Block=CLB_R15C15 Latch=XQ
+Bit   158697    526    155 Block=CLB_R15C15 Latch=XQ Net=N_OpCode<2>
 Bit   158709    526    143 Block=CLB_R14C15 Latch=XQ
 Bit   158719    526    133 Block=CLB_R13C15 Latch=XQ
 Bit   158729    526    123 Block=CLB_R12C15 Latch=XQ
 Bit   158739    526    113 Block=CLB_R11C15 Latch=XQ
-Bit   158749    526    103 Block=CLB_R10C15 Latch=XQ
-Bit   158759    526     93 Block=CLB_R9C15 Latch=XQ
-Bit   158769    526     83 Block=CLB_R8C15 Latch=XQ
-Bit   158779    526     73 Block=CLB_R7C15 Latch=XQ
-Bit   158789    526     63 Block=CLB_R6C15 Latch=XQ
-Bit   158799    526     53 Block=CLB_R5C15 Latch=XQ
+Bit   158749    526    103 Block=CLB_R10C15 Latch=XQ Net=SBR_SREG<39>
+Bit   158759    526     93 Block=CLB_R9C15 Latch=XQ Net=SBR_SREG<38>
+Bit   158769    526     83 Block=CLB_R8C15 Latch=XQ Net=SBR_SREG<24>
+Bit   158779    526     73 Block=CLB_R7C15 Latch=XQ Net=SBR_SREG<22>
+Bit   158789    526     63 Block=CLB_R6C15 Latch=XQ Net=SBR_SREG<33>
+Bit   158799    526     53 Block=CLB_R5C15 Latch=XQ Net=N_Stand_By_N<20>
 Bit   158809    526     43 Block=CLB_R4C15 Latch=XQ
 Bit   158819    526     33 Block=CLB_R3C15 Latch=XQ
 Bit   158829    526     23 Block=CLB_R2C15 Latch=XQ
@@ -1934,25 +1934,25 @@ Bit   159156    528    300 Block=P80 Latch=I2
 Bit   159157    528    299 Block=P80 Latch=I1
 Bit   159452    528      4 Block=P181 Latch=I1
 Bit   159453    528      3 Block=P181 Latch=I2
-Bit   166118    551    284 Block=CLB_R28C14 Latch=Y
+Bit   166118    551    284 Block=CLB_R28C14 Latch=Y Net=N_Din_ADC<2>
 Bit   166128    551    274 Block=CLB_R27C14 Latch=Y
 Bit   166138    551    264 Block=CLB_R26C14 Latch=Y
 Bit   166148    551    254 Block=CLB_R25C14 Latch=Y
 Bit   166158    551    244 Block=CLB_R24C14 Latch=Y
 Bit   166168    551    234 Block=CLB_R23C14 Latch=Y
 Bit   166178    551    224 Block=CLB_R22C14 Latch=Y
-Bit   166188    551    214 Block=CLB_R21C14 Latch=Y
+Bit   166188    551    214 Block=CLB_R21C14 Latch=Y Net=N_Din_ADC<3>
 Bit   166198    551    204 Block=CLB_R20C14 Latch=Y
 Bit   166208    551    194 Block=CLB_R19C14 Latch=Y
-Bit   166218    551    184 Block=CLB_R18C14 Latch=Y Net=N1545
-Bit   166228    551    174 Block=CLB_R17C14 Latch=Y Net=syn11559
-Bit   166238    551    164 Block=CLB_R16C14 Latch=Y Net=syn11741
-Bit   166248    551    154 Block=CLB_R15C14 Latch=Y Net=IN_DEC/C27/C12
-Bit   166260    551    142 Block=CLB_R14C14 Latch=Y Net=syn2260
-Bit   166270    551    132 Block=CLB_R13C14 Latch=Y
-Bit   166280    551    122 Block=CLB_R12C14 Latch=Y
-Bit   166290    551    112 Block=CLB_R11C14 Latch=Y Net=syn11490
-Bit   166300    551    102 Block=CLB_R10C14 Latch=Y Net=syn11531
+Bit   166218    551    184 Block=CLB_R18C14 Latch=Y
+Bit   166228    551    174 Block=CLB_R17C14 Latch=Y
+Bit   166238    551    164 Block=CLB_R16C14 Latch=Y Net=syn1583
+Bit   166248    551    154 Block=CLB_R15C14 Latch=Y Net=syn15398
+Bit   166260    551    142 Block=CLB_R14C14 Latch=Y Net=IN_DEC_C563
+Bit   166270    551    132 Block=CLB_R13C14 Latch=Y Net=IN_DEC_C27_C4
+Bit   166280    551    122 Block=CLB_R12C14 Latch=Y Net=N710
+Bit   166290    551    112 Block=CLB_R11C14 Latch=Y
+Bit   166300    551    102 Block=CLB_R10C14 Latch=Y
 Bit   166310    551     92 Block=CLB_R9C14 Latch=Y
 Bit   166320    551     82 Block=CLB_R8C14 Latch=Y
 Bit   166330    551     72 Block=CLB_R7C14 Latch=Y
@@ -1972,44 +1972,44 @@ Bit   167687    556    225 Block=CLB_R22C14 Latch=YQ
 Bit   167697    556    215 Block=CLB_R21C14 Latch=YQ
 Bit   167707    556    205 Block=CLB_R20C14 Latch=YQ
 Bit   167717    556    195 Block=CLB_R19C14 Latch=YQ
-Bit   167727    556    185 Block=CLB_R18C14 Latch=YQ
-Bit   167737    556    175 Block=CLB_R17C14 Latch=YQ
+Bit   167727    556    185 Block=CLB_R18C14 Latch=YQ Net=IR_SREG<4>
+Bit   167737    556    175 Block=CLB_R17C14 Latch=YQ Net=ADC_SH<1>
 Bit   167747    556    165 Block=CLB_R16C14 Latch=YQ
-Bit   167757    556    155 Block=CLB_R15C14 Latch=YQ
+Bit   167757    556    155 Block=CLB_R15C14 Latch=YQ Net=N_OpCode<5>
 Bit   167769    556    143 Block=CLB_R14C14 Latch=YQ
-Bit   167779    556    133 Block=CLB_R13C14 Latch=YQ
-Bit   167789    556    123 Block=CLB_R12C14 Latch=YQ Net=T/TAP_CS<1>
-Bit   167799    556    113 Block=CLB_R11C14 Latch=YQ
-Bit   167809    556    103 Block=CLB_R10C14 Latch=YQ
-Bit   167819    556     93 Block=CLB_R9C14 Latch=YQ
-Bit   167829    556     83 Block=CLB_R8C14 Latch=YQ
-Bit   167839    556     73 Block=CLB_R7C14 Latch=YQ
-Bit   167849    556     63 Block=CLB_R6C14 Latch=YQ
+Bit   167779    556    133 Block=CLB_R13C14 Latch=YQ Net=N_OpCode<0>
+Bit   167789    556    123 Block=CLB_R12C14 Latch=YQ
+Bit   167799    556    113 Block=CLB_R11C14 Latch=YQ Net=TP_GRP_DOUT
+Bit   167809    556    103 Block=CLB_R10C14 Latch=YQ Net=SBR_SREG<41>
+Bit   167819    556     93 Block=CLB_R9C14 Latch=YQ Net=SBR_SREG<26>
+Bit   167829    556     83 Block=CLB_R8C14 Latch=YQ Net=N_Stand_By_N<25>
+Bit   167839    556     73 Block=CLB_R7C14 Latch=YQ Net=N_Stand_By_N<23>
+Bit   167849    556     63 Block=CLB_R6C14 Latch=YQ Net=N_Stand_By_N<35>
 Bit   167859    556     53 Block=CLB_R5C14 Latch=YQ
 Bit   167869    556     43 Block=CLB_R4C14 Latch=YQ
 Bit   167879    556     33 Block=CLB_R3C14 Latch=YQ
 Bit   167889    556     23 Block=CLB_R2C14 Latch=YQ
 Bit   167899    556     13 Block=CLB_R1C14 Latch=YQ
-Bit   168836    560    284 Block=CLB_R28C14 Latch=X
+Bit   168836    560    284 Block=CLB_R28C14 Latch=X Net=N_Future<2>
 Bit   168846    560    274 Block=CLB_R27C14 Latch=X
 Bit   168856    560    264 Block=CLB_R26C14 Latch=X
 Bit   168866    560    254 Block=CLB_R25C14 Latch=X
 Bit   168876    560    244 Block=CLB_R24C14 Latch=X
 Bit   168886    560    234 Block=CLB_R23C14 Latch=X
 Bit   168896    560    224 Block=CLB_R22C14 Latch=X
-Bit   168906    560    214 Block=CLB_R21C14 Latch=X
+Bit   168906    560    214 Block=CLB_R21C14 Latch=X Net=N_Din_ADC<0>
 Bit   168916    560    204 Block=CLB_R20C14 Latch=X
 Bit   168926    560    194 Block=CLB_R19C14 Latch=X
-Bit   168936    560    184 Block=CLB_R18C14 Latch=X Net=syn2849
-Bit   168946    560    174 Block=CLB_R17C14 Latch=X Net=syn11943
-Bit   168956    560    164 Block=CLB_R16C14 Latch=X Net=syn2336
-Bit   168966    560    154 Block=CLB_R15C14 Latch=X Net=N1540
-Bit   168978    560    142 Block=CLB_R14C14 Latch=X Net=syn11942
-Bit   168988    560    132 Block=CLB_R13C14 Latch=X
-Bit   168998    560    122 Block=CLB_R12C14 Latch=X
-Bit   169008    560    112 Block=CLB_R11C14 Latch=X Net=syn11533
-Bit   169018    560    102 Block=CLB_R10C14 Latch=X Net=N1630
-Bit   169028    560     92 Block=CLB_R9C14 Latch=X Net=syn11487
+Bit   168936    560    184 Block=CLB_R18C14 Latch=X
+Bit   168946    560    174 Block=CLB_R17C14 Latch=X
+Bit   168956    560    164 Block=CLB_R16C14 Latch=X Net=syn1860
+Bit   168966    560    154 Block=CLB_R15C14 Latch=X Net=syn15396
+Bit   168978    560    142 Block=CLB_R14C14 Latch=X
+Bit   168988    560    132 Block=CLB_R13C14 Latch=X Net=syn5133
+Bit   168998    560    122 Block=CLB_R12C14 Latch=X Net=N717
+Bit   169008    560    112 Block=CLB_R11C14 Latch=X
+Bit   169018    560    102 Block=CLB_R10C14 Latch=X Net=N_Din_ADC<1>
+Bit   169028    560     92 Block=CLB_R9C14 Latch=X
 Bit   169038    560     82 Block=CLB_R8C14 Latch=X
 Bit   169048    560     72 Block=CLB_R7C14 Latch=X
 Bit   169058    560     62 Block=CLB_R6C14 Latch=X
@@ -2030,19 +2030,19 @@ Bit   170103    564    225 Block=CLB_R22C14 Latch=XQ
 Bit   170113    564    215 Block=CLB_R21C14 Latch=XQ
 Bit   170123    564    205 Block=CLB_R20C14 Latch=XQ
 Bit   170133    564    195 Block=CLB_R19C14 Latch=XQ
-Bit   170143    564    185 Block=CLB_R18C14 Latch=XQ
-Bit   170153    564    175 Block=CLB_R17C14 Latch=XQ
+Bit   170143    564    185 Block=CLB_R18C14 Latch=XQ Net=IR_SREG<5>
+Bit   170153    564    175 Block=CLB_R17C14 Latch=XQ Net=ADC_SH<0>
 Bit   170163    564    165 Block=CLB_R16C14 Latch=XQ
-Bit   170173    564    155 Block=CLB_R15C14 Latch=XQ
+Bit   170173    564    155 Block=CLB_R15C14 Latch=XQ Net=N_OpCode<4>
 Bit   170185    564    143 Block=CLB_R14C14 Latch=XQ
-Bit   170195    564    133 Block=CLB_R13C14 Latch=XQ Net=N_PD_TP_N
-Bit   170205    564    123 Block=CLB_R12C14 Latch=XQ Net=T/TAP_CS<0>
+Bit   170195    564    133 Block=CLB_R13C14 Latch=XQ Net=N_OpCode<1>
+Bit   170205    564    123 Block=CLB_R12C14 Latch=XQ
 Bit   170215    564    113 Block=CLB_R11C14 Latch=XQ
 Bit   170225    564    103 Block=CLB_R10C14 Latch=XQ
-Bit   170235    564     93 Block=CLB_R9C14 Latch=XQ
-Bit   170245    564     83 Block=CLB_R8C14 Latch=XQ
-Bit   170255    564     73 Block=CLB_R7C14 Latch=XQ
-Bit   170265    564     63 Block=CLB_R6C14 Latch=XQ
+Bit   170235    564     93 Block=CLB_R9C14 Latch=XQ Net=SBR_SREG<25>
+Bit   170245    564     83 Block=CLB_R8C14 Latch=XQ Net=N_Stand_By_N<24>
+Bit   170255    564     73 Block=CLB_R7C14 Latch=XQ Net=N_Stand_By_N<22>
+Bit   170265    564     63 Block=CLB_R6C14 Latch=XQ Net=N_Stand_By_N<34>
 Bit   170275    564     53 Block=CLB_R5C14 Latch=XQ
 Bit   170285    564     43 Block=CLB_R4C14 Latch=XQ
 Bit   170295    564     33 Block=CLB_R3C14 Latch=XQ
@@ -2054,30 +2054,30 @@ Bit   170330    565    300 Block=P77 Latch=I1
 Bit   170331    565    299 Block=P77 Latch=I2
 Bit   170626    565      4 Block=P184 Latch=I2
 Bit   170627    565      3 Block=P184 Latch=I1
-Bit   170632    566    300 Block=P76 Latch=I2
-Bit   170633    566    299 Block=P76 Latch=I1 Net=N_Dout_ADC<1>
+Bit   170632    566    300 Block=P76 Latch=I2 Net=N_Future<6>
+Bit   170633    566    299 Block=P76 Latch=I1
 Bit   170928    566      4 Block=P185 Latch=I1
 Bit   170929    566      3 Block=P185 Latch=I2
 Bit   176990    587    284 Block=CLB_R28C13 Latch=Y
 Bit   177000    587    274 Block=CLB_R27C13 Latch=Y
 Bit   177010    587    264 Block=CLB_R26C13 Latch=Y
 Bit   177020    587    254 Block=CLB_R25C13 Latch=Y
-Bit   177030    587    244 Block=CLB_R24C13 Latch=Y
+Bit   177030    587    244 Block=CLB_R24C13 Latch=Y Net=N_Clk_ADC<4>
 Bit   177040    587    234 Block=CLB_R23C13 Latch=Y
 Bit   177050    587    224 Block=CLB_R22C13 Latch=Y
 Bit   177060    587    214 Block=CLB_R21C13 Latch=Y
 Bit   177070    587    204 Block=CLB_R20C13 Latch=Y
 Bit   177080    587    194 Block=CLB_R19C13 Latch=Y
-Bit   177090    587    184 Block=CLB_R18C13 Latch=Y Net=syn2423
-Bit   177100    587    174 Block=CLB_R17C13 Latch=Y Net=syn11550
-Bit   177110    587    164 Block=CLB_R16C13 Latch=Y Net=TP_GRP_UPD
-Bit   177120    587    154 Block=CLB_R15C13 Latch=Y Net=syn2039
-Bit   177132    587    142 Block=CLB_R14C13 Latch=Y Net=VAR_PD_UPD
-Bit   177142    587    132 Block=CLB_R13C13 Latch=Y
-Bit   177152    587    122 Block=CLB_R12C13 Latch=Y Net=syn2226
+Bit   177090    587    184 Block=CLB_R18C13 Latch=Y
+Bit   177100    587    174 Block=CLB_R17C13 Latch=Y
+Bit   177110    587    164 Block=CLB_R16C13 Latch=Y Net=syn4246
+Bit   177120    587    154 Block=CLB_R15C13 Latch=Y Net=syn1565
+Bit   177132    587    142 Block=CLB_R14C13 Latch=Y Net=syn1564
+Bit   177142    587    132 Block=CLB_R13C13 Latch=Y Net=VAR_PD_UPD
+Bit   177152    587    122 Block=CLB_R12C13 Latch=Y Net=TP_GRP_UPD
 Bit   177162    587    112 Block=CLB_R11C13 Latch=Y
-Bit   177172    587    102 Block=CLB_R10C13 Latch=Y Net=T/C396
-Bit   177182    587     92 Block=CLB_R9C13 Latch=Y Net=syn2042
+Bit   177172    587    102 Block=CLB_R10C13 Latch=Y
+Bit   177182    587     92 Block=CLB_R9C13 Latch=Y
 Bit   177192    587     82 Block=CLB_R8C13 Latch=Y
 Bit   177202    587     72 Block=CLB_R7C13 Latch=Y
 Bit   177212    587     62 Block=CLB_R6C13 Latch=Y
@@ -2086,7 +2086,7 @@ Bit   177232    587     42 Block=CLB_R4C13 Latch=Y
 Bit   177242    587     32 Block=CLB_R3C13 Latch=Y
 Bit   177252    587     22 Block=CLB_R2C13 Latch=Y
 Bit   177262    587     12 Block=CLB_R1C13 Latch=Y
-Bit   178499    592    285 Block=CLB_R28C13 Latch=YQ
+Bit   178499    592    285 Block=CLB_R28C13 Latch=YQ Net=N_CS_ADC_N<0>
 Bit   178509    592    275 Block=CLB_R27C13 Latch=YQ
 Bit   178519    592    265 Block=CLB_R26C13 Latch=YQ
 Bit   178529    592    255 Block=CLB_R25C13 Latch=YQ
@@ -2094,20 +2094,20 @@ Bit   178539    592    245 Block=CLB_R24C13 Latch=YQ
 Bit   178549    592    235 Block=CLB_R23C13 Latch=YQ
 Bit   178559    592    225 Block=CLB_R22C13 Latch=YQ
 Bit   178569    592    215 Block=CLB_R21C13 Latch=YQ
-Bit   178579    592    205 Block=CLB_R20C13 Latch=YQ Net=ID_REG/SREG<6>
+Bit   178579    592    205 Block=CLB_R20C13 Latch=YQ
 Bit   178589    592    195 Block=CLB_R19C13 Latch=YQ
 Bit   178599    592    185 Block=CLB_R18C13 Latch=YQ
 Bit   178609    592    175 Block=CLB_R17C13 Latch=YQ
-Bit   178619    592    165 Block=CLB_R16C13 Latch=YQ Net=N_OpCode<0>
+Bit   178619    592    165 Block=CLB_R16C13 Latch=YQ Net=INSTR_old<5>
 Bit   178629    592    155 Block=CLB_R15C13 Latch=YQ
 Bit   178641    592    143 Block=CLB_R14C13 Latch=YQ
-Bit   178651    592    133 Block=CLB_R13C13 Latch=YQ Net=T/TAP_CS<2>
+Bit   178651    592    133 Block=CLB_R13C13 Latch=YQ
 Bit   178661    592    123 Block=CLB_R12C13 Latch=YQ
-Bit   178671    592    113 Block=CLB_R11C13 Latch=YQ
+Bit   178671    592    113 Block=CLB_R11C13 Latch=YQ Net=TPGRP_SREG<1>
 Bit   178681    592    103 Block=CLB_R10C13 Latch=YQ
-Bit   178691    592     93 Block=CLB_R9C13 Latch=YQ
-Bit   178701    592     83 Block=CLB_R8C13 Latch=YQ
-Bit   178711    592     73 Block=CLB_R7C13 Latch=YQ
+Bit   178691    592     93 Block=CLB_R9C13 Latch=YQ Net=SBR_SREG<27>
+Bit   178701    592     83 Block=CLB_R8C13 Latch=YQ Net=N_Stand_By_N<26>
+Bit   178711    592     73 Block=CLB_R7C13 Latch=YQ Net=N_Stand_By_N<37>
 Bit   178721    592     63 Block=CLB_R6C13 Latch=YQ
 Bit   178731    592     53 Block=CLB_R5C13 Latch=YQ
 Bit   178741    592     43 Block=CLB_R4C13 Latch=YQ
@@ -2118,22 +2118,22 @@ Bit   179708    596    284 Block=CLB_R28C13 Latch=X
 Bit   179718    596    274 Block=CLB_R27C13 Latch=X
 Bit   179728    596    264 Block=CLB_R26C13 Latch=X
 Bit   179738    596    254 Block=CLB_R25C13 Latch=X
-Bit   179748    596    244 Block=CLB_R24C13 Latch=X
+Bit   179748    596    244 Block=CLB_R24C13 Latch=X Net=N_Future<4>
 Bit   179758    596    234 Block=CLB_R23C13 Latch=X
 Bit   179768    596    224 Block=CLB_R22C13 Latch=X
 Bit   179778    596    214 Block=CLB_R21C13 Latch=X
 Bit   179788    596    204 Block=CLB_R20C13 Latch=X
 Bit   179798    596    194 Block=CLB_R19C13 Latch=X
-Bit   179808    596    184 Block=CLB_R18C13 Latch=X Net=IN_DEC/C553
-Bit   179818    596    174 Block=CLB_R17C13 Latch=X Net=syn11615
-Bit   179828    596    164 Block=CLB_R16C13 Latch=X Net=syn11666
-Bit   179838    596    154 Block=CLB_R15C13 Latch=X Net=syn11671
-Bit   179850    596    142 Block=CLB_R14C13 Latch=X Net=N1543
-Bit   179860    596    132 Block=CLB_R13C13 Latch=X
-Bit   179870    596    122 Block=CLB_R12C13 Latch=X Net=syn2840
-Bit   179880    596    112 Block=CLB_R11C13 Latch=X Net=syn11518
-Bit   179890    596    102 Block=CLB_R10C13 Latch=X Net=syn11515
-Bit   179900    596     92 Block=CLB_R9C13 Latch=X Net=syn2217
+Bit   179808    596    184 Block=CLB_R18C13 Latch=X
+Bit   179818    596    174 Block=CLB_R17C13 Latch=X
+Bit   179828    596    164 Block=CLB_R16C13 Latch=X Net=syn15659
+Bit   179838    596    154 Block=CLB_R15C13 Latch=X Net=syn1859
+Bit   179850    596    142 Block=CLB_R14C13 Latch=X Net=IN_DEC_C557
+Bit   179860    596    132 Block=CLB_R13C13 Latch=X Net=syn5143
+Bit   179870    596    122 Block=CLB_R12C13 Latch=X Net=IN_DEC_C576
+Bit   179880    596    112 Block=CLB_R11C13 Latch=X
+Bit   179890    596    102 Block=CLB_R10C13 Latch=X
+Bit   179900    596     92 Block=CLB_R9C13 Latch=X
 Bit   179910    596     82 Block=CLB_R8C13 Latch=X
 Bit   179920    596     72 Block=CLB_R7C13 Latch=X
 Bit   179930    596     62 Block=CLB_R6C13 Latch=X
@@ -2144,7 +2144,7 @@ Bit   179970    596     22 Block=CLB_R2C13 Latch=X
 Bit   179980    596     12 Block=CLB_R1C13 Latch=X
 Bit   180900    600    300 Block=P75 Latch=OQ
 Bit   180901    600    299 Block=P74 Latch=OQ
-Bit   180915    600    285 Block=CLB_R28C13 Latch=XQ
+Bit   180915    600    285 Block=CLB_R28C13 Latch=XQ Net=N_CS_ADC_N<1>
 Bit   180925    600    275 Block=CLB_R27C13 Latch=XQ
 Bit   180935    600    265 Block=CLB_R26C13 Latch=XQ
 Bit   180945    600    255 Block=CLB_R25C13 Latch=XQ
@@ -2152,20 +2152,20 @@ Bit   180955    600    245 Block=CLB_R24C13 Latch=XQ
 Bit   180965    600    235 Block=CLB_R23C13 Latch=XQ
 Bit   180975    600    225 Block=CLB_R22C13 Latch=XQ
 Bit   180985    600    215 Block=CLB_R21C13 Latch=XQ
-Bit   180995    600    205 Block=CLB_R20C13 Latch=XQ Net=ID_REG/SREG<5>
+Bit   180995    600    205 Block=CLB_R20C13 Latch=XQ
 Bit   181005    600    195 Block=CLB_R19C13 Latch=XQ
 Bit   181015    600    185 Block=CLB_R18C13 Latch=XQ
 Bit   181025    600    175 Block=CLB_R17C13 Latch=XQ
-Bit   181035    600    165 Block=CLB_R16C13 Latch=XQ Net=N_OpCode<1>
+Bit   181035    600    165 Block=CLB_R16C13 Latch=XQ Net=INSTR_old<4>
 Bit   181045    600    155 Block=CLB_R15C13 Latch=XQ
 Bit   181057    600    143 Block=CLB_R14C13 Latch=XQ
-Bit   181067    600    133 Block=CLB_R13C13 Latch=XQ Net=T/TAP_CS<3>
-Bit   181077    600    123 Block=CLB_R12C13 Latch=XQ Net=IR/SREG<1>
+Bit   181067    600    133 Block=CLB_R13C13 Latch=XQ
+Bit   181077    600    123 Block=CLB_R12C13 Latch=XQ
 Bit   181087    600    113 Block=CLB_R11C13 Latch=XQ
-Bit   181097    600    103 Block=CLB_R10C13 Latch=XQ
-Bit   181107    600     93 Block=CLB_R9C13 Latch=XQ
-Bit   181117    600     83 Block=CLB_R8C13 Latch=XQ
-Bit   181127    600     73 Block=CLB_R7C13 Latch=XQ
+Bit   181097    600    103 Block=CLB_R10C13 Latch=XQ Net=TPGRP_SREG<2>
+Bit   181107    600     93 Block=CLB_R9C13 Latch=XQ Net=SBR_SREG<28>
+Bit   181117    600     83 Block=CLB_R8C13 Latch=XQ Net=N_Stand_By_N<27>
+Bit   181127    600     73 Block=CLB_R7C13 Latch=XQ Net=N_Stand_By_N<36>
 Bit   181137    600     63 Block=CLB_R6C13 Latch=XQ
 Bit   181147    600     53 Block=CLB_R5C13 Latch=XQ
 Bit   181157    600     43 Block=CLB_R4C13 Latch=XQ
@@ -2192,16 +2192,16 @@ Bit   187922    623    224 Block=CLB_R22C12 Latch=Y
 Bit   187932    623    214 Block=CLB_R21C12 Latch=Y
 Bit   187942    623    204 Block=CLB_R20C12 Latch=Y
 Bit   187952    623    194 Block=CLB_R19C12 Latch=Y
-Bit   187962    623    184 Block=CLB_R18C12 Latch=Y Net=syn2051
-Bit   187972    623    174 Block=CLB_R17C12 Latch=Y Net=N1587
-Bit   187982    623    164 Block=CLB_R16C12 Latch=Y
-Bit   187992    623    154 Block=CLB_R15C12 Latch=Y Net=syn11749
-Bit   188004    623    142 Block=CLB_R14C12 Latch=Y
-Bit   188014    623    132 Block=CLB_R13C12 Latch=Y Net=syn2422
-Bit   188024    623    122 Block=CLB_R12C12 Latch=Y
-Bit   188034    623    112 Block=CLB_R11C12 Latch=Y Net=syn11504
-Bit   188044    623    102 Block=CLB_R10C12 Latch=Y Net=syn2045
-Bit   188054    623     92 Block=CLB_R9C12 Latch=Y Net=T/C324
+Bit   187962    623    184 Block=CLB_R18C12 Latch=Y
+Bit   187972    623    174 Block=CLB_R17C12 Latch=Y
+Bit   187982    623    164 Block=CLB_R16C12 Latch=Y Net=syn15327
+Bit   187992    623    154 Block=CLB_R15C12 Latch=Y Net=syn4247
+Bit   188004    623    142 Block=CLB_R14C12 Latch=Y Net=syn1848
+Bit   188014    623    132 Block=CLB_R13C12 Latch=Y Net=syn15805
+Bit   188024    623    122 Block=CLB_R12C12 Latch=Y Net=syn2466
+Bit   188034    623    112 Block=CLB_R11C12 Latch=Y
+Bit   188044    623    102 Block=CLB_R10C12 Latch=Y
+Bit   188054    623     92 Block=CLB_R9C12 Latch=Y
 Bit   188064    623     82 Block=CLB_R8C12 Latch=Y
 Bit   188074    623     72 Block=CLB_R7C12 Latch=Y
 Bit   188084    623     62 Block=CLB_R6C12 Latch=Y
@@ -2217,20 +2217,20 @@ Bit   189401    628    255 Block=CLB_R25C12 Latch=YQ
 Bit   189411    628    245 Block=CLB_R24C12 Latch=YQ
 Bit   189421    628    235 Block=CLB_R23C12 Latch=YQ
 Bit   189431    628    225 Block=CLB_R22C12 Latch=YQ
-Bit   189441    628    215 Block=CLB_R21C12 Latch=YQ Net=ID_REG/SREG<3>
-Bit   189451    628    205 Block=CLB_R20C12 Latch=YQ Net=ID_REG/SREG<18>
-Bit   189461    628    195 Block=CLB_R19C12 Latch=YQ Net=ID_REG/SREG<2>
+Bit   189441    628    215 Block=CLB_R21C12 Latch=YQ
+Bit   189451    628    205 Block=CLB_R20C12 Latch=YQ
+Bit   189461    628    195 Block=CLB_R19C12 Latch=YQ
 Bit   189471    628    185 Block=CLB_R18C12 Latch=YQ
 Bit   189481    628    175 Block=CLB_R17C12 Latch=YQ
-Bit   189491    628    165 Block=CLB_R16C12 Latch=YQ Net=VAR_PD_DOUT
-Bit   189501    628    155 Block=CLB_R15C12 Latch=YQ Net=N_OpCode<4>
+Bit   189491    628    165 Block=CLB_R16C12 Latch=YQ
+Bit   189501    628    155 Block=CLB_R15C12 Latch=YQ
 Bit   189513    628    143 Block=CLB_R14C12 Latch=YQ
-Bit   189523    628    133 Block=CLB_R13C12 Latch=YQ Net=N_OpCode<2>
-Bit   189533    628    123 Block=CLB_R12C12 Latch=YQ Net=IR/SREG<2>
+Bit   189523    628    133 Block=CLB_R13C12 Latch=YQ
+Bit   189533    628    123 Block=CLB_R12C12 Latch=YQ
 Bit   189543    628    113 Block=CLB_R11C12 Latch=YQ
 Bit   189553    628    103 Block=CLB_R10C12 Latch=YQ
-Bit   189563    628     93 Block=CLB_R9C12 Latch=YQ
-Bit   189573    628     83 Block=CLB_R8C12 Latch=YQ
+Bit   189563    628     93 Block=CLB_R9C12 Latch=YQ Net=N_Stand_By_N<28>
+Bit   189573    628     83 Block=CLB_R8C12 Latch=YQ Net=N_Stand_By_N<40>
 Bit   189583    628     73 Block=CLB_R7C12 Latch=YQ
 Bit   189593    628     63 Block=CLB_R6C12 Latch=YQ
 Bit   189603    628     53 Block=CLB_R5C12 Latch=YQ
@@ -2248,16 +2248,16 @@ Bit   190640    632    224 Block=CLB_R22C12 Latch=X
 Bit   190650    632    214 Block=CLB_R21C12 Latch=X
 Bit   190660    632    204 Block=CLB_R20C12 Latch=X
 Bit   190670    632    194 Block=CLB_R19C12 Latch=X
-Bit   190680    632    184 Block=CLB_R18C12 Latch=X Net=syn5734
-Bit   190690    632    174 Block=CLB_R17C12 Latch=X Net=syn11679
+Bit   190680    632    184 Block=CLB_R18C12 Latch=X
+Bit   190690    632    174 Block=CLB_R17C12 Latch=X
 Bit   190700    632    164 Block=CLB_R16C12 Latch=X
-Bit   190710    632    154 Block=CLB_R15C12 Latch=X Net=IN_DEC/C557
-Bit   190722    632    142 Block=CLB_R14C12 Latch=X Net=syn11670
-Bit   190732    632    132 Block=CLB_R13C12 Latch=X Net=syn11725
-Bit   190742    632    122 Block=CLB_R12C12 Latch=X
-Bit   190752    632    112 Block=CLB_R11C12 Latch=X Net=syn2248
-Bit   190762    632    102 Block=CLB_R10C12 Latch=X Net=syn11529
-Bit   190772    632     92 Block=CLB_R9C12 Latch=X Net=syn2038
+Bit   190710    632    154 Block=CLB_R15C12 Latch=X Net=syn1843
+Bit   190722    632    142 Block=CLB_R14C12 Latch=X Net=syn2464
+Bit   190732    632    132 Block=CLB_R13C12 Latch=X
+Bit   190742    632    122 Block=CLB_R12C12 Latch=X Net=syn15696
+Bit   190752    632    112 Block=CLB_R11C12 Latch=X
+Bit   190762    632    102 Block=CLB_R10C12 Latch=X
+Bit   190772    632     92 Block=CLB_R9C12 Latch=X
 Bit   190782    632     82 Block=CLB_R8C12 Latch=X
 Bit   190792    632     72 Block=CLB_R7C12 Latch=X
 Bit   190802    632     62 Block=CLB_R6C12 Latch=X
@@ -2275,20 +2275,20 @@ Bit   191817    636    255 Block=CLB_R25C12 Latch=XQ
 Bit   191827    636    245 Block=CLB_R24C12 Latch=XQ
 Bit   191837    636    235 Block=CLB_R23C12 Latch=XQ
 Bit   191847    636    225 Block=CLB_R22C12 Latch=XQ
-Bit   191857    636    215 Block=CLB_R21C12 Latch=XQ Net=ID_REG/SREG<4>
-Bit   191867    636    205 Block=CLB_R20C12 Latch=XQ Net=ID_REG/SREG<17>
-Bit   191877    636    195 Block=CLB_R19C12 Latch=XQ Net=ID_REG/SREG<1>
+Bit   191857    636    215 Block=CLB_R21C12 Latch=XQ
+Bit   191867    636    205 Block=CLB_R20C12 Latch=XQ
+Bit   191877    636    195 Block=CLB_R19C12 Latch=XQ
 Bit   191887    636    185 Block=CLB_R18C12 Latch=XQ
 Bit   191897    636    175 Block=CLB_R17C12 Latch=XQ
-Bit   191907    636    165 Block=CLB_R16C12 Latch=XQ
-Bit   191917    636    155 Block=CLB_R15C12 Latch=XQ Net=N_OpCode<5>
+Bit   191907    636    165 Block=CLB_R16C12 Latch=XQ Net=ADC_SH<4>
+Bit   191917    636    155 Block=CLB_R15C12 Latch=XQ
 Bit   191929    636    143 Block=CLB_R14C12 Latch=XQ
-Bit   191939    636    133 Block=CLB_R13C12 Latch=XQ Net=N_OpCode<3>
-Bit   191949    636    123 Block=CLB_R12C12 Latch=XQ Net=IR/SREG<3>
-Bit   191959    636    113 Block=CLB_R11C12 Latch=XQ
-Bit   191969    636    103 Block=CLB_R10C12 Latch=XQ
-Bit   191979    636     93 Block=CLB_R9C12 Latch=XQ
-Bit   191989    636     83 Block=CLB_R8C12 Latch=XQ
+Bit   191939    636    133 Block=CLB_R13C12 Latch=XQ Net=VAR_PD_DOUT
+Bit   191949    636    123 Block=CLB_R12C12 Latch=XQ
+Bit   191959    636    113 Block=CLB_R11C12 Latch=XQ Net=TPGRP_SREG<3>
+Bit   191969    636    103 Block=CLB_R10C12 Latch=XQ Net=TPGRP_SREG<5>
+Bit   191979    636     93 Block=CLB_R9C12 Latch=XQ Net=N_Stand_By_N<29>
+Bit   191989    636     83 Block=CLB_R8C12 Latch=XQ Net=N_Stand_By_N<41>
 Bit   191999    636     73 Block=CLB_R7C12 Latch=XQ
 Bit   192009    636     63 Block=CLB_R6C12 Latch=XQ
 Bit   192019    636     53 Block=CLB_R5C12 Latch=XQ
@@ -2316,15 +2316,15 @@ Bit   198794    659    224 Block=CLB_R22C11 Latch=Y
 Bit   198804    659    214 Block=CLB_R21C11 Latch=Y
 Bit   198814    659    204 Block=CLB_R20C11 Latch=Y
 Bit   198824    659    194 Block=CLB_R19C11 Latch=Y
-Bit   198834    659    184 Block=CLB_R18C11 Latch=Y Net=syn2043
+Bit   198834    659    184 Block=CLB_R18C11 Latch=Y
 Bit   198844    659    174 Block=CLB_R17C11 Latch=Y
-Bit   198854    659    164 Block=CLB_R16C11 Latch=Y Net=syn2834
-Bit   198864    659    154 Block=CLB_R15C11 Latch=Y Net=syn5739
-Bit   198876    659    142 Block=CLB_R14C11 Latch=Y Net=syn2790
-Bit   198886    659    132 Block=CLB_R13C11 Latch=Y Net=syn11506
+Bit   198854    659    164 Block=CLB_R16C11 Latch=Y
+Bit   198864    659    154 Block=CLB_R15C11 Latch=Y
+Bit   198876    659    142 Block=CLB_R14C11 Latch=Y
+Bit   198886    659    132 Block=CLB_R13C11 Latch=Y
 Bit   198896    659    122 Block=CLB_R12C11 Latch=Y
-Bit   198906    659    112 Block=CLB_R11C11 Latch=Y Net=N1527
-Bit   198916    659    102 Block=CLB_R10C11 Latch=Y Net=syn11556
+Bit   198906    659    112 Block=CLB_R11C11 Latch=Y
+Bit   198916    659    102 Block=CLB_R10C11 Latch=Y
 Bit   198926    659     92 Block=CLB_R9C11 Latch=Y
 Bit   198936    659     82 Block=CLB_R8C11 Latch=Y
 Bit   198946    659     72 Block=CLB_R7C11 Latch=Y
@@ -2341,19 +2341,19 @@ Bit   200273    664    255 Block=CLB_R25C11 Latch=YQ
 Bit   200283    664    245 Block=CLB_R24C11 Latch=YQ
 Bit   200293    664    235 Block=CLB_R23C11 Latch=YQ
 Bit   200303    664    225 Block=CLB_R22C11 Latch=YQ
-Bit   200313    664    215 Block=CLB_R21C11 Latch=YQ Net=ID_REG/SREG<27>
-Bit   200323    664    205 Block=CLB_R20C11 Latch=YQ Net=ID_REG/SREG<19>
+Bit   200313    664    215 Block=CLB_R21C11 Latch=YQ
+Bit   200323    664    205 Block=CLB_R20C11 Latch=YQ
 Bit   200333    664    195 Block=CLB_R19C11 Latch=YQ
-Bit   200343    664    185 Block=CLB_R18C11 Latch=YQ Net=ID_REG_DOUT
+Bit   200343    664    185 Block=CLB_R18C11 Latch=YQ
 Bit   200353    664    175 Block=CLB_R17C11 Latch=YQ
-Bit   200363    664    165 Block=CLB_R16C11 Latch=YQ
-Bit   200373    664    155 Block=CLB_R15C11 Latch=YQ
-Bit   200385    664    143 Block=CLB_R14C11 Latch=YQ
+Bit   200363    664    165 Block=CLB_R16C11 Latch=YQ Net=ID_REG_SREG<6>
+Bit   200373    664    155 Block=CLB_R15C11 Latch=YQ Net=ID_REG_SREG<19>
+Bit   200385    664    143 Block=CLB_R14C11 Latch=YQ Net=ID_REG_SREG<7>
 Bit   200395    664    133 Block=CLB_R13C11 Latch=YQ
-Bit   200405    664    123 Block=CLB_R12C11 Latch=YQ Net=IR/SREG<4>
-Bit   200415    664    113 Block=CLB_R11C11 Latch=YQ
-Bit   200425    664    103 Block=CLB_R10C11 Latch=YQ
-Bit   200435    664     93 Block=CLB_R9C11 Latch=YQ
+Bit   200405    664    123 Block=CLB_R12C11 Latch=YQ
+Bit   200415    664    113 Block=CLB_R11C11 Latch=YQ Net=TPGRP_SREG<4>
+Bit   200425    664    103 Block=CLB_R10C11 Latch=YQ Net=TPGRP_SREG<6>
+Bit   200435    664     93 Block=CLB_R9C11 Latch=YQ Net=N_Stand_By_N<39>
 Bit   200445    664     83 Block=CLB_R8C11 Latch=YQ
 Bit   200455    664     73 Block=CLB_R7C11 Latch=YQ
 Bit   200465    664     63 Block=CLB_R6C11 Latch=YQ
@@ -2371,15 +2371,15 @@ Bit   201502    668    234 Block=CLB_R23C11 Latch=X
 Bit   201512    668    224 Block=CLB_R22C11 Latch=X
 Bit   201522    668    214 Block=CLB_R21C11 Latch=X
 Bit   201532    668    204 Block=CLB_R20C11 Latch=X
-Bit   201542    668    194 Block=CLB_R19C11 Latch=X Net=syn11657
-Bit   201552    668    184 Block=CLB_R18C11 Latch=X Net=syn2850
-Bit   201562    668    174 Block=CLB_R17C11 Latch=X Net=syn12036
-Bit   201572    668    164 Block=CLB_R16C11 Latch=X Net=syn2335
-Bit   201582    668    154 Block=CLB_R15C11 Latch=X Net=syn10754
-Bit   201594    668    142 Block=CLB_R14C11 Latch=X Net=IN_DEC/C563
-Bit   201604    668    132 Block=CLB_R13C11 Latch=X Net=T/C422
+Bit   201542    668    194 Block=CLB_R19C11 Latch=X
+Bit   201552    668    184 Block=CLB_R18C11 Latch=X
+Bit   201562    668    174 Block=CLB_R17C11 Latch=X
+Bit   201572    668    164 Block=CLB_R16C11 Latch=X
+Bit   201582    668    154 Block=CLB_R15C11 Latch=X
+Bit   201594    668    142 Block=CLB_R14C11 Latch=X
+Bit   201604    668    132 Block=CLB_R13C11 Latch=X Net=syn2420
 Bit   201614    668    122 Block=CLB_R12C11 Latch=X
-Bit   201624    668    112 Block=CLB_R11C11 Latch=X Net=syn11475
+Bit   201624    668    112 Block=CLB_R11C11 Latch=X
 Bit   201634    668    102 Block=CLB_R10C11 Latch=X
 Bit   201644    668     92 Block=CLB_R9C11 Latch=X
 Bit   201654    668     82 Block=CLB_R8C11 Latch=X
@@ -2399,19 +2399,19 @@ Bit   202689    672    255 Block=CLB_R25C11 Latch=XQ
 Bit   202699    672    245 Block=CLB_R24C11 Latch=XQ
 Bit   202709    672    235 Block=CLB_R23C11 Latch=XQ
 Bit   202719    672    225 Block=CLB_R22C11 Latch=XQ
-Bit   202729    672    215 Block=CLB_R21C11 Latch=XQ Net=ID_REG/SREG<28>
-Bit   202739    672    205 Block=CLB_R20C11 Latch=XQ Net=ID_REG/SREG<20>
+Bit   202729    672    215 Block=CLB_R21C11 Latch=XQ
+Bit   202739    672    205 Block=CLB_R20C11 Latch=XQ
 Bit   202749    672    195 Block=CLB_R19C11 Latch=XQ
 Bit   202759    672    185 Block=CLB_R18C11 Latch=XQ
-Bit   202769    672    175 Block=CLB_R17C11 Latch=XQ
-Bit   202779    672    165 Block=CLB_R16C11 Latch=XQ
-Bit   202789    672    155 Block=CLB_R15C11 Latch=XQ
-Bit   202801    672    143 Block=CLB_R14C11 Latch=XQ
+Bit   202769    672    175 Block=CLB_R17C11 Latch=XQ Net=ID_REG_DOUT
+Bit   202779    672    165 Block=CLB_R16C11 Latch=XQ Net=ID_REG_SREG<5>
+Bit   202789    672    155 Block=CLB_R15C11 Latch=XQ Net=ID_REG_SREG<17>
+Bit   202801    672    143 Block=CLB_R14C11 Latch=XQ Net=ID_REG_SREG<8>
 Bit   202811    672    133 Block=CLB_R13C11 Latch=XQ
-Bit   202821    672    123 Block=CLB_R12C11 Latch=XQ Net=IR/SREG<5>
+Bit   202821    672    123 Block=CLB_R12C11 Latch=XQ
 Bit   202831    672    113 Block=CLB_R11C11 Latch=XQ
-Bit   202841    672    103 Block=CLB_R10C11 Latch=XQ Net=TDO_OE
-Bit   202851    672     93 Block=CLB_R9C11 Latch=XQ
+Bit   202841    672    103 Block=CLB_R10C11 Latch=XQ
+Bit   202851    672     93 Block=CLB_R9C11 Latch=XQ Net=N_Stand_By_N<38>
 Bit   202861    672     83 Block=CLB_R8C11 Latch=XQ
 Bit   202871    672     73 Block=CLB_R7C11 Latch=XQ
 Bit   202881    672     63 Block=CLB_R6C11 Latch=XQ
@@ -2443,10 +2443,10 @@ Bit   209696    695    194 Block=CLB_R19C10 Latch=Y
 Bit   209706    695    184 Block=CLB_R18C10 Latch=Y
 Bit   209716    695    174 Block=CLB_R17C10 Latch=Y
 Bit   209726    695    164 Block=CLB_R16C10 Latch=Y
-Bit   209736    695    154 Block=CLB_R15C10 Latch=Y Net=N1546
+Bit   209736    695    154 Block=CLB_R15C10 Latch=Y Net=S_43_cell0
 Bit   209748    695    142 Block=CLB_R14C10 Latch=Y
 Bit   209758    695    132 Block=CLB_R13C10 Latch=Y
-Bit   209768    695    122 Block=CLB_R12C10 Latch=Y
+Bit   209768    695    122 Block=CLB_R12C10 Latch=Y Net=BYPASS_EN
 Bit   209778    695    112 Block=CLB_R11C10 Latch=Y
 Bit   209788    695    102 Block=CLB_R10C10 Latch=Y
 Bit   209798    695     92 Block=CLB_R9C10 Latch=Y
@@ -2464,15 +2464,15 @@ Bit   211135    700    265 Block=CLB_R26C10 Latch=YQ
 Bit   211145    700    255 Block=CLB_R25C10 Latch=YQ
 Bit   211155    700    245 Block=CLB_R24C10 Latch=YQ
 Bit   211165    700    235 Block=CLB_R23C10 Latch=YQ
-Bit   211175    700    225 Block=CLB_R22C10 Latch=YQ Net=ID_REG/SREG<29>
-Bit   211185    700    215 Block=CLB_R21C10 Latch=YQ Net=ID_REG/SREG<26>
-Bit   211195    700    205 Block=CLB_R20C10 Latch=YQ Net=ID_REG/SREG<21>
+Bit   211175    700    225 Block=CLB_R22C10 Latch=YQ
+Bit   211185    700    215 Block=CLB_R21C10 Latch=YQ
+Bit   211195    700    205 Block=CLB_R20C10 Latch=YQ
 Bit   211205    700    195 Block=CLB_R19C10 Latch=YQ
-Bit   211215    700    185 Block=CLB_R18C10 Latch=YQ Net=ID_REG/SREG<37>
-Bit   211225    700    175 Block=CLB_R17C10 Latch=YQ Net=ID_REG/SREG<36>
-Bit   211235    700    165 Block=CLB_R16C10 Latch=YQ
-Bit   211245    700    155 Block=CLB_R15C10 Latch=YQ
-Bit   211257    700    143 Block=CLB_R14C10 Latch=YQ
+Bit   211215    700    185 Block=CLB_R18C10 Latch=YQ Net=ID_REG_SREG<20>
+Bit   211225    700    175 Block=CLB_R17C10 Latch=YQ Net=ID_REG_SREG<36>
+Bit   211235    700    165 Block=CLB_R16C10 Latch=YQ Net=ID_REG_SREG<2>
+Bit   211245    700    155 Block=CLB_R15C10 Latch=YQ Net=ID_REG_SREG<18>
+Bit   211257    700    143 Block=CLB_R14C10 Latch=YQ Net=ID_REG_SREG<26>
 Bit   211267    700    133 Block=CLB_R13C10 Latch=YQ
 Bit   211277    700    123 Block=CLB_R12C10 Latch=YQ
 Bit   211287    700    113 Block=CLB_R11C10 Latch=YQ
@@ -2495,14 +2495,14 @@ Bit   212374    704    234 Block=CLB_R23C10 Latch=X
 Bit   212384    704    224 Block=CLB_R22C10 Latch=X
 Bit   212394    704    214 Block=CLB_R21C10 Latch=X
 Bit   212404    704    204 Block=CLB_R20C10 Latch=X
-Bit   212414    704    194 Block=CLB_R19C10 Latch=X Net=N1547
+Bit   212414    704    194 Block=CLB_R19C10 Latch=X
 Bit   212424    704    184 Block=CLB_R18C10 Latch=X
 Bit   212434    704    174 Block=CLB_R17C10 Latch=X
 Bit   212444    704    164 Block=CLB_R16C10 Latch=X
-Bit   212454    704    154 Block=CLB_R15C10 Latch=X Net=BYPASS_EN
+Bit   212454    704    154 Block=CLB_R15C10 Latch=X Net=syn5150
 Bit   212466    704    142 Block=CLB_R14C10 Latch=X
-Bit   212476    704    132 Block=CLB_R13C10 Latch=X
-Bit   212486    704    122 Block=CLB_R12C10 Latch=X
+Bit   212476    704    132 Block=CLB_R13C10 Latch=X Net=syn15331
+Bit   212486    704    122 Block=CLB_R12C10 Latch=X Net=N722
 Bit   212496    704    112 Block=CLB_R11C10 Latch=X
 Bit   212506    704    102 Block=CLB_R10C10 Latch=X
 Bit   212516    704     92 Block=CLB_R9C10 Latch=X
@@ -2522,15 +2522,15 @@ Bit   213551    708    265 Block=CLB_R26C10 Latch=XQ
 Bit   213561    708    255 Block=CLB_R25C10 Latch=XQ
 Bit   213571    708    245 Block=CLB_R24C10 Latch=XQ
 Bit   213581    708    235 Block=CLB_R23C10 Latch=XQ
-Bit   213591    708    225 Block=CLB_R22C10 Latch=XQ Net=ID_REG/SREG<30>
-Bit   213601    708    215 Block=CLB_R21C10 Latch=XQ Net=ID_REG/SREG<25>
-Bit   213611    708    205 Block=CLB_R20C10 Latch=XQ Net=ID_REG/SREG<22>
-Bit   213621    708    195 Block=CLB_R19C10 Latch=XQ Net=ID_REG/SREG<39>
-Bit   213631    708    185 Block=CLB_R18C10 Latch=XQ Net=ID_REG/SREG<38>
-Bit   213641    708    175 Block=CLB_R17C10 Latch=XQ Net=ID_REG/SREG<35>
-Bit   213651    708    165 Block=CLB_R16C10 Latch=XQ
+Bit   213591    708    225 Block=CLB_R22C10 Latch=XQ
+Bit   213601    708    215 Block=CLB_R21C10 Latch=XQ
+Bit   213611    708    205 Block=CLB_R20C10 Latch=XQ
+Bit   213621    708    195 Block=CLB_R19C10 Latch=XQ
+Bit   213631    708    185 Block=CLB_R18C10 Latch=XQ Net=ID_REG_SREG<21>
+Bit   213641    708    175 Block=CLB_R17C10 Latch=XQ Net=ID_REG_SREG<37>
+Bit   213651    708    165 Block=CLB_R16C10 Latch=XQ Net=ID_REG_SREG<1>
 Bit   213661    708    155 Block=CLB_R15C10 Latch=XQ
-Bit   213673    708    143 Block=CLB_R14C10 Latch=XQ
+Bit   213673    708    143 Block=CLB_R14C10 Latch=XQ Net=ID_REG_SREG<27>
 Bit   213683    708    133 Block=CLB_R13C10 Latch=XQ
 Bit   213693    708    123 Block=CLB_R12C10 Latch=XQ
 Bit   213703    708    113 Block=CLB_R11C10 Latch=XQ
@@ -2550,8 +2550,8 @@ Bit   213818    709    300 Block=P73 Latch=I1
 Bit   213819    709    299 Block=P73 Latch=I2
 Bit   214114    709      4 Block=UNB20 Latch=I2
 Bit   214115    709      3 Block=UNB20 Latch=I1
-Bit   214120    710    300 Block=P72 Latch=I2
-Bit   214121    710    299 Block=P72 Latch=I1 Net=N_Dout_ADC<0>
+Bit   214120    710    300 Block=P72 Latch=I2 Net=N_Future<7>
+Bit   214121    710    299 Block=P72 Latch=I1
 Bit   214416    710      4 Block=UNB19 Latch=I1
 Bit   214417    710      3 Block=UNB19 Latch=I2
 Bit   220478    731    284 Block=CLB_R28C9 Latch=Y
@@ -2567,7 +2567,7 @@ Bit   220568    731    194 Block=CLB_R19C9 Latch=Y
 Bit   220578    731    184 Block=CLB_R18C9 Latch=Y
 Bit   220588    731    174 Block=CLB_R17C9 Latch=Y
 Bit   220598    731    164 Block=CLB_R16C9 Latch=Y
-Bit   220608    731    154 Block=CLB_R15C9 Latch=Y
+Bit   220608    731    154 Block=CLB_R15C9 Latch=Y Net=N723
 Bit   220620    731    142 Block=CLB_R14C9 Latch=Y
 Bit   220630    731    132 Block=CLB_R13C9 Latch=Y
 Bit   220640    731    122 Block=CLB_R12C9 Latch=Y
@@ -2589,16 +2589,16 @@ Bit   222017    736    255 Block=CLB_R25C9 Latch=YQ
 Bit   222027    736    245 Block=CLB_R24C9 Latch=YQ
 Bit   222037    736    235 Block=CLB_R23C9 Latch=YQ
 Bit   222047    736    225 Block=CLB_R22C9 Latch=YQ
-Bit   222057    736    215 Block=CLB_R21C9 Latch=YQ Net=ID_REG/SREG<32>
-Bit   222067    736    205 Block=CLB_R20C9 Latch=YQ Net=ID_REG/SREG<9>
-Bit   222077    736    195 Block=CLB_R19C9 Latch=YQ Net=ID_REG/SREG<7>
-Bit   222087    736    185 Block=CLB_R18C9 Latch=YQ Net=ID_REG/SREG<12>
-Bit   222097    736    175 Block=CLB_R17C9 Latch=YQ Net=ID_REG/SREG<16>
-Bit   222107    736    165 Block=CLB_R16C9 Latch=YQ
+Bit   222057    736    215 Block=CLB_R21C9 Latch=YQ
+Bit   222067    736    205 Block=CLB_R20C9 Latch=YQ
+Bit   222077    736    195 Block=CLB_R19C9 Latch=YQ
+Bit   222087    736    185 Block=CLB_R18C9 Latch=YQ
+Bit   222097    736    175 Block=CLB_R17C9 Latch=YQ Net=ID_REG_SREG<38>
+Bit   222107    736    165 Block=CLB_R16C9 Latch=YQ Net=ID_REG_SREG<34>
 Bit   222117    736    155 Block=CLB_R15C9 Latch=YQ
-Bit   222129    736    143 Block=CLB_R14C9 Latch=YQ
-Bit   222139    736    133 Block=CLB_R13C9 Latch=YQ
-Bit   222149    736    123 Block=CLB_R12C9 Latch=YQ
+Bit   222129    736    143 Block=CLB_R14C9 Latch=YQ Net=ID_REG_SREG<25>
+Bit   222139    736    133 Block=CLB_R13C9 Latch=YQ Net=ID_REG_SREG<4>
+Bit   222149    736    123 Block=CLB_R12C9 Latch=YQ Net=ID_REG_SREG<10>
 Bit   222159    736    113 Block=CLB_R11C9 Latch=YQ
 Bit   222169    736    103 Block=CLB_R10C9 Latch=YQ
 Bit   222179    736     93 Block=CLB_R9C9 Latch=YQ
@@ -2623,7 +2623,7 @@ Bit   223286    740    194 Block=CLB_R19C9 Latch=X
 Bit   223296    740    184 Block=CLB_R18C9 Latch=X
 Bit   223306    740    174 Block=CLB_R17C9 Latch=X
 Bit   223316    740    164 Block=CLB_R16C9 Latch=X
-Bit   223326    740    154 Block=CLB_R15C9 Latch=X
+Bit   223326    740    154 Block=CLB_R15C9 Latch=X Net=N721
 Bit   223338    740    142 Block=CLB_R14C9 Latch=X
 Bit   223348    740    132 Block=CLB_R13C9 Latch=X
 Bit   223358    740    122 Block=CLB_R12C9 Latch=X
@@ -2647,16 +2647,16 @@ Bit   224433    744    255 Block=CLB_R25C9 Latch=XQ
 Bit   224443    744    245 Block=CLB_R24C9 Latch=XQ
 Bit   224453    744    235 Block=CLB_R23C9 Latch=XQ
 Bit   224463    744    225 Block=CLB_R22C9 Latch=XQ
-Bit   224473    744    215 Block=CLB_R21C9 Latch=XQ Net=ID_REG/SREG<31>
-Bit   224483    744    205 Block=CLB_R20C9 Latch=XQ Net=ID_REG/SREG<10>
-Bit   224493    744    195 Block=CLB_R19C9 Latch=XQ Net=ID_REG/SREG<8>
-Bit   224503    744    185 Block=CLB_R18C9 Latch=XQ Net=ID_REG/SREG<11>
-Bit   224513    744    175 Block=CLB_R17C9 Latch=XQ Net=ID_REG/SREG<15>
-Bit   224523    744    165 Block=CLB_R16C9 Latch=XQ
+Bit   224473    744    215 Block=CLB_R21C9 Latch=XQ
+Bit   224483    744    205 Block=CLB_R20C9 Latch=XQ
+Bit   224493    744    195 Block=CLB_R19C9 Latch=XQ
+Bit   224503    744    185 Block=CLB_R18C9 Latch=XQ
+Bit   224513    744    175 Block=CLB_R17C9 Latch=XQ Net=ID_REG_SREG<39>
+Bit   224523    744    165 Block=CLB_R16C9 Latch=XQ Net=ID_REG_SREG<35>
 Bit   224533    744    155 Block=CLB_R15C9 Latch=XQ
-Bit   224545    744    143 Block=CLB_R14C9 Latch=XQ
-Bit   224555    744    133 Block=CLB_R13C9 Latch=XQ
-Bit   224565    744    123 Block=CLB_R12C9 Latch=XQ
+Bit   224545    744    143 Block=CLB_R14C9 Latch=XQ Net=ID_REG_SREG<24>
+Bit   224555    744    133 Block=CLB_R13C9 Latch=XQ Net=ID_REG_SREG<3>
+Bit   224565    744    123 Block=CLB_R12C9 Latch=XQ Net=ID_REG_SREG<9>
 Bit   224575    744    113 Block=CLB_R11C9 Latch=XQ
 Bit   224585    744    103 Block=CLB_R10C9 Latch=XQ
 Bit   224595    744     93 Block=CLB_R9C9 Latch=XQ
@@ -2714,15 +2714,15 @@ Bit   232899    772    245 Block=CLB_R24C8 Latch=YQ
 Bit   232909    772    235 Block=CLB_R23C8 Latch=YQ
 Bit   232919    772    225 Block=CLB_R22C8 Latch=YQ
 Bit   232929    772    215 Block=CLB_R21C8 Latch=YQ
-Bit   232939    772    205 Block=CLB_R20C8 Latch=YQ Net=ID_REG/SREG<23>
-Bit   232949    772    195 Block=CLB_R19C8 Latch=YQ Net=ID_REG/SREG<13>
-Bit   232959    772    185 Block=CLB_R18C8 Latch=YQ Net=ID_REG/SREG<33>
+Bit   232939    772    205 Block=CLB_R20C8 Latch=YQ
+Bit   232949    772    195 Block=CLB_R19C8 Latch=YQ
+Bit   232959    772    185 Block=CLB_R18C8 Latch=YQ
 Bit   232969    772    175 Block=CLB_R17C8 Latch=YQ
-Bit   232979    772    165 Block=CLB_R16C8 Latch=YQ
-Bit   232989    772    155 Block=CLB_R15C8 Latch=YQ
-Bit   233001    772    143 Block=CLB_R14C8 Latch=YQ
-Bit   233011    772    133 Block=CLB_R13C8 Latch=YQ
-Bit   233021    772    123 Block=CLB_R12C8 Latch=YQ
+Bit   232979    772    165 Block=CLB_R16C8 Latch=YQ Net=ID_REG_SREG<23>
+Bit   232989    772    155 Block=CLB_R15C8 Latch=YQ Net=ID_REG_SREG<15>
+Bit   233001    772    143 Block=CLB_R14C8 Latch=YQ Net=ID_REG_SREG<29>
+Bit   233011    772    133 Block=CLB_R13C8 Latch=YQ Net=ID_REG_SREG<14>
+Bit   233021    772    123 Block=CLB_R12C8 Latch=YQ Net=ID_REG_SREG<12>
 Bit   233031    772    113 Block=CLB_R11C8 Latch=YQ
 Bit   233041    772    103 Block=CLB_R10C8 Latch=YQ
 Bit   233051    772     93 Block=CLB_R9C8 Latch=YQ
@@ -2772,15 +2772,15 @@ Bit   235315    780    245 Block=CLB_R24C8 Latch=XQ
 Bit   235325    780    235 Block=CLB_R23C8 Latch=XQ
 Bit   235335    780    225 Block=CLB_R22C8 Latch=XQ
 Bit   235345    780    215 Block=CLB_R21C8 Latch=XQ
-Bit   235355    780    205 Block=CLB_R20C8 Latch=XQ Net=ID_REG/SREG<24>
-Bit   235365    780    195 Block=CLB_R19C8 Latch=XQ Net=ID_REG/SREG<14>
-Bit   235375    780    185 Block=CLB_R18C8 Latch=XQ Net=ID_REG/SREG<34>
+Bit   235355    780    205 Block=CLB_R20C8 Latch=XQ
+Bit   235365    780    195 Block=CLB_R19C8 Latch=XQ
+Bit   235375    780    185 Block=CLB_R18C8 Latch=XQ
 Bit   235385    780    175 Block=CLB_R17C8 Latch=XQ
-Bit   235395    780    165 Block=CLB_R16C8 Latch=XQ
-Bit   235405    780    155 Block=CLB_R15C8 Latch=XQ
-Bit   235417    780    143 Block=CLB_R14C8 Latch=XQ
-Bit   235427    780    133 Block=CLB_R13C8 Latch=XQ
-Bit   235437    780    123 Block=CLB_R12C8 Latch=XQ
+Bit   235395    780    165 Block=CLB_R16C8 Latch=XQ Net=ID_REG_SREG<22>
+Bit   235405    780    155 Block=CLB_R15C8 Latch=XQ Net=ID_REG_SREG<16>
+Bit   235417    780    143 Block=CLB_R14C8 Latch=XQ Net=ID_REG_SREG<28>
+Bit   235427    780    133 Block=CLB_R13C8 Latch=XQ Net=ID_REG_SREG<13>
+Bit   235437    780    123 Block=CLB_R12C8 Latch=XQ Net=ID_REG_SREG<11>
 Bit   235447    780    113 Block=CLB_R11C8 Latch=XQ
 Bit   235457    780    103 Block=CLB_R10C8 Latch=XQ
 Bit   235467    780     93 Block=CLB_R9C8 Latch=XQ
@@ -2842,8 +2842,8 @@ Bit   243811    808    205 Block=CLB_R20C7 Latch=YQ
 Bit   243821    808    195 Block=CLB_R19C7 Latch=YQ
 Bit   243831    808    185 Block=CLB_R18C7 Latch=YQ
 Bit   243841    808    175 Block=CLB_R17C7 Latch=YQ
-Bit   243851    808    165 Block=CLB_R16C7 Latch=YQ
-Bit   243861    808    155 Block=CLB_R15C7 Latch=YQ
+Bit   243851    808    165 Block=CLB_R16C7 Latch=YQ Net=ID_REG_SREG<32>
+Bit   243861    808    155 Block=CLB_R15C7 Latch=YQ Net=ID_REG_SREG<30>
 Bit   243873    808    143 Block=CLB_R14C7 Latch=YQ
 Bit   243883    808    133 Block=CLB_R13C7 Latch=YQ
 Bit   243893    808    123 Block=CLB_R12C7 Latch=YQ
@@ -2900,8 +2900,8 @@ Bit   246227    816    205 Block=CLB_R20C7 Latch=XQ
 Bit   246237    816    195 Block=CLB_R19C7 Latch=XQ
 Bit   246247    816    185 Block=CLB_R18C7 Latch=XQ
 Bit   246257    816    175 Block=CLB_R17C7 Latch=XQ
-Bit   246267    816    165 Block=CLB_R16C7 Latch=XQ
-Bit   246277    816    155 Block=CLB_R15C7 Latch=XQ
+Bit   246267    816    165 Block=CLB_R16C7 Latch=XQ Net=ID_REG_SREG<33>
+Bit   246277    816    155 Block=CLB_R15C7 Latch=XQ Net=ID_REG_SREG<31>
 Bit   246289    816    143 Block=CLB_R14C7 Latch=XQ
 Bit   246299    816    133 Block=CLB_R13C7 Latch=XQ
 Bit   246309    816    123 Block=CLB_R12C7 Latch=XQ
